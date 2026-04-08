@@ -10,14 +10,7 @@
       "twitterDescription": "Road to Vostok guide covering maps, weapons, traders, tasks, demo updates, and survival tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
