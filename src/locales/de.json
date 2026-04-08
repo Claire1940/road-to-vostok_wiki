@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Leitfaden",
+    "map": "Karte",
+    "weapons": "Waffen",
+    "tasks": "Aufgaben",
+    "mods": "Mods",
+    "release": "Release",
+    "official": "Offiziell",
+    "language": "Sprache"
   },
   "common": {
     "home": "Startseite",

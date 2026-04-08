@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehber",
+    "map": "Harita",
+    "weapons": "Silahlar",
+    "tasks": "Görevler",
+    "mods": "Modlar",
+    "release": "Çıkış",
+    "official": "Resmi",
+    "language": "Dil"
   },
   "common": {
     "home": "Ana Sayfa",

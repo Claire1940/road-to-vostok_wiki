@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Road to Vostok Engine: Unity to Godot Transition Guide 2026",
+  description: "Explore the technical journey of the Road to Vostok engine. Learn why the developer switched from Unity to Godot and what it means for survival gaming performance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3748/fff?text=Road+to+Vostok+Engine+Development",
+  date: "2026-04-08",
+  author: "Road to Vostok Wiki Team"
+}
+
+Understanding the technical foundation of a hardcore survival project is essential for players who value performance and long-term stability. The **road to vostok engine** has been a major point of discussion within the indie community, specifically due to its high-profile transition between development platforms. Originally conceived and developed in Unity for over four years, the project made a pivotal shift to the Godot engine in late 2023. This move was driven by a need for transparency, independence, and a desire to avoid the "uncertainty" associated with commercial engine licensing.
+
+As of 2026, the **road to vostok engine** serves as a benchmark for how open-source tools can handle high-fidelity, realistic first-person shooters. Developer Antti Lehtinen, a former Finnish military officer, has utilized the Godot platform to maintain a 100% independent workflow, ensuring that the game remains free from publisher interference or restrictive revenue-sharing deals. This guide explores the technical specifications, the reasoning behind the engine switch, and the performance expectations for the Early Access launch.
+
+## The Great Migration: Why the Engine Switched
+
+The decision to change the **road to vostok engine** from Unity to Godot was not made lightly. After 11 years of professional experience with Unity, the developer faced a "crisis of trust" following changes in Unity’s corporate direction and fee structures. The transition was a strategic move to protect the project's future and ensure that the "fun" of development remained intact.
+
+By choosing Godot, an open-source engine, the project gained several long-term advantages. Unlike commercial engines, Godot does not require royalty payments or subscription fees, allowing 100% of the game's revenue to be reinvested into development and the "contractor pipeline."
+
+### Engine Comparison for Hardcore Survival
+
+| Feature | Unity (Former Engine) | Godot (Current Engine) |
+| :--- | :--- | :--- |
+| **Licensing** | Commercial / Proprietary | **Open-Source (MIT)** |
+| **Source Code** | Restricted Access | **Fully Accessible** |
+| **3D Rendering** | High-end (HDRP/URP) | **Rapidly Improving (Vulkan/Forward+)** |
+| **Scripting** | C# | **C#, GDScript, C++** |
+| **Installation** | Large footprint / Hub required | **Single Executable (&lt;100MB&gt;)** |
+| **Revenue Share** | Potential Fees / Royalties | **0% Royalties Forever** |
+
+> **💡 Note:** The transition to Godot allowed the developer to treat the game engine like other open-source tools in his workflow, such as Blender, providing a stable and predictable development environment for the next decade.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/5xqcc384SD8"
+    title="New Beginning | Road to Vostok"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Technical Specifications & Graphical APIs
+
+The modern **road to vostok engine** is designed to be flexible across various hardware configurations. Because the game is set in a post-apocalyptic border zone with high atmospheric detail, the engine must handle complex lighting, procedural spawners, and large-scale environmental assets efficiently.
+
+When launching the game in 2026, players are presented with multiple Graphical API options. This flexibility is a core strength of the Godot implementation, allowing the game to run on older hardware while still utilizing modern features on high-end GPUs.
+
+### Supported APIs and Launch Options
+
+| API | Best For | Technical Benefit |
+| :--- | :--- | :--- |
+| **DirectX** | Windows Users | Standard compatibility for most modern GPUs. |
+| **Vulkan** | Modern Hardware | High-performance rendering with lower CPU overhead. |
+| **OpenGL** | Legacy Hardware | "Bulletproof" compatibility for older systems and specific drivers. |
+
+Players experiencing crashes or stuttering should experiment with these APIs. While Vulkan generally offers the best performance on 2026 hardware, DirectX remains a reliable fallback for many Windows-based systems.
+
+## The Porting Process: From Demo to Early Access
+
+The transition of the **road to vostok engine** required a "Port Window" analysis. The developer calculated that porting the game's 3D models, textures, audio, and code complexity would take approximately two to three months if done early enough in the production cycle. Waiting longer would have made the switch exponentially more difficult as the content grew.
+
+### Development Milestones (2023 - 2026)
+
+1.  **Engine Prototyping (Late 2023):** Testing Godot's 3D capabilities with procedural environments and FPS mechanics.
+2.  **Public Demo 1 (v3/Godot Edition):** The first public release using the new engine to gather hardware compatibility data.
+3.  **Core Feature Porting:** Migrating the shelter system, inventory, and AI logic from C# Unity scripts to Godot-compatible code.
+4.  **Early Access Launch (2026):** Full implementation of multi-shelter support, event calendars, and expanded maps (Village, Highway, School, etc.).
+
+> **⚠️ Warning:** Modders who worked on the original Unity-based demo should note that the internal file structures and scripting logic have changed significantly in the Godot-based **road to vostok engine**.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SXwoX-Napoc"
+    title="Early Access Launch | Road to Vostok"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Independent Development and the Contractor Pipeline
+
+One of the unique aspects of the **road to vostok engine** development is the "Solo-Lead" approach. While 95% of the content is created by Antti Lehtinen, the 100% ownership of the company allows for a highly efficient "contractor pipeline."
+
+When the game generates revenue through [Steam Early Access](https://store.steampowered.com/app/1963660/Road_to_Vostok/), that money is funneled directly back into hiring specialized external talent for tasks like character animation, specialized 3D assets, or audio engineering. Because there are no investors or publishers taking a cut, the development speed can be increased significantly through this flexible contractor network.
+
+### Key Content in the Godot Early Access Build
+
+*   **Multi-Shelter Support:** Players can now unlock and customize five different shelters across the world.
+*   **Event Calendar:** A dynamic world simulation where events (traders, factions, weather) trigger based on survival days.
+*   **Expanded Map Pool:** Includes the Village, Highway, School, Outpost, Minefield, Apartments, and the Terminal.
+*   **Weather Variants:** All maps feature full winter variants for seasonal playthroughs.
+
+## Optimization and Modding Support
+
+Despite Godot being perceived by some as a "simpler" engine, the **road to vostok engine** proves that optimization is the key to high-quality 3D. By using custom procedural spawners and efficient asset management, the game maintains a high framerate even with the "Hardcore" visual style inspired by titles like *STALKER*.
+
+Furthermore, the developer has doubled down on modding. With over 50 mods already existing for the early demos, the 2026 Early Access build continues to encourage community-driven content. The "Mod of the Year" awards and Discord-based shelter competitions are central to the game's community growth strategy.
+
+## FAQ
+
+**Q: Why did Road to Vostok switch from Unity to Godot?**
+
+A: The switch was primarily due to the uncertainty surrounding Unity's business model and licensing fees. The developer wanted an open-source, "forever free" foundation that provided total independence and transparency for the project's long-term future.
+
+**Q: Does the road to vostok engine support VR or Multiplayer?**
+
+A: Currently, the **road to vostok engine** is optimized for a hardcore single-player experience. While Godot supports multiplayer, the developer's focus remains on perfecting the single-player survival mechanics and atmospheric world-building.
+
+**Q: Can my PC run the Godot version if it ran the Unity demo?**
+
+A: In most cases, yes. The Godot version offers multiple APIs (DirectX, Vulkan, OpenGL). If you have issues with one, switching to another in the launch options usually resolves hardware-specific performance problems.
+
+**Q: Is the game still being developed by a solo developer?**
+
+A: Yes, Antti Lehtinen remains the lead and solo developer, owning 100% of the project. However, he utilizes a "contractor pipeline" to bring in external talent for specific technical needs using the revenue generated from game sales.

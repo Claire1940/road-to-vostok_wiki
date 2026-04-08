@@ -10,7 +10,16 @@
       "twitterDescription": "Road to Vostok guide covering maps, weapons, traders, tasks, demo updates, and survival tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "map": "Map",
+    "weapons": "Weapons",
+    "tasks": "Tasks",
+    "mods": "Mods",
+    "release": "Release",
+    "official": "Official",
+    "language": "Language"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1032,125 +1041,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Road to Vostok Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Road to Vostok Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Road to Vostok guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Road to Vostok Guide",
+      "description": "Comprehensive survival guides covering mechanics, tips, and strategies for Road to Vostok. Learn controls, crafting, fishing, medical systems, and more.",
+      "metaTitle": "Road to Vostok Guide - Survival Tips & Mechanics 2026",
+      "metaDescription": "Master Road to Vostok with our survival guides covering controls, crafting, medical systems, fishing, save mechanics, and advanced survival strategies.",
+      "categoryLabel": "SURVIVAL GUIDES",
+      "whatIs": "What are Road to Vostok Guides?",
+      "whatIsDescription": "In-depth guides covering every aspect of Road to Vostok gameplay. From first steps in Area 05 to advanced Vostok zone tactics, these guides help you master the hardcore survival mechanics, physics-based looting, and progression systems.",
+      "why": "Why read Road to Vostok guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Master Core Mechanics",
+        "step1Description": "Learn the controls, inventory management, and core survival systems from day one",
+        "step2Title": "Avoid Common Deaths",
+        "step2Description": "Understand permadeath zones and prepare effectively before entering high-risk areas",
+        "step3Title": "Optimize Progression",
+        "step3Description": "Follow proven strategies to advance through shelter upgrades and trader unlocks"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Road to Vostok Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Road to Vostok Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Road to Vostok Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "map": {
+      "title": "Road to Vostok Map",
+      "description": "Complete Road to Vostok map guides covering survival zones, loot locations, navigation tips, and zone transition strategies.",
+      "metaTitle": "Road to Vostok Map - Zones, Loot Locations & Navigation 2026",
+      "metaDescription": "Master the Road to Vostok map with zone guides, best loot locations, interactive map references, and navigation strategies for Area 05, border zones, and Vostok.",
+      "categoryLabel": "MAP & NAVIGATION",
+      "whatIs": "What is the Road to Vostok Map?",
+      "whatIsDescription": "Road to Vostok features a structured world divided into three primary zones: Area 05 (starting Finland region), the Border Zone (high-risk), and Vostok itself (extreme permadeath). Understanding the map layout is essential for survival and progression.",
+      "why": "Why learn the Road to Vostok map?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Find Best Loot",
+        "step1Description": "Locate high-value scavenging spots, trader outposts, and hidden resource caches",
+        "step2Title": "Plan Safe Routes",
+        "step2Description": "Navigate through danger zones efficiently while avoiding ambushes and hazards",
+        "step3Title": "Unlock New Areas",
+        "step3Description": "Understand zone transition mechanics to safely push into higher-risk territories"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Map Guides"
     },
-    "items": {
-      "title": "Road to Vostok Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Road to Vostok Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Road to Vostok including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "weapons": {
+      "title": "Road to Vostok Weapons",
+      "description": "Complete Road to Vostok weapons database covering firearms, ammo types, combat tactics, weapon repair, and ballistics for 2026.",
+      "metaTitle": "Road to Vostok Weapons - Firearms, Ammo & Combat Guide 2026",
+      "metaDescription": "Master Road to Vostok weapons with our complete guide to firearms, ammo calibers, ballistics, weapon repair, reload mechanics, and combat strategies.",
+      "categoryLabel": "WEAPONS & COMBAT",
+      "whatIs": "What are Road to Vostok Weapons?",
+      "whatIsDescription": "Road to Vostok features a realistic firearms system with physical ballistics, caliber-specific ammo, weapon degradation, and authentic reload mechanics. Every gun requires proper maintenance and ammo management to remain effective in the field.",
+      "why": "Why master Road to Vostok weapons?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose the Right Loadout",
+        "step1Description": "Select firearms that match your playstyle and the threat level of your target zone",
+        "step2Title": "Manage Ammunition",
+        "step2Description": "Learn caliber compatibility and scavenging strategies to never run dry in combat",
+        "step3Title": "Keep Weapons Functional",
+        "step3Description": "Understand repair mechanics to maintain weapon performance and avoid malfunctions"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons Guides"
     },
-    "biomes": {
-      "title": "Road to Vostok Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Road to Vostok Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Road to Vostok biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "tasks": {
+      "title": "Road to Vostok Tasks",
+      "description": "Complete guide to Road to Vostok tasks, trader missions, and objectives. Learn how to find task items and unlock new areas and rewards.",
+      "metaTitle": "Road to Vostok Tasks - Missions, Items & Rewards Guide 2026",
+      "metaDescription": "Complete every Road to Vostok task with our mission guides. Find task-specific items, understand trader objectives, and unlock shelter upgrades and new zones.",
+      "categoryLabel": "TASKS & MISSIONS",
+      "whatIs": "What are Road to Vostok Tasks?",
+      "whatIsDescription": "Tasks in Road to Vostok are trader-given objectives that drive game progression. Completing missions rewards you with new shelter unlocks, trading access, and essential gear. Tasks require finding specific items and navigating dangerous zones to deliver them.",
+      "why": "Why complete Road to Vostok tasks?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Unlock New Areas",
+        "step1Description": "Task completion gates access to new zones, traders, and high-value loot locations",
+        "step2Title": "Earn Key Rewards",
+        "step2Description": "Receive valuable gear, currency, and shelter upgrades that accelerate progression",
+        "step3Title": "Progress the Story",
+        "step3Description": "Tasks guide your journey from Area 05 all the way through to the Vostok border"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Tasks Guides"
     },
-    "building": {
-      "title": "Road to Vostok Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Road to Vostok Building - Qualia & Base Construction",
-      "metaDescription": "Master Road to Vostok building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "mods": {
+      "title": "Road to Vostok Mods",
+      "description": "Road to Vostok mods, cheats, console commands, and Cheat Engine guides for customizing your hardcore survival experience.",
+      "metaTitle": "Road to Vostok Mods - Cheats, Console Commands & Cheat Engine 2026",
+      "metaDescription": "Explore Road to Vostok mods including Cheat Engine setups, console commands, god mode, infinite ammo, and injector guides for 2026 Early Access.",
+      "categoryLabel": "MODS & CHEATS",
+      "whatIs": "What are Road to Vostok Mods?",
+      "whatIsDescription": "Road to Vostok mods include Cheat Engine scripts, console command exploits, and memory-editing tools that let players modify the game experience. Whether testing mechanics, bypassing harsh permadeath, or experimenting with infinite resources, mods offer full control.",
+      "why": "Why use Road to Vostok mods?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Test Without Risk",
+        "step1Description": "Experiment with mechanics, weapons, and zone exploration without losing your progress",
+        "step2Title": "Overcome Difficulty",
+        "step2Description": "Use god mode or infinite ammo to get past punishing sections and learn the game",
+        "step3Title": "Customize Your Experience",
+        "step3Description": "Tailor survival difficulty and resource availability to match your playstyle"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Mods & Cheats"
     },
-    "support": {
-      "title": "Road to Vostok Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Road to Vostok Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Road to Vostok including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "release": {
+      "title": "Road to Vostok Release",
+      "description": "All Road to Vostok release info including Early Access launch, demo download, purchase guide, console ports, and before-you-buy details.",
+      "metaTitle": "Road to Vostok Release - Early Access, Demo & Buy Guide 2026",
+      "metaDescription": "Everything about the Road to Vostok release: Early Access launch on Steam, free demo download, buying guide, console availability, and what to expect.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Road to Vostok Release?",
+      "whatIsDescription": "Road to Vostok officially launched in Steam Early Access on April 7, 2026. A free demo with over one million downloads preceded the full release. The game is developed by solo developer Antti Lehtinen and features ongoing content updates as part of the EA roadmap.",
+      "why": "Why check Road to Vostok release info?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Get the Game",
+        "step1Description": "Find out where and how to buy Road to Vostok on Steam, including pricing and editions",
+        "step2Title": "Try Before You Buy",
+        "step2Description": "Download the free demo to experience core mechanics before committing to purchase",
+        "step3Title": "Track Updates",
+        "step3Description": "Stay informed about the Early Access roadmap and upcoming content patches"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Release Guides"
+    },
+    "official": {
+      "title": "Road to Vostok Official",
+      "description": "Official Road to Vostok information including developer updates, devlogs, game engine details, assets, and contact information.",
+      "metaTitle": "Road to Vostok Official - Developer Info, Devlogs & Updates 2026",
+      "metaDescription": "Official Road to Vostok news from solo developer Antti Lehtinen. Devlogs, engine updates, game assets, email contact, and the full development story.",
+      "categoryLabel": "OFFICIAL INFO",
+      "whatIs": "What is Road to Vostok Official content?",
+      "whatIsDescription": "Official content covers direct information from Road to Vostok developer Antti Lehtinen, including development devlogs, engine technology, game assets, and official contact channels. This is the most accurate source for game development news and future roadmap.",
+      "why": "Why follow Road to Vostok official updates?",
+      "whySteps": {
+        "step1Title": "Stay Informed",
+        "step1Description": "Get accurate development news directly from the solo developer without speculation",
+        "step2Title": "Track Development",
+        "step2Description": "Follow devlog updates to understand upcoming features and changes in Early Access",
+        "step3Title": "Connect with the Dev",
+        "step3Description": "Find official contact channels and community links to engage with the development team"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Official Info"
+    },
+    "language": {
+      "title": "Road to Vostok Language",
+      "description": "Road to Vostok language support guides covering Chinese, Japanese, Russian localization, translation status, and multilingual gameplay tips.",
+      "metaTitle": "Road to Vostok Language - Chinese, Japanese & Russian Support 2026",
+      "metaDescription": "Road to Vostok language support guide covering Chinese, Japanese, and Russian localization, UI translation, and tips for non-English players in 2026.",
+      "categoryLabel": "LANGUAGE SUPPORT",
+      "whatIs": "What is Road to Vostok Language support?",
+      "whatIsDescription": "Road to Vostok language guides cover the current state of localization support for Chinese, Japanese, Russian, and other languages. Learn which UI elements are translated, how to set your preferred language, and tips for playing in non-English versions.",
+      "why": "Why check Road to Vostok language guides?",
+      "whySteps": {
+        "step1Title": "Play in Your Language",
+        "step1Description": "Find out which languages are supported and how to enable your preferred language settings",
+        "step2Title": "Understand Translation Status",
+        "step2Description": "Know which game elements are translated and which still require the original English",
+        "step3Title": "Join Global Community",
+        "step3Description": "Connect with Chinese, Japanese, Russian, and other regional communities"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Language Guides"
     }
   }
 }
