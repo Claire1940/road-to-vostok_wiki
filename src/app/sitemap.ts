@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.road-to-vostok.wiki'
 
 // 静态页面配置
 const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'monthly' | 'yearly' }> = {
@@ -14,26 +14,26 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'news': 0.9,
+	'demo': 0.9,
+	'maps': 0.8,
+	'tasks': 0.8,
+	'weapons': 0.8,
+	'traders': 0.7,
+	'gear': 0.7,
+	'survival': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'news': 'daily',
+	'demo': 'weekly',
+	'maps': 'weekly',
+	'tasks': 'weekly',
+	'weapons': 'weekly',
+	'traders': 'weekly',
+	'gear': 'weekly',
+	'survival': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
