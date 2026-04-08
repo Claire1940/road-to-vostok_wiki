@@ -78,6 +78,26 @@
         "icon": "ListChecks",
         "title": "Road to Vostok Roadmap",
         "description": "All eight named builds, their features, and current status"
+      },
+      {
+        "icon": "Monitor",
+        "title": "Road to Vostok System Requirements",
+        "description": "Minimum and recommended PC specs for the Early Access build"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Road to Vostok Weapons Guide",
+        "description": "Pistols, rifles, shotguns, optics, ammo families, and key stats"
+      },
+      {
+        "icon": "Compass",
+        "title": "Road to Vostok Zone Guide",
+        "description": "Area 05, Border Zone, and Vostok explained with risk and loot tiers"
+      },
+      {
+        "icon": "Home",
+        "title": "Road to Vostok Shelter Guide",
+        "description": "How shelters save your progress, store loot, and support customization"
       }
     ]
   },
@@ -328,6 +348,186 @@
             "FINSOF faction",
             "New map and shelter"
           ]
+        }
+      ]
+    },
+    "systemRequirements": {
+      "eyebrow": "PC SPECS",
+      "title": "Can Your PC Run Road to Vostok?",
+      "subtitle": "Official minimum and recommended requirements for the current Early Access build, with a quick checklist so you can answer in seconds.",
+      "intro": "The Steam page lists two hardware tiers, both targeting a dedicated GPU setup with 64-bit Windows 10 and DirectX 12. Minimum gets you into the game; recommended is the safer target for the developer's higher-end baseline.",
+      "headers": [
+        "Spec",
+        "Minimum",
+        "Recommended"
+      ],
+      "rows": [
+        {
+          "spec": "OS",
+          "minimum": "Windows 10 (64-bit)",
+          "recommended": "Windows 10 (64-bit)"
+        },
+        {
+          "spec": "CPU",
+          "minimum": "Intel Core i5",
+          "recommended": "Intel Core i7"
+        },
+        {
+          "spec": "Memory",
+          "minimum": "8 GB RAM",
+          "recommended": "8 GB RAM"
+        },
+        {
+          "spec": "Graphics",
+          "minimum": "NVIDIA GTX 1060",
+          "recommended": "NVIDIA GTX 1080Ti"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12"
+        },
+        {
+          "spec": "Storage",
+          "minimum": "10 GB available",
+          "recommended": "10 GB available"
+        }
+      ],
+      "quickCheck": [
+        "64-bit Windows 10 is the only OS listed",
+        "8 GB RAM required on both tiers",
+        "GTX 1060 minimum / GTX 1080Ti recommended",
+        "DirectX 12 is required on both tiers",
+        "10 GB available space needed",
+        "Steam notes requirements may change in Early Access"
+      ]
+    },
+    "weaponsGuide": {
+      "eyebrow": "WEAPONS",
+      "title": "Road to Vostok Weapons, Ammo, and Attachments",
+      "subtitle": "A practical overview of weapon families, named calibers, and attachment lanes in the current build.",
+      "intro": "Road to Vostok has a broad spread of firearm types, from lightweight pistols to precision rifles. Separate ammunition families, optic lanes, and suppressor compatibility mean gear choice matters before you even leave the shelter.",
+      "items": [
+        {
+          "category": "Pistols",
+          "examples": "C1911, Makarov, G17",
+          "ammo": ".45 ACP / 9x18 / 9x19",
+          "keyFact": "3 pistols listed — lightweight primary or secondary carry option"
+        },
+        {
+          "category": "Rifles",
+          "examples": "AK-12, AKM, AKS-74U, RK-95, MK18, VSS",
+          "ammo": "5.45x39 / 7.62x39 / 5.56x45 / 9x39",
+          "keyFact": "Broadest general-purpose family, 600–800 RPM range across calibers"
+        },
+        {
+          "category": "Precision",
+          "examples": "Mosin, SVD",
+          "ammo": "7.62x54R",
+          "keyFact": "Mosin 50 dmg at 10 RPM; SVD 60 dmg at 200 RPM — range identity over fire rate"
+        },
+        {
+          "category": "Shotguns",
+          "examples": "RM-870",
+          "ammo": "12/70",
+          "keyFact": "One-shot up to 2 m, two-shot up to 5 m — strongest close-range panic weapon"
+        },
+        {
+          "category": "Optics",
+          "examples": "MRM, SRO, PRO, EXPS, Kobra, ACOG, PU, Hybrid",
+          "ammo": "—",
+          "keyFact": "Short / medium / long range groups plus suppressor options"
+        },
+        {
+          "category": "Ammo",
+          "examples": "4.6x30, 7.62x39, 7.62x54R, .308, 12g, 9x19, .45 ACP",
+          "ammo": "Per-round weight tracked",
+          "keyFact": "Ammo stacks range from 100 to 300 per caliber — match gun to caliber before loading out"
+        }
+      ]
+    },
+    "zoneGuide": {
+      "eyebrow": "WORLD ZONES",
+      "title": "Area 05, Border Zone, and Vostok Explained",
+      "subtitle": "The three-part progression path from your starting zone to the permadeath endgame, with clear risk thresholds for each crossing.",
+      "intro": "Road to Vostok is built around moving east through increasingly dangerous territory. Area 05 is your setup space, the Border Zone is the crossing challenge, and Vostok is the all-in end of the route where loot spikes and punishment becomes absolute.",
+      "items": [
+        {
+          "heading": "Area 05",
+          "summary": "The starting zone in southeastern Finland",
+          "badge": "Low Risk",
+          "details": [
+            "Your road begins in Area 05, an evacuated zone in southeastern Finland.",
+            "Contains shelters, traders, tasks, and starting loot for initial survival.",
+            "Bandits are the main hostile force disrupting the area.",
+            "Death here costs only the equipment and loot you are carrying."
+          ]
+        },
+        {
+          "heading": "Border Zone",
+          "summary": "The guarded crossing between Finland and Russia",
+          "badge": "High Risk",
+          "details": [
+            "Once geared up, your route continues east into the Border Zone.",
+            "Each Border Zone map has a crossing point with different challenges.",
+            "Crossings may involve mines, physical obstacles, or waterways with boats.",
+            "Guards control the border and may call in air support to stop crossings."
+          ]
+        },
+        {
+          "heading": "Vostok",
+          "summary": "The high-risk, high-reward permadeath zone",
+          "badge": "Permadeath",
+          "details": [
+            "If you manage to cross the Border Zone, you enter Vostok in Russia.",
+            "Vostok holds the most valuable loot in the game.",
+            "Every Vostok map is a permadeath map — death loses everything.",
+            "The Military controls the zone with heavy weaponry and armored vehicles."
+          ]
+        },
+        {
+          "heading": "When to Attempt the Crossing",
+          "summary": "Go east only after your run is stable",
+          "badge": "Strategy",
+          "details": [
+            "The official flow is Area 05 first, then Border Zone, then Vostok.",
+            "Trigger for moving east: gather enough loot and equipment in Area 05.",
+            "Area 05 and Border Zone deaths cost your gear, but Vostok is all-or-nothing.",
+            "Push for Vostok only after your base setup and kit feel ready."
+          ]
+        }
+      ]
+    },
+    "shelterCustomization": {
+      "eyebrow": "SHELTERS",
+      "title": "How Shelters Work in Road to Vostok",
+      "subtitle": "Shelters are more than decoration — they are your save system, storage layer, and long-term home network.",
+      "intro": "Shelters are one of the clearest identity features in Road to Vostok. They are where you save, store loot, shape your layout, unlock new homes through progression, and gradually build a safer life before taking bigger risks farther east.",
+      "items": [
+        {
+          "title": "Save and Store",
+          "description": "Shelters are safe zones and the only way to save your game. They also hold your stored loot, making them central to every long run.",
+          "icon": "Shield"
+        },
+        {
+          "title": "Multiple Homes",
+          "description": "You often need multiple shelters when traveling east. Multi-shelter support was confirmed in Build 1, released on April 7, 2026.",
+          "icon": "Home"
+        },
+        {
+          "title": "Different Shelter Types",
+          "description": "Shelters range from small cabins to large concrete bunkers. Some are unlocked only through keys earned from completing trader tasks.",
+          "icon": "Package"
+        },
+        {
+          "title": "Decoration Mode",
+          "description": "Every shelter starts with a default furniture template, but decoration mode lets you catalog, move, and rotate furniture — new items earned via crafting or trading.",
+          "icon": "Settings"
+        },
+        {
+          "title": "Free Item Placement",
+          "description": "Place individual items wherever you want. Items are physics-based and their positions save automatically when you exit the shelter.",
+          "icon": "Hammer"
         }
       ]
     }

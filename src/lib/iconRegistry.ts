@@ -30,6 +30,9 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Calendar: LucideIcons.Calendar,
   Map: LucideIcons.Map,
   ListChecks: LucideIcons.ListChecks,
+  Monitor: LucideIcons.Monitor,
+  Crosshair: LucideIcons.Crosshair,
+  Compass: LucideIcons.Compass,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

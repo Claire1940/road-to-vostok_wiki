@@ -6,8 +6,10 @@ import {
   BookOpen,
   Check,
   ChevronDown,
+  Crosshair,
   ExternalLink,
   MessageCircle,
+  Monitor,
   Sparkles,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -286,7 +288,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
-                'release-date', 'beginner-guide', 'maps', 'roadmap'
+                'release-date', 'beginner-guide', 'maps', 'roadmap',
+                'system-requirements', 'weapons-guide', 'zone-guide', 'shelter-customization'
               ]
               const sectionId = sectionIds[index]
 
@@ -503,6 +506,225 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     </ul>
                   </div>
                 )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: System Requirements */}
+      <section id="system-requirements" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Monitor className="w-3.5 h-3.5" />
+              {t.modules.systemRequirements.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.systemRequirements.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.systemRequirements.intro}
+            </p>
+          </div>
+
+          {/* Spec Table - Desktop */}
+          <div className="scroll-reveal overflow-hidden rounded-xl border border-border mb-8">
+            <div className="hidden md:block overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                    {t.modules.systemRequirements.headers.map((h: string, i: number) => (
+                      <th key={i} className={`px-5 py-3 text-left font-semibold ${i === 0 ? 'text-muted-foreground w-32' : 'text-[hsl(var(--nav-theme-light))]'}`}>
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.modules.systemRequirements.rows.map((row: any, i: number) => (
+                    <tr key={i} className={`border-b border-border hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${i % 2 === 0 ? 'bg-white/[0.02]' : 'bg-white/[0.04]'}`}>
+                      <td className="px-5 py-3 text-muted-foreground font-medium">{row.spec}</td>
+                      <td className="px-5 py-3">{row.minimum}</td>
+                      <td className="px-5 py-3 font-medium text-[hsl(var(--nav-theme-light))]">{row.recommended}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {/* Mobile stacked cards */}
+            <div className="md:hidden divide-y divide-border">
+              {t.modules.systemRequirements.rows.map((row: any, i: number) => (
+                <div key={i} className="p-4 bg-white/[0.02]">
+                  <p className="text-xs text-muted-foreground font-medium mb-2">{row.spec}</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div>
+                      <p className="text-xs text-muted-foreground mb-1">Minimum</p>
+                      <p className="text-sm font-medium">{row.minimum}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-muted-foreground mb-1">Recommended</p>
+                      <p className="text-sm font-semibold text-[hsl(var(--nav-theme-light))]">{row.recommended}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Quick Check List */}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Monitor className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">Quick Check</h3>
+            </div>
+            <ul className="space-y-2">
+              {t.modules.systemRequirements.quickCheck.map((item: string, i: number) => (
+                <li key={i} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground text-sm">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 6: Weapons Guide */}
+      <section id="weapons-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Crosshair className="w-3.5 h-3.5" />
+              {t.modules.weaponsGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.weaponsGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.weaponsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.weaponsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                    <Crosshair className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">{item.category}</h3>
+                </div>
+                <div className="space-y-1 text-sm">
+                  <p className="text-muted-foreground"><span className="font-medium text-foreground/80">Examples:</span> {item.examples}</p>
+                  {item.ammo !== '—' && (
+                    <p className="text-muted-foreground"><span className="font-medium text-foreground/80">Ammo:</span> {item.ammo}</p>
+                  )}
+                </div>
+                <p className="text-xs text-[hsl(var(--nav-theme-light))/0.9] bg-[hsl(var(--nav-theme)/0.08)] rounded-lg px-3 py-2 mt-auto">
+                  {item.keyFact}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 7: Zone Guide */}
+      <section id="zone-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              {t.modules.zoneGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.zoneGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.zoneGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.zoneGuide.items.map((item: any, index: number) => {
+              const badgeColor: Record<string, string> = {
+                'Low Risk':    'bg-emerald-500/10 border-emerald-500/30 text-emerald-400',
+                'High Risk':   'bg-orange-500/10 border-orange-500/30 text-orange-400',
+                'Permadeath':  'bg-red-500/10 border-red-500/30 text-red-400',
+                'Strategy':    'bg-sky-500/10 border-sky-500/30 text-sky-400',
+              }
+              const badgeClass = badgeColor[item.badge] || 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]'
+              return (
+                <details key={index} className="group border border-border rounded-xl overflow-hidden">
+                  <summary className="flex items-center justify-between p-5 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <span className={`text-xs px-2 py-1 rounded-full border flex-shrink-0 ${badgeClass}`}>
+                        {item.badge}
+                      </span>
+                      <span className="font-semibold">{item.heading}</span>
+                      <span className="text-sm text-muted-foreground hidden sm:inline">{item.summary}</span>
+                    </div>
+                    <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180" />
+                  </summary>
+                  <div className="px-5 pb-5 pt-1">
+                    <ul className="space-y-2">
+                      {item.details.map((detail: string, di: number) => (
+                        <li key={di} className="flex items-start gap-2 text-sm">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                          <span className="text-muted-foreground">{detail}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </details>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 中型横幅 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 8: Shelter Customization */}
+      <section id="shelter-customization" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              {t.modules.shelterCustomization.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.shelterCustomization.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.shelterCustomization.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {t.modules.shelterCustomization.items.map((item: any, index: number) => (
+              <div key={index} className={`p-6 rounded-xl border border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-4 ${index === 4 ? 'sm:col-span-2 lg:col-span-1' : ''} bg-white/5`}>
+                <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                  <DynamicIcon name={item.icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                </div>
               </div>
             ))}
           </div>
