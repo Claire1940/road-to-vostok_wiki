@@ -98,6 +98,26 @@
         "icon": "Home",
         "title": "Road to Vostok Shelter Guide",
         "description": "How shelters save your progress, store loot, and support customization"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Road to Vostok Traders Guide",
+        "description": "Generalist and Doctor traders, barter rules, and upcoming roadmap traders"
+      },
+      {
+        "icon": "ClipboardList",
+        "title": "Road to Vostok Tasks Guide",
+        "description": "Active task hubs, key hand-in items, and stash discipline for progression"
+      },
+      {
+        "icon": "Users",
+        "title": "Road to Vostok Multiplayer",
+        "description": "Single-player design, no co-op in Early Access, and what may come later"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Road to Vostok Steam Deck",
+        "description": "Platinum Proton rating, Linux roadmap, and controller support status"
       }
     ]
   },
@@ -448,7 +468,7 @@
     },
     "zoneGuide": {
       "eyebrow": "WORLD ZONES",
-      "title": "Area 05, Border Zone, and Vostok Explained",
+      "title": "Road to Vostok Zone Guide: Area 05, Border Zone, and Vostok",
       "subtitle": "The three-part progression path from your starting zone to the permadeath endgame, with clear risk thresholds for each crossing.",
       "intro": "Road to Vostok is built around moving east through increasingly dangerous territory. Area 05 is your setup space, the Border Zone is the crossing challenge, and Vostok is the all-in end of the route where loot spikes and punishment becomes absolute.",
       "items": [
@@ -528,6 +548,153 @@
           "title": "Free Item Placement",
           "description": "Place individual items wherever you want. Items are physics-based and their positions save automatically when you exit the shelter.",
           "icon": "Hammer"
+        }
+      ]
+    },
+    "tradersGuide": {
+      "eyebrow": "Economy",
+      "title": "Road to Vostok Traders Guide",
+      "subtitle": "Learn who the current traders are, what each one specializes in, and how the barter loop works in Early Access.",
+      "intro": "Road to Vostok uses a barter economy instead of a traditional cash shop. In Area 05, traders and their task chains are part of the main survival loop, so smart routing is not just about loot runs but also about knowing which trader solves your immediate problem.",
+      "items": [
+        {
+          "icon": "ShoppingBag",
+          "title": "Generalist",
+          "kicker": "Village hub trader",
+          "description": "The Generalist is the broad-purpose trader near the Village shelter and is the most flexible stop for early progression.",
+          "bullets": [
+            "Trades a wide mix of goods: food, water, crafting materials, quest items, medical supplies, and weapons.",
+            "Restocks every 10 minutes; leaving and re-entering Shelter can refresh random stock faster.",
+            "Best early stop when you need a little of everything instead of one specialist category."
+          ]
+        },
+        {
+          "icon": "Shield",
+          "title": "Doctor",
+          "kicker": "Medical specialist",
+          "description": "The Doctor is the dedicated medical trader on Shipyard and is the cleanest source for healing-oriented supplies.",
+          "bullets": [
+            "Focuses on medical items such as bandages, medkits, and tourniquets.",
+            "Restocks every 10 minutes with randomized stock after each refresh.",
+            "Most useful when your run is limited by healing, status management, or med-related task turn-ins."
+          ]
+        },
+        {
+          "icon": "ArrowRight",
+          "title": "How Trading Works",
+          "kicker": "Barter rules",
+          "description": "The game is built around barter rather than a normal buy-and-sell currency loop.",
+          "bullets": [
+            "There is no standard cash economy in the main player-facing trade loop; value comes from what you carry.",
+            "Generalist accepts almost any valuable item and turns mixed loot into practical survival gear.",
+            "Doctor is better used when you want to convert loot value into medicine and recovery tools."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Upcoming Traders",
+          "kicker": "Future expansions",
+          "description": "The official roadmap already names several upcoming traders beyond the current Area 05 pair.",
+          "bullets": [
+            "Build 2: Driver",
+            "Build 3: Grandma",
+            "Build 5: Shaman",
+            "Build 6: Fisherman",
+            "Build 7: Scientist"
+          ]
+        }
+      ]
+    },
+    "tasksGuide": {
+      "eyebrow": "Progression",
+      "title": "Road to Vostok Tasks Guide",
+      "subtitle": "Track the current task flow, the items that matter most, and the progression blockers worth stashing early.",
+      "intro": "Early Access already includes trading and task progression in Area 05. The current task loop revolves around active trader hubs, key hand-in items, and utility pieces that can quietly block your progress if you sell them too fast.",
+      "columns": ["Focus", "Current Known Data", "Why It Matters", "What to Keep"],
+      "rows": [
+        {
+          "focus": "Active task hubs",
+          "data": "Current active task providers are Generalist and Doctor.",
+          "why": "These two traders anchor the present task loop in Area 05.",
+          "keep": "Check both trader pages and hand-ins before liquidating loot."
+        },
+        {
+          "focus": "Power-chain items",
+          "data": "Inverter and B Cables are listed as core task and power items.",
+          "why": "They are tied to shelter power and broader progression routing.",
+          "keep": "Keep every Inverter and B Cables item until your chain is complete."
+        },
+        {
+          "focus": "Trader hand-in props",
+          "data": "Polaris and Doctor's Notes appear in trader-task references.",
+          "why": "These are easy to mis-sell because they do not look like combat gear.",
+          "keep": "Stash Polaris and Doctor's Notes instead of dumping them in a barter cleanup."
+        },
+        {
+          "focus": "Keys",
+          "data": "Task keys and trader keys are part of the known core-task item set.",
+          "why": "Keys can gate doors, routes, and task completion flow.",
+          "keep": "Hold every key until you know exactly which door or hand-in it supports."
+        },
+        {
+          "focus": "Medical hand-ins",
+          "data": "Doctor task examples include Cold Medicine, Duct Tape, Painkillers, Antibiotics, and Polaris.",
+          "why": "A lot of medical progression competes directly with your own survival usage.",
+          "keep": "Keep a reserve stack of meds and utility items instead of consuming everything."
+        },
+        {
+          "focus": "Weapon and gear turn-ins",
+          "data": "Generalist tasks include Makarov, AKM, RK-95, AK-12, batteries, books, and clothing.",
+          "why": "Several progression jumps depend on stash discipline rather than pure firefight skill.",
+          "keep": "Do not instantly sell duplicate early weapons, batteries, books, or unusual apparel."
+        }
+      ]
+    },
+    "multiplayer": {
+      "eyebrow": "Modes",
+      "title": "Road to Vostok Multiplayer",
+      "subtitle": "A clear answer to the co-op question: what exists now, why the game is single-player, and what might come later.",
+      "intro": "Road to Vostok gets compared to extraction shooters all the time, so multiplayer is one of the first questions new players ask. The official answer is straightforward: the game is built as a single-player survival FPS first.",
+      "items": [
+        {
+          "question": "Does Road to Vostok have multiplayer right now?",
+          "answer": "No. The Steam store lists Road to Vostok as a Single-player feature, and the official site describes it as a hardcore single-player survival game."
+        },
+        {
+          "question": "Is there co-op at launch or in Early Access?",
+          "answer": "No launch co-op is listed on the official store page or FAQ. Early Access is centered on the solo survival loop: traders, tasks, map-to-map travel, hostile AI factions, and the permadeath Vostok zone."
+        },
+        {
+          "question": "Why was Road to Vostok designed without multiplayer first?",
+          "answer": "The official FAQ says the project was designed from the beginning as a replayable single-player game because that gives the developer freedoms not practical in multiplayer production. Multiplayer projects in this genre are extremely expensive to build and maintain for a solo developer."
+        },
+        {
+          "question": "Could co-op or multiplayer be added to Road to Vostok later?",
+          "answer": "Possibly, but only after a successful and feature-rich single-player version is complete. The official FAQ states co-op would only happen after that milestone is reached."
+        }
+      ]
+    },
+    "steamDeck": {
+      "eyebrow": "Portable Play",
+      "title": "Road to Vostok Steam Deck",
+      "subtitle": "See where Steam Deck support stands today, what Linux support looks like, and what control compromises portable players should expect.",
+      "intro": "Road to Vostok is built as a PC-first survival FPS, so Steam Deck support is more about practical compatibility than a deck-native design target. The official platform plan and community play reports together give a useful picture of what portable players can expect.",
+      "items": [
+        {
+          "question": "Is Road to Vostok a Deck-first release?",
+          "answer": "No. The official FAQ says the game is designed as a PC game focusing on Windows and Linux, with Windows as the main launch OS."
+        },
+        {
+          "question": "What is the Linux plan for Road to Vostok?",
+          "answer": "The official FAQ says native Linux support is planned a few months after launch. That makes Linux support part of the roadmap, but not the primary launch target."
+        },
+        {
+          "question": "Can Road to Vostok run on Steam Deck today?",
+          "answer": "Yes, playable reports already exist. ProtonDB lists the game with a Platinum Proton rating and shows Steam Deck Verified Status as Playable, and community posts include users reporting very strong performance on Deck hardware."
+        },
+        {
+          "question": "What about controller support in Road to Vostok?",
+          "answer": "Full native controller support is not the main Early Access focus. Community discussion tied to the official FAQ states controller support is planned before the main release, and users already report the game can be played with controller setup work, but without aim assist."
         }
       ]
     }

@@ -289,7 +289,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'release-date', 'beginner-guide', 'maps', 'roadmap',
-                'system-requirements', 'weapons-guide', 'zone-guide', 'shelter-customization'
+                'system-requirements', 'weapons-guide', 'zone-guide', 'shelter-customization',
+                'traders-guide', 'tasks-guide', 'multiplayer', 'steam-deck'
               ]
               const sectionId = sectionIds[index]
 
@@ -726,6 +727,183 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                   <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Traders Guide */}
+      <section id="traders-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              {t.modules.tradersGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.tradersGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.tradersGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.tradersGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                    <DynamicIcon name={item.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <span className="text-xs text-muted-foreground">{item.kicker}</span>
+                    <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                  </div>
+                </div>
+                <p className="text-muted-foreground text-sm">{item.description}</p>
+                <ul className="space-y-1.5 mt-auto">
+                  {item.bullets.map((bullet: string, bi: number) => (
+                    <li key={bi} className="flex items-start gap-2 text-sm">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground">{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 10: Tasks Guide */}
+      <section id="tasks-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              {t.modules.tasksGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.tasksGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.tasksGuide.intro}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal overflow-hidden rounded-xl border border-border">
+            <div className="hidden md:block overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                    {t.modules.tasksGuide.columns.map((col: string, i: number) => (
+                      <th key={i} className={`px-4 py-3 text-left font-semibold ${i === 0 ? 'text-muted-foreground w-36' : 'text-[hsl(var(--nav-theme-light))]'}`}>
+                        {col}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.modules.tasksGuide.rows.map((row: any, i: number) => (
+                    <tr key={i} className={`border-b border-border hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${i % 2 === 0 ? 'bg-white/[0.02]' : 'bg-white/[0.04]'}`}>
+                      <td className="px-4 py-3 text-muted-foreground font-medium align-top">{row.focus}</td>
+                      <td className="px-4 py-3 align-top">{row.data}</td>
+                      <td className="px-4 py-3 align-top">{row.why}</td>
+                      <td className="px-4 py-3 font-medium text-[hsl(var(--nav-theme-light))] align-top">{row.keep}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {/* Mobile stacked cards */}
+            <div className="md:hidden divide-y divide-border">
+              {t.modules.tasksGuide.rows.map((row: any, i: number) => (
+                <div key={i} className="p-4 bg-white/[0.02]">
+                  <p className="text-xs text-muted-foreground font-semibold mb-2">{row.focus}</p>
+                  <p className="text-sm mb-1">{row.data}</p>
+                  <p className="text-xs text-muted-foreground mb-2">{row.why}</p>
+                  <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] bg-[hsl(var(--nav-theme)/0.08)] rounded-lg px-3 py-1.5">{row.keep}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 11: Multiplayer */}
+      <section id="multiplayer" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <MessageCircle className="w-3.5 h-3.5" />
+              {t.modules.multiplayer.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.multiplayer.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.multiplayer.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.multiplayer.items.map((item: any, index: number) => (
+              <details key={index} className="group border border-border rounded-xl overflow-hidden">
+                <summary className="flex items-center justify-between p-5 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                  <span className="font-semibold pr-4">{item.question}</span>
+                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
+                </summary>
+                <div className="px-5 pb-5 pt-1">
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 中型横幅 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 12: Steam Deck */}
+      <section id="steam-deck" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              {t.modules.steamDeck.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.steamDeck.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.steamDeck.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.steamDeck.items.map((item: any, index: number) => (
+              <details key={index} className="group border border-border rounded-xl overflow-hidden">
+                <summary className="flex items-center justify-between p-5 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                  <span className="font-semibold pr-4">{item.question}</span>
+                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
+                </summary>
+                <div className="px-5 pb-5 pt-1">
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.answer}</p>
+                </div>
+              </details>
             ))}
           </div>
         </div>
