@@ -1,17 +1,17 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Road to Vostok - Karte, Waffen, Aufgaben & Demo-Guide",
+      "description": "Road to Vostok Guide über Karten, Waffen, Händler, Aufgaben, Demo-Updates und Überlebenstipps. Verfolge Release-Infos, Roadmap-Änderungen und PC-Anforderungen.",
+      "keywords": "Road to Vostok, PC Survival FPS, Karten, Waffen, Aufgaben, Demo, Roadmap, Systemanforderungen",
+      "ogTitle": "Road to Vostok - Karte, Waffen, Aufgaben & Demo-Guide",
+      "ogDescription": "Road to Vostok Guide über Karten, Waffen, Händler, Aufgaben, Demo-Updates und Überlebenstipps. Verfolge Release-Infos und Roadmap-Änderungen.",
+      "twitterTitle": "Road to Vostok - Karte, Waffen, Aufgaben & Demo-Guide",
+      "twitterDescription": "Road to Vostok Guide über Karten, Waffen, Händler, Aufgaben, Demo-Updates und Überlebenstipps."
     }
   },
   "nav": {
-    "guide": "Leitfaden",
+    "guide": "Guide",
     "map": "Karte",
     "weapons": "Waffen",
     "tasks": "Aufgaben",
@@ -23,767 +23,965 @@
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Hardcore Single-Player Survival FPS",
+    "title": "Road to Vostok",
+    "description": "Ein Hardcore PC Survival FPS mit Reisen zwischen Karten, Permadeath in Vostok, Tauschhandel mit Händlern, dynamischem Wetter und einer langfristigen Steam Early Access Roadmap.",
+    "getFreeCodesCTA": "Einsteiger-Guide lesen",
+    "playOnSteamCTA": "Offizielle Seite",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "81%",
+        "label": "Positive Bewertungen"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "753",
+        "label": "Steam-Rezensionen"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "800K+",
+        "label": "Demo-Spieler"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "4",
+        "label": "Öffentliche Demos"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Road to Vostok Gameplay",
+    "description": "Überlebe in der Evakuierungszone, überquere die Grenze und dringe in Vostok vor in diesem Hardcore Single-Player PC Survival FPS."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Road to Vostok",
+    "titleHighlight": "Guide-Zentrum",
+    "subtitle": "Alles, was du brauchst, um zu überleben, deine Route zu planen und nach Vostok vorzudringen",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "Calendar",
+        "title": "Road to Vostok Release-Datum",
+        "description": "EA-Startdatum, Preis, Launch-Version und Day-One-Inhalte"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
+        "icon": "BookOpen",
+        "title": "Road to Vostok Einsteiger-Guide",
+        "description": "Überlebensschritte für die erste Session von Area 05 bis zur Grenzzone"
       },
       {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
+        "icon": "Map",
+        "title": "Road to Vostok Karten",
+        "description": "Area 05, Grenzzone und Vostok Routenstruktur mit Kartendetails"
       },
       {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
+        "icon": "ListChecks",
+        "title": "Road to Vostok Roadmap",
+        "description": "Alle acht benannten Builds, ihre Features und der aktuelle Status"
       },
       {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
+        "icon": "Monitor",
+        "title": "Road to Vostok Systemanforderungen",
+        "description": "Minimale und empfohlene PC-Spezifikationen für den Early Access Build"
       },
       {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Crosshair",
+        "title": "Road to Vostok Waffen-Guide",
+        "description": "Pistolen, Gewehre, Schrotflinten, Optiken, Munitionsfamilien und wichtige Statistiken"
       },
       {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "icon": "Compass",
+        "title": "Road to Vostok Zonen-Guide",
+        "description": "Area 05, Grenzzone und Vostok erklärt mit Risiko- und Loot-Stufen"
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "Home",
+        "title": "Road to Vostok Unterschlupf-Guide",
+        "description": "Wie Unterschlüpfe deinen Fortschritt speichern, Loot lagern und Anpassungen unterstützen"
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "ShoppingBag",
+        "title": "Road to Vostok Händler-Guide",
+        "description": "Allgemeine Händler und Ärzte, Tauschregeln und kommende Roadmap-Händler"
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "ClipboardList",
+        "title": "Road to Vostok Aufgaben-Guide",
+        "description": "Aktive Aufgaben-Hubs, wichtige Abgabe-Gegenstände und Stash-Disziplin für den Fortschritt"
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
-      },
-      {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
+        "icon": "Users",
+        "title": "Road to Vostok Multiplayer",
+        "description": "Single-Player-Design, kein Koop im Early Access und was später kommen könnte"
       },
       {
         "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "title": "Road to Vostok Steam Deck",
+        "description": "Platin-Proton-Bewertung, Linux-Roadmap und Status der Controller-Unterstützung"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "icon": "Clock",
+        "title": "Road to Vostok Demo",
+        "description": "Demo-Historie von 2022 bis zum Early Access Launch und was heute noch gilt"
+      },
+      {
+        "icon": "Flag",
+        "title": "Road to Vostok Fraktionen",
+        "description": "Banditen in Area 05, Wachen an der Grenze und das Militär in Vostok"
+      },
+      {
+        "icon": "Archive",
+        "title": "Road to Vostok Loot-Guide",
+        "description": "Container-Logik, Seltenheitsstufen und effiziente Suchrouten für jede Zone"
+      },
+      {
+        "icon": "Heart",
+        "title": "Road to Vostok Medizin-Guide",
+        "description": "Verletzungen, Leiden, Heilgegenstände und der Guide zum Standort des Arztes"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
+    "releaseDate": {
+      "title": "Road to Vostok Veröffentlichungsdatum",
+      "eyebrow": "Launch-Status",
+      "intro": "Road to Vostok startete am 7. April 2026 im Steam Early Access. Die aktuelle Launch-Version ist Build 1, genannt Road, und sie enthält den Kern-Survival-Loop, erweiterte Karten, dynamische Systeme und Unterstützung für mehrere Unterschlüpfe.",
+      "items": [
         {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
+          "label": "Veröffentlichungsstatus",
+          "value": "Live im Steam Early Access"
         },
         {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
+          "label": "Veröffentlichungsdatum",
+          "value": "7. April 2026"
+        },
+        {
+          "label": "Launch-Build",
+          "value": "Build 1 - Road"
+        },
+        {
+          "label": "Launch-Version",
+          "value": "0.1.0.0"
+        },
+        {
+          "label": "US-Steam-Preis",
+          "value": "14,99 $ Einführungspreis"
+        },
+        {
+          "label": "Basispreis",
+          "value": "19,99 $"
+        },
+        {
+          "label": "Launch-Rabattzeitraum",
+          "value": "25 % Rabatt bis zum 21. April"
+        },
+        {
+          "label": "Steam-Bewertungszusammenfassung",
+          "value": "Sehr positiv – 81 % von 753 Bewertungen"
+        },
+        {
+          "label": "Modus und Plattform",
+          "value": "Einzelspieler auf Windows"
+        },
+        {
+          "label": "Dauer des Early Access",
+          "value": "Ungefähr 2 bis 4 Jahre"
+        },
+        {
+          "label": "Feature-Säulen zum Launch",
+          "value": "Gameplay-Loop, erweiterte Karten, dynamische Elemente und Unterstützung für mehrere Unterschlüpfe"
+        },
+        {
+          "label": "Highlights der Launch-Inhalte",
+          "value": "Event-System, Weltkarte, Crafting-Menü, zwei neue Spielmodi, vier neue Karten, vier neue Unterschlüpfe, zwei neue Händler und ein langes Launch-Changelog"
         }
       ]
     },
     "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+      "title": "Road to Vostok Einsteiger-Guide",
+      "eyebrow": "Erste Schritte",
+      "intro": "Dein erstes Ziel ist es nicht, einen Grenzdurchbruch zu erzwingen. Beginne in Area 05, mache dich mit dem Looten, Heilen, den Händlern und den Unterschlupf-Routinen vertraut und ziehe erst nach Osten, wenn sich deine Wirtschaft und Ausrüstung stabil anfühlen.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "title": "Beginne in Area 05",
+          "description": "Area 05 ist die Startregion und das Fundament des Game-Loops. Hier findest du deine ersten Unterschlüpfe, Händler, Starter-Loot und frühe Aufgaben, bevor du überhaupt daran denkst, nach Osten zu ziehen."
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "title": "Sichere dir einen Unterschlupf und betrachte ihn als deine Basis",
+          "description": "Der frühe Loop ist um deinen Unterschlupf herum aufgebaut. Nutze ihn, um deinen Run zu stabilisieren, deine Vorräte zu verwalten und vermeide es, jeden Ausflug wie ein Alles-oder-Nichts-Wagnis zu spielen."
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
+          "title": "Lerne zuerst den grundlegenden Survival-Loop",
+          "description": "Konzentriere dich auf einfaches Looten, Heilen und Extraktionsgewohnheiten, bevor du die Gefahr suchst. In der frühen Phase sollte es darum gehen, am Leben zu bleiben, den Wert von Gegenständen zu verstehen und den Verlust von Ausrüstung gering zu halten."
         },
         {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
+          "title": "Mache dich mit der Handhabung von Waffen und Munition vertraut",
+          "description": "Road to Vostok erwartet von dir, dass du das Laden, das Munitionsmanagement und die Einsatzbereitschaft der Waffen verstehst. Lerne diese Routine frühzeitig, damit Kampffehler nicht durch deine eigene Inventarhandhabung entstehen."
         },
         {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "title": "Nutze Händler und Aufgaben, um Schwung aufzubauen",
+          "description": "Handel und Aufgaben sind zentrale Fortschrittswerkzeuge, keine Nebeninhalte. Sie helfen dir, frühes Plündern in eine stabilere Wirtschaft zu verwandeln und dich auf schwierigere Runs vorzubereiten."
+        },
+        {
+          "title": "Überstürze den Weg in die Border Zone nicht",
+          "description": "Grenzübergänge sind absichtlich gefährlich gestaltet. Verschiedene Übergangspunkte können Minen, physische Hindernisse oder Wasserwege beinhalten, und das Gebiet wird von Streitkräften mit Luftunterstützung bewacht."
+        },
+        {
+          "title": "Betrachte Vostok als einen riskanten Endgame-Vorstoß",
+          "description": "Wenn du in Area 05 oder der Border Zone stirbst, verlierst du das, was du bei dir trägst, aber ein Tod in Vostok löscht alles. Gehe erst dorthin, wenn deine Route, deine Ausrüstung und dein Plan zur Wiederherstellung bereit sind."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
+        "Area 05 bietet Unterschlüpfe, Händler und Aufgaben – nutze alle drei, bevor du nach Osten vordringst.",
+        "Dein Unterschlupf ist dein Anker. Verlierst du ihn, bricht deine Stabilität zusammen.",
+        "Munitions- und Waffenbereitschaft sind hier wichtiger als in den meisten anderen Shootern.",
+        "Aufgaben sind kein Nebeninhalt – sie sind deine Wirtschaft und dein Fortschrittsmotor.",
+        "Die Border Zone wird bewacht. Plane deinen Übergang, nicht nur deine Ausrüstung."
+      ]
+    },
+    "maps": {
+      "title": "Road to Vostok Karten",
+      "eyebrow": "Karten-Infos",
+      "intro": "Die offizielle Spielstruktur beginnt in Area 05, führt durch die Border Zone und endet in Vostok. Build 1 fügt benannte Launch-Karten innerhalb dieser Struktur hinzu.",
+      "items": [
         {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
+          "title": "Area 05",
+          "zone": "Startregion",
+          "risk": "Niedrig bis Mittel",
+          "summary": "Area 05 ist die evakuierte Zone im Südosten Finnlands, in der dein Run beginnt. Sie enthält Unterschlüpfe, Händler, Aufgaben und den Start-Loot-Pfad für das frühe Überleben."
         },
         {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
+          "title": "School",
+          "zone": "Area 05",
+          "risk": "Starter-Run",
+          "summary": "School ist eine der benannten Build 1 Launch-Karten in Area 05. Sie gehört zur Early-Game-Seite der Route und passt zu dem Teil des Loops, in dem Spieler Stabilität aufbauen."
         },
         {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
+          "title": "Highway",
+          "zone": "Area 05",
+          "risk": "Starter-Run",
+          "summary": "Highway ist eine weitere Build 1 Area 05 Karte. Sie erweitert die Routenoptionen im Early-Game und gibt den Spielern mehr Raum, um Bewegung, Looten und Risikomanagement zu lernen."
+        },
+        {
+          "title": "Outpost",
+          "zone": "Area 05",
+          "risk": "Starter-Run",
+          "summary": "Outpost ist die dritte benannte Build 1 Karte in Area 05. Spieler können hier die Nutzung von Unterschlüpfen, den Zugang zu Händlern und den frühen Aufgabenfortschritt kombinieren."
+        },
+        {
+          "title": "Border Zone",
+          "zone": "Übergangsebene",
+          "risk": "Hoch",
+          "summary": "Jede Border Zone Karte hat einen Übergangspunkt mit unterschiedlichen Herausforderungen. Einige Übergänge beinhalten Minen oder physische Hindernisse, andere erfordern Wasserwege und Boote, und die gesamte Linie wird bewacht."
+        },
+        {
+          "title": "Vostok",
+          "zone": "Permadeath-Region",
+          "risk": "Extrem",
+          "summary": "Vostok ist die risikoreiche Seite mit hohen Belohnungen, die sich in Russland befindet. Jede Vostok-Karte ist eine Permadeath-Karte, was die Routenplanung und die Disziplin beim Verlassen weitaus wichtiger macht als in Area 05."
+        },
+        {
+          "title": "Terminal",
+          "zone": "Vostok",
+          "risk": "Extrem",
+          "summary": "Terminal ist die benannte Build 1 Vostok-Karte. Sie befindet sich auf der Permadeath-Seite des Spiels und eignet sich daher am besten für einen späteren Vorstoß, wenn die Spieler die Wirtschaft von Area 05 bereits verstanden haben."
         }
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
+    "roadmap": {
+      "title": "Road to Vostok Roadmap",
+      "eyebrow": "Update Tracker",
+      "intro": "The official roadmap lists eight named builds. Build 1 is already live, Build 2 and Build 3 are dated for 2026, and the later phases are announced with feature themes but without public release dates.",
+      "items": [
         {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
+          "heading": "Build 1 - Road",
+          "date": "Released April 7, 2026",
+          "summary": "The Early Access launch build with core survival loop and expanded content.",
+          "bullets": [
+            "Early Access launch",
+            "Gameplay loop",
+            "Expanded maps",
+            "Dynamic elements",
+            "Multi-shelter support"
           ]
         },
         {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
+          "heading": "Build 2 - Nomads",
+          "date": "Q3 2026",
+          "summary": "The first post-launch roadmap milestone focused on living factions and systemic encounters.",
+          "bullets": [
+            "Friendly faction",
+            "AI vs. AI combat",
+            "AI variants",
+            "Driver trader",
+            "New map and shelter"
           ]
         },
         {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
+          "heading": "Build 3 - Signal",
+          "date": "Q4 2026",
+          "summary": "The next major milestone introduces more directed progression and world flavor.",
+          "bullets": [
+            "Quest system",
+            "Lore elements",
+            "Civil defence shelters",
+            "Grandma trader",
+            "New map and shelter"
           ]
         },
         {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
+          "heading": "Build 4 - Gunslinger",
+          "date": "TBA",
+          "summary": "A combat-and-weapon-focused update.",
+          "bullets": [
+            "Weapon overhaul",
+            "Bullet penetration",
+            "Modding kits",
+            "Trader services",
+            "New map and shelter"
           ]
         },
         {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
+          "heading": "Build 5 - North",
+          "date": "TBA",
+          "summary": "A systems-heavy update built around seasons, travel, and wildlife.",
+          "bullets": [
+            "Dynamic season",
+            "Train system",
+            "Hunting and wildlife",
+            "Shaman trader",
+            "New map and shelter"
           ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
         },
         {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "heading": "Build 6 - Abyss",
+          "date": "TBA",
+          "summary": "A maritime expansion of the game world.",
+          "bullets": [
+            "Sea system",
+            "Patrol boats",
+            "Scuba gear",
+            "Fisherman trader",
+            "New map and shelter"
+          ]
         },
         {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "heading": "Build 7 - Enigma",
+          "date": "TBA",
+          "summary": "A communication-and-intelligence themed phase.",
+          "bullets": [
+            "Dialogue system",
+            "SIGINT tools",
+            "Transmissions",
+            "Scientist trader",
+            "New map and shelter"
+          ]
+        },
+        {
+          "heading": "Build 8 - Silent Night",
+          "date": "TBA",
+          "summary": "The final roadmap phase aimed at a more complete campaign layer.",
+          "bullets": [
+            "Full questline",
+            "World options",
+            "Destruction system",
+            "FINSOF faction",
+            "New map and shelter"
+          ]
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "systemRequirements": {
+      "eyebrow": "PC SPECS",
+      "title": "Can Your PC Run Road to Vostok?",
+      "subtitle": "Official minimum and recommended requirements for the current Early Access build, with a quick checklist so you can answer in seconds.",
+      "intro": "The Steam page lists two hardware tiers, both targeting a dedicated GPU setup with 64-bit Windows 10 and DirectX 12. Minimum gets you into the game; recommended is the safer target for the developer's higher-end baseline.",
+      "headers": [
+        "Spec",
+        "Minimum",
+        "Recommended"
+      ],
+      "rows": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "spec": "OS",
+          "minimum": "Windows 10 (64-bit)",
+          "recommended": "Windows 10 (64-bit)"
         },
         {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "spec": "CPU",
+          "minimum": "Intel Core i5",
+          "recommended": "Intel Core i7"
         },
         {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "spec": "Memory",
+          "minimum": "8 GB RAM",
+          "recommended": "8 GB RAM"
         },
         {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "spec": "Graphics",
+          "minimum": "NVIDIA GTX 1060",
+          "recommended": "NVIDIA GTX 1080Ti"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12"
+        },
+        {
+          "spec": "Storage",
+          "minimum": "10 GB available",
+          "recommended": "10 GB available"
+        }
+      ],
+      "quickCheck": [
+        "64-bit Windows 10 is the only OS listed",
+        "8 GB RAM required on both tiers",
+        "GTX 1060 minimum / GTX 1080Ti recommended",
+        "DirectX 12 is required on both tiers",
+        "10 GB available space needed",
+        "Steam notes requirements may change in Early Access"
+      ]
+    },
+    "weaponsGuide": {
+      "eyebrow": "WAFFEN",
+      "title": "Road to Vostok Waffen, Munition und Aufsätze",
+      "subtitle": "Ein praktischer Überblick über Waffenfamilien, Kaliber und Aufsatz-Slots im aktuellen Build.",
+      "intro": "Road to Vostok bietet eine breite Palette an Schusswaffentypen, von leichten Pistolen bis hin zu Präzisionsgewehren. Separate Munitionsfamilien, Optik-Slots und Schalldämpferkompatibilität bedeuten, dass die Wahl der Ausrüstung entscheidend ist, noch bevor man den Unterschlupf verlässt.",
+      "items": [
+        {
+          "category": "Pistolen",
+          "examples": "C1911, Makarov, G17",
+          "ammo": ".45 ACP / 9x18 / 9x19",
+          "keyFact": "3 Pistolen gelistet — leichte Primär- oder Sekundärwaffe"
+        },
+        {
+          "category": "Gewehre",
+          "examples": "AK-12, AKM, AKS-74U, RK-95, MK18, VSS",
+          "ammo": "5.45x39 / 7.62x39 / 5.56x45 / 9x39",
+          "keyFact": "Breiteste Allzweck-Familie, 600–800 Schuss/Min über alle Kaliber hinweg"
+        },
+        {
+          "category": "Präzision",
+          "examples": "Mosin, SVD",
+          "ammo": "7.62x54R",
+          "keyFact": "Mosin 50 Schaden bei 10 Schuss/Min; SVD 60 Schaden bei 200 Schuss/Min — Reichweite vor Feuerrate"
+        },
+        {
+          "category": "Schrotflinten",
+          "examples": "RM-870",
+          "ammo": "12/70",
+          "keyFact": "One-Shot bis zu 2 m, Two-Shot bis zu 5 m — stärkste Panikwaffe für den Nahkampf"
+        },
+        {
+          "category": "Optiken",
+          "examples": "MRM, SRO, PRO, EXPS, Kobra, ACOG, PU, Hybrid",
+          "ammo": "—",
+          "keyFact": "Kurz- / Mittel- / Langstreckengruppen plus Schalldämpferoptionen"
+        },
+        {
+          "category": "Munition",
+          "examples": "4.6x30, 7.62x39, 7.62x54R, .308, 12g, 9x19, .45 ACP",
+          "ammo": "Gewicht pro Patrone wird berechnet",
+          "keyFact": "Munitionsstapel reichen von 100 bis 300 pro Kaliber — Waffe vor dem Ausrücken auf Kaliber abstimmen"
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
+    "zoneGuide": {
+      "eyebrow": "WELTZONEN",
+      "title": "Road to Vostok Zonen-Guide: Area 05, Border Zone und Vostok",
+      "subtitle": "Der dreiteilige Progressionspfad von der Startzone bis zum Permadeath-Endgame, mit klaren Risikoschwellen für jeden Übergang.",
+      "intro": "Road to Vostok basiert auf der Bewegung nach Osten durch zunehmend gefährliches Gebiet. Area 05 ist Ihr Vorbereitungsraum, die Border Zone ist die Herausforderung des Übergangs und Vostok ist das All-In-Ende der Route, wo der Loot massiv ansteigt und Bestrafung absolut wird.",
+      "items": [
         {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "heading": "Area 05",
+          "summary": "Die Startzone im Südosten Finnlands",
+          "badge": "Niedriges Risiko",
+          "details": [
+            "Ihre Reise beginnt in Area 05, einer evakuierten Zone im Südosten Finnlands.",
+            "Enthält Unterschlüpfe, Händler, Aufgaben und Start-Loot für das erste Überleben.",
+            "Banditen sind die feindliche Hauptkraft, die das Gebiet unsicher macht.",
+            "Ein Tod hier kostet nur die Ausrüstung und den Loot, den Sie bei sich tragen."
+          ]
         },
         {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "heading": "Border Zone",
+          "summary": "Der bewachte Übergang zwischen Finnland und Russland",
+          "badge": "Hohes Risiko",
+          "details": [
+            "Sobald Sie ausgerüstet sind, führt Ihre Route weiter nach Osten in die Border Zone.",
+            "Jede Border Zone Karte hat einen Übergangspunkt mit unterschiedlichen Herausforderungen.",
+            "Übergänge können Minen, physische Hindernisse oder Wasserwege mit Booten beinhalten.",
+            "Wachen kontrollieren die Grenze und können Luftunterstützung anfordern, um Übergänge zu stoppen."
+          ]
         },
         {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "heading": "Vostok",
+          "summary": "Die High-Risk, High-Reward Permadeath-Zone",
+          "badge": "Permadeath",
+          "details": [
+            "Wenn Sie es schaffen, die Border Zone zu durchqueren, betreten Sie Vostok in Russland.",
+            "Vostok beherbergt den wertvollsten Loot im Spiel.",
+            "Jede Vostok-Karte ist eine Permadeath-Karte — bei Tod verliert man alles.",
+            "Das Militär kontrolliert die Zone mit schweren Waffen und gepanzerten Fahrzeugen."
+          ]
         },
         {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
+          "heading": "Wann man den Übergang wagen sollte",
+          "summary": "Gehen Sie erst nach Osten, wenn Ihr Run stabil ist",
+          "badge": "Strategie",
+          "details": [
+            "Der offizielle Ablauf ist zuerst Area 05, dann Border Zone, dann Vostok.",
+            "Auslöser für den Weg nach Osten: Sammeln Sie genug Loot und Ausrüstung in Area 05.",
+            "Tode in Area 05 und der Border Zone kosten Ihre Ausrüstung, aber Vostok ist Alles-oder-Nichts.",
+            "Wagen Sie sich erst nach Vostok, wenn Ihr Basis-Setup und Ihre Ausrüstung bereit sind."
+          ]
         }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "shelterCustomization": {
+      "eyebrow": "UNTERSCHLÜPFE",
+      "title": "Wie Unterschlüpfe in Road to Vostok funktionieren",
+      "subtitle": "Unterschlüpfe sind mehr als nur Dekoration — sie sind Ihr Speichersystem, Ihr Lager und Ihr langfristiges Heimnetzwerk.",
+      "intro": "Unterschlüpfe sind eines der markantesten Merkmale von Road to Vostok. Hier speichern Sie, lagern Loot, gestalten Ihr Layout, schalten durch Fortschritt neue Heime frei und bauen sich schrittweise ein sichereres Leben auf, bevor Sie größere Risiken weiter im Osten eingehen.",
+      "items": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
+          "title": "Speichern und Lagern",
+          "description": "Unterschlüpfe sind Sicherheitszonen und die einzige Möglichkeit, Ihr Spiel zu speichern. Sie beherbergen auch Ihren gelagerten Loot, was sie zum Mittelpunkt jedes langen Runs macht.",
+          "icon": "Shield"
+        },
+        {
+          "title": "Mehrere Heime",
+          "description": "Oft benötigen Sie mehrere Unterschlüpfe, wenn Sie nach Osten reisen. Die Unterstützung für mehrere Unterschlüpfe wurde in Build 1 bestätigt, der am 7. April 2026 veröffentlicht wurde.",
+          "icon": "Home"
+        },
+        {
+          "title": "Verschiedene Unterschlupftypen",
+          "description": "Unterschlüpfe reichen von kleinen Hütten bis hin zu großen Betonbunkern. Einige werden nur durch Schlüssel freigeschaltet, die man durch Händleraufgaben erhält.",
+          "icon": "Package"
+        },
+        {
+          "title": "Dekorationsmodus",
+          "description": "Jeder Unterschlupf beginnt mit einer Standard-Möbelvorlage, aber der Dekorationsmodus ermöglicht es Ihnen, Möbel zu katalogisieren, zu bewegen und zu drehen — neue Gegenstände erhalten Sie durch Handwerk oder Handel.",
+          "icon": "Settings"
+        },
+        {
+          "title": "Freie Platzierung von Gegenständen",
+          "description": "Platzieren Sie einzelne Gegenstände, wo immer Sie wollen. Gegenstände basieren auf Physik und ihre Positionen werden automatisch gespeichert, wenn Sie den Unterschlupf verlassen.",
+          "icon": "Hammer"
+        }
+      ]
+    },
+    "tradersGuide": {
+      "eyebrow": "Wirtschaft",
+      "title": "Road to Vostok Händler-Guide",
+      "subtitle": "Erfahre, wer die aktuellen Händler sind, worauf sie spezialisiert sind und wie der Tauschhandel in Early Access funktioniert.",
+      "intro": "Road to Vostok nutzt eine Tauschwirtschaft anstelle eines traditionellen Cash-Shops. In Area 05 sind Händler und ihre Aufgabenketten Teil des Haupt-Survival-Loops, daher geht es bei einer klugen Routenplanung nicht nur um Loot-Runs, sondern auch darum, zu wissen, welcher Händler dein aktuelles Problem löst.",
+      "items": [
+        {
+          "icon": "ShoppingBag",
+          "title": "Generalist",
+          "kicker": "Händler im Dorfzentrum",
+          "description": "Der Generalist ist der Allzweckhändler in der Nähe des Dorf-Unterschlupfs und die flexibelste Anlaufstelle für den frühen Spielfortschritt.",
+          "bullets": [
+            "Handelt mit einer breiten Mischung an Waren: Lebensmittel, Wasser, Handwerksmaterialien, Questgegenstände, medizinische Vorräte und Waffen.",
+            "Füllt den Vorrat alle 10 Minuten auf; das Verlassen und erneute Betreten des Unterschlupfs kann den zufälligen Vorrat schneller aktualisieren.",
+            "Beste frühe Anlaufstelle, wenn man von allem ein bisschen braucht statt einer spezialisierten Kategorie."
+          ]
+        },
+        {
+          "icon": "Shield",
+          "title": "Arzt",
+          "kicker": "Medizinischer Spezialist",
+          "description": "Der Arzt ist der spezialisierte medizinische Händler auf der Werft und die beste Quelle für Heilmittel.",
+          "bullets": [
+            "Konzentriert sich auf medizinische Gegenstände wie Bandagen, Medkits und Tourniquets.",
+            "Füllt den Vorrat alle 10 Minuten mit zufälligen Waren nach jeder Aktualisierung auf.",
+            "Am nützlichsten, wenn dein Run durch Heilung, Statusmanagement oder medizinische Aufgabenabgaben begrenzt ist."
+          ]
+        },
+        {
+          "icon": "ArrowRight",
+          "title": "Wie der Handel funktioniert",
+          "kicker": "Tauschregeln",
+          "description": "Das Spiel basiert auf Tauschhandel statt auf einem normalen Kauf-und-Verkauf-Währungssystem.",
+          "bullets": [
+            "Es gibt keine Standard-Geldwirtschaft im Haupt-Handelskreislauf; der Wert ergibt sich aus dem, was man trägt.",
+            "Der Generalist akzeptiert fast jeden wertvollen Gegenstand und verwandelt gemischten Loot in praktische Überlebensausrüstung.",
+            "Der Arzt ist besser geeignet, wenn man Loot-Wert in Medizin und Erholungswerkzeuge umwandeln möchte."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Kommende Händler",
+          "kicker": "Zukünftige Erweiterungen",
+          "description": "Die offizielle Roadmap nennt bereits mehrere kommende Händler über das aktuelle Paar in Area 05 hinaus.",
+          "bullets": [
+            "Build 2: Fahrer",
+            "Build 3: Oma",
+            "Build 5: Schamane",
+            "Build 6: Fischer",
+            "Build 7: Wissenschaftler"
+          ]
+        }
+      ]
+    },
+    "tasksGuide": {
+      "eyebrow": "Fortschritt",
+      "title": "Road to Vostok Aufgaben-Guide",
+      "subtitle": "Verfolge den aktuellen Aufgabenfluss, die wichtigsten Gegenstände und Fortschrittsblocker, die man frühzeitig einlagern sollte.",
+      "intro": "Early Access beinhaltet bereits Handel und Aufgabenfortschritt in Area 05. Der aktuelle Aufgabenkreislauf dreht sich um aktive Händler-Hubs, wichtige Abgabegegenstände und Gebrauchsgegenstände, die deinen Fortschritt unberkehrt blockieren können, wenn du sie zu schnell verkaufst.",
+      "columns": [
+        "Fokus",
+        "Aktuelle bekannte Daten",
+        "Warum es wichtig ist",
+        "Was man behalten sollte"
+      ],
+      "rows": [
+        {
+          "focus": "Aktive Aufgaben-Hubs",
+          "data": "Aktuelle aktive Aufgabensteller sind der Generalist und der Arzt.",
+          "why": "Diese beiden Händler bilden den Anker für den aktuellen Aufgabenkreislauf in Area 05.",
+          "keep": "Prüfe beide Händlerseiten und Abgaben, bevor du Loot zu Geld machst."
+        },
+        {
+          "focus": "Gegenstände der Stromversorgungskette",
+          "data": "Inverter und B-Kabel sind als Kernaufgaben- und Stromversorgungsgegenstände gelistet.",
+          "why": "Sie sind mit der Stromversorgung des Unterschlupfs und der allgemeinen Fortschrittsplanung verknüpft.",
+          "keep": "Behalte jeden Inverter und jedes B-Kabel, bis deine Kette vollständig ist."
+        },
+        {
+          "focus": "Händler-Abgabeobjekte",
+          "data": "Polaris und Notizen des Arztes erscheinen in Händler-Aufgaben-Referenzen.",
+          "why": "Diese werden leicht versehentlich verkauft, da sie nicht wie Kampfausrüstung aussehen.",
+          "keep": "Lagere Polaris und Notizen des Arztes ein, anstatt sie bei einer Tausch-Aufräumaktion wegzuwerfen."
+        },
+        {
+          "focus": "Schlüssel",
+          "data": "Aufgabenschlüssel und Händlerschlüssel sind Teil des bekannten Kernaufgaben-Sets.",
+          "why": "Schlüssel können Türen, Routen und den Ablauf der Aufgabenerfüllung blockieren.",
+          "keep": "Behalte jeden Schlüssel, bis du genau weißt, welche Tür oder Abgabe er unterstützt."
+        },
+        {
+          "focus": "Medizinische Abgaben",
+          "data": "Beispiele für Arzt-Aufgaben sind Erkältungsmedizin, Klebeband, Schmerzmittel, Antibiotika und Polaris.",
+          "why": "Viel medizinischer Fortschritt steht in direktem Wettbewerb mit deinem eigenen Überlebensbedarf.",
+          "keep": "Behalte einen Reservevorrat an Medikamenten und Gebrauchsgegenständen, anstatt alles zu verbrauchen."
+        },
+        {
+          "focus": "Waffen- und Ausrüstungsabgaben",
+          "data": "Aufgaben des Generalisten umfassen Makarov, AKM, RK-95, AK-12, Batterien, Bücher und Kleidung.",
+          "why": "Mehrere Fortschrittssprünge hängen eher von der Disziplin beim Einlagern als von reinem Kampfgeschick ab.",
+          "keep": "Verkaufe doppelte frühe Waffen, Batterien, Bücher oder ungewöhnliche Kleidung nicht sofort."
+        }
+      ]
+    },
+    "multiplayer": {
+      "eyebrow": "Modi",
+      "title": "Road to Vostok Mehrspieler",
+      "subtitle": "Eine klare Antwort auf die Koop-Frage: Was es jetzt gibt, warum das Spiel ein Einzelspieler-Titel ist und was später kommen könnte.",
+      "intro": "Road to Vostok wird ständig mit Extraction-Shootern verglichen, daher ist Mehrspieler eine der ersten Fragen, die neue Spieler stellen. Die offizielle Antwort ist eindeutig: Das Spiel wurde primär als Einzelspieler-Survival-FPS entwickelt.",
+      "items": [
+        {
+          "question": "Hat Road to Vostok derzeit einen Mehrspielermodus?",
+          "answer": "Nein. Der Steam-Store listet Road to Vostok als Einzelspieler-Titel auf, und die offizielle Website beschreibt es als Hardcore-Einzelspieler-Survival-Spiel."
+        },
+        {
+          "question": "Gibt es Koop zum Launch oder in Steam Early Access?",
+          "answer": "Auf der offiziellen Shop-Seite oder in den FAQ ist kein Koop zum Launch aufgeführt. Steam Early Access konzentriert sich auf den Solo-Survival-Loop: Händler, Aufgaben, Reisen zwischen Karten, feindliche KI-Fraktionen und die Permadeath-Vostok-Zone."
+        },
+        {
+          "question": "Warum wurde Road to Vostok zuerst ohne Mehrspieler konzipiert?",
+          "answer": "Die offizielle FAQ besagt, dass das Projekt von Anfang an als wiederspielbares Einzelspieler-Spiel konzipiert wurde, da dies dem Entwickler Freiheiten gibt, die in einer Mehrspieler-Produktion nicht praktikabel wären. Mehrspieler-Projekte in diesem Genre sind für einen Einzelentwickler extrem teuer in der Erstellung und Wartung."
+        },
+        {
+          "question": "Könnten Koop oder Mehrspieler später zu Road to Vostok hinzugefügt werden?",
+          "answer": "Möglicherweise, aber erst nachdem eine erfolgreiche und funktionsreiche Einzelspieler-Version fertiggestellt ist. Die offizielle FAQ besagt, dass Koop erst nach Erreichen dieses Meilensteins in Betracht gezogen wird."
+        }
+      ]
+    },
+    "steamDeck": {
+      "eyebrow": "Portables Spielen",
+      "title": "Road to Vostok Steam Deck",
+      "subtitle": "Erfahren Sie, wie es heute um den Steam Deck-Support steht, wie die Linux-Unterstützung aussieht und welche Kompromisse bei der Steuerung portable Spieler erwarten sollten.",
+      "intro": "Road to Vostok wurde primär als PC-Survival-FPS entwickelt, daher geht es beim Steam Deck-Support eher um praktische Kompatibilität als um ein deck-natives Designziel. Der offizielle Plattformplan und Berichte aus der Community ergeben zusammen ein nützliches Bild dessen, was portable Spieler erwarten können.",
+      "items": [
+        {
+          "question": "Ist Road to Vostok ein Deck-first-Release?",
+          "answer": "Nein. Das offizielle FAQ besagt, dass das Spiel als PC-Spiel mit Fokus auf Windows und Linux konzipiert ist, wobei Windows das Hauptbetriebssystem zum Launch ist."
+        },
+        {
+          "question": "Wie sieht der Linux-Plan für Road to Vostok aus?",
+          "answer": "Das offizielle FAQ besagt, dass nativer Linux-Support einige Monate nach dem Launch geplant ist. Damit ist die Linux-Unterstützung Teil der Roadmap, aber nicht das primäre Ziel für den Launch."
+        },
+        {
+          "question": "Kann Road to Vostok heute auf dem Steam Deck laufen?",
+          "answer": "Ja, es gibt bereits Berichte über die Spielbarkeit. ProtonDB listet das Spiel mit einem Platinum Proton-Rating und zeigt den Steam Deck Verified Status als Spielbar an. Community-Beiträge enthalten Berichte von Nutzern über eine sehr starke Performance auf der Deck-Hardware."
+        },
+        {
+          "question": "Wie sieht es mit der Controller-Unterstützung in Road to Vostok aus?",
+          "answer": "Vollständiger nativer Controller-Support ist nicht der Hauptfokus des Steam Early Access. Community-Diskussionen im Zusammenhang mit dem offiziellen FAQ geben an, dass Controller-Unterstützung vor dem Haupt-Release geplant ist. Nutzer berichten bereits, dass das Spiel mit manuellem Controller-Setup spielbar ist, jedoch ohne Zielhilfe."
+        }
+      ]
+    },
+    "demoTimeline": {
+      "eyebrow": "DEMO-HISTORIE",
+      "title": "Road to Vostok Demo-Zeitstrahl",
+      "subtitle": "Die öffentliche Demo-Phase lief über zwei Jahre vor dem Steam Early Access und prägt noch immer, wie neue Spieler das Spiel entdecken.",
+      "intro": "Road to Vostok nutzte einen mehrstufigen öffentlichen Demo-Prozess vor dem Start in den Steam Early Access. Die Steam-Shop-Notizen besagen, dass das Projekt vor dem Release 4 Demos, 15 Demo-Updates, 35 Devlog-Videos, 800.000 Demo-Spieler und 3.000 Bug- und Feedback-Berichte durchlaufen hat.",
+      "items": [
+        {
+          "date": "26. September 2022",
+          "milestone": "Eigenständige Steam-Demo-App geht live",
+          "details": "SteamDB listet die separate Road to Vostok Demo-App als an diesem Datum veröffentlicht. Dies markiert den Beginn der öffentlichen Steam-Demo-Phase, die an das Hauptspiel gekoppelt ist."
+        },
+        {
+          "date": "10. Juni 2024",
+          "milestone": "Roadmap für den Public Demo 2 v2 Patch veröffentlicht",
+          "details": "Der offizielle News-Beitrag skizzierte drei geplante Folgewellen: einen Optimierungs-Patch im Oktober, einen Inhalts-Patch im November und einen Balancing-Patch im Dezember."
+        },
+        {
+          "date": "Dezember 2024",
+          "milestone": "Zweijährige Demo-Phase endet",
+          "details": "Das Steam Early Access Q&A gibt an, dass Road to Vostok seine zweijährige Demo-Phase im Dezember 2024 beendete, wonach sich der Fokus vollständig auf den Steam Early Access-Build verlagerte."
+        },
+        {
+          "date": "Oktober 2025",
+          "milestone": "Die finale Demo ist der letzte Meilenstein vor dem Launch",
+          "details": "Die finale Demo wurde als der detaillierteste öffentliche Einblick in die kommerzielle Version vor dem Release positioniert – ein Build, der die kommerzielle Version so getreu wie möglich repräsentierte."
+        },
+        {
+          "date": "7. April 2026",
+          "milestone": "Steam Early Access startet auf Steam",
+          "details": "Road to Vostok startete an diesem Datum in den Steam Early Access. Die Shop-Seite bietet weiterhin einen Demo-Download neben dem kostenpflichtigen Steam Early Access-Build an, wodurch das Suchinteresse an der Demo erhalten bleibt."
+        },
+        {
+          "date": "Heute",
+          "milestone": "Welches Demo-Wissen weiterhin relevant bleibt",
+          "details": "Die wichtigsten übertragbaren Lektionen aus der Demo sind die Zonen-Abfolge von Area 05 über die Border Zone nach Vostok, das Inventarmanagement, physikbasiertes Looting, Barter-basiertes Überleben und die eskalierende Gefahr durch Banditen, Wachen und das Militär."
+        }
+      ]
+    },
+    "factions": {
+      "eyebrow": "FRAKTIONEN",
+      "title": "Road to Vostok Fraktionen: Banditen, Wachen und Militär",
+      "subtitle": "Road to Vostok nutzt Fraktionen, um die Risikokurve der gesamten Kampagne zu verdeutlichen. Gegen wen man kämpft, zeigt an, wie ernst die Lage im aktuellen Run ist.",
+      "intro": "Area 05 wird von Banditen geprägt, die Border Zone wird von Wachen kontrolliert und Vostok selbst wird vom Militär dominiert. Diese Struktur spiegelt den Fortschritt wider: Je weiter man nach Osten vordringt, desto organisierter und gnadenloser wird der Widerstand.",
+      "items": [
+        {
+          "name": "Banditen",
+          "zone": "Area 05",
+          "role": "Feindlicher Druck in der Startzone",
+          "riskLevel": "Niedrig bis Mittel",
+          "description": "Eine anarchistische Gruppe, die den Mangel an Autorität in Area 05 ausnutzt. Sie sind die erste Fraktion, gegen die die meisten Spieler zu kämpfen lernen – die Hauptbedrohung in der Nähe von frühen Unterschlüpfen, Händlern und Start-Loot-Routen.",
+          "behaviorNotes": [
+            "Können weglaufen, wenn sie verängstigt oder schwer verwundet sind",
+            "Nutzen Deckung während Feuergefechten",
+            "Können in Innenräumen Hinterhalte legen oder die letzte bekannte Position des Spielers verfolgen"
           ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "equipmentNote": "Können mit einer Reihe von Waffen, Kopfbedeckungen, Rucksäcken und Beute spawnen. Einige tragen zwei Waffen."
+        },
+        {
+          "name": "Wachen",
+          "zone": "Border Zone",
+          "role": "Vollstrecker an den Übergangspunkten",
+          "riskLevel": "Mittel bis Hoch",
+          "description": "Bewaffnete, korrupte Vollstrecker, welche die Border Zone zwischen Finnland und Russland kontrollieren. Sie verlassen sich auf Luftunterstützung, um Grenzübergänge zu verhindern, und ergänzen Umweltgefahren wie Minen und Wasserwege.",
+          "behaviorNotes": [
+            "Halten die Zugänge zu den Übergangspunkten",
+            "Agieren im Zusammenspiel mit Minen, Hindernissen und Gefahren im Wasser",
+            "Bestrafen direktes Vorstürmen stärker als Begegnungen in Area 05"
+          ],
+          "equipmentNote": "Dargestellt als organisierter Grenzschutz statt als Plünderer – strukturierter und koordinierter als Banditen."
+        },
+        {
+          "name": "Militär",
+          "zone": "Vostok",
+          "role": "Endgame-Fraktion",
+          "riskLevel": "Sehr hoch",
+          "description": "Die gefährlichste Fraktion im Spiel, die Vostok kontrolliert – die High-Risk, High-Reward Permadeath-Region. Darauf ausgelegt, Vostok zu einer bewussten Endgame-Herausforderung zu machen, statt zu einem lockeren Loot-Stopp.",
+          "behaviorNotes": [
+            "Agieren innerhalb der Permadeath-Zone",
+            "Nutzen schwere Bewaffnung",
+            "Können gepanzerte Fahrzeuge einsetzen"
+          ],
+          "equipmentNote": "Schwere Bewaffnung und die Unterstützung durch gepanzerte Fahrzeuge machen das Militär weitaus gefährlicher als die beiden anderen Fraktionen."
+        }
+      ]
+    },
+    "lootGuide": {
+      "eyebrow": "LOOT",
+      "title": "Road to Vostok Loot-Guide: Wie Loot funktioniert",
+      "subtitle": "Effizientes Looten bedeutet, die richtigen Behälter zu öffnen, nicht jeden Behälter. Das Spiel nutzt behälterspezifische Logik und Seltenheitsstufen, um zu entscheiden, was erscheint.",
+      "intro": "Das Loot-System von Road to Vostok ist eher strukturiert als völlig zufällig. Jeder Behältertyp hat seine eigene Loot-Tabelle, das Spiel sortiert mögliche Gegenstände in Seltenheitsstufen ein, und Gewichtschecks können das Spawnen von Gegenständen verhindern, wenn ein Behälter überladen wäre. Die dokumentierten Ergebnisse: 51 % kein Loot, 28 % gewöhnlich, 15 % gewöhnlich plus ungewöhnlich, 4 % gewöhnlich plus selten, 2 % gewöhnlich plus legendär.",
+      "headers": [
+        "Behälter",
+        "Wichtige Orte",
+        "Häufiger Inhalt",
+        "Praktisches Fazit"
+      ],
+      "items": [
+        {
+          "container": "Medizinschrank",
+          "location": "Dorf (insgesamt 6)",
+          "contents": "Medizin — IFAK als extrem selten vermerkt",
+          "takeaway": "Sauberste frühe Quelle für Überlebensgegenstände mit einem begrenzten, direkt nützlichen Loot-Pool."
+        },
+        {
+          "container": "Kühlschrank / Gefrierschrank",
+          "location": "Dorf (9 Kühlschränke, 10 Gefrierschränke), Werft (1 Kühlschrank)",
+          "contents": "Nur Nahrung",
+          "takeaway": "Bester Stopp, um Hydrierung und Energie über Null zu halten, bevor Ausdauer-Abzüge wirksam werden."
+        },
+        {
+          "container": "Holzkiste / Schrank / Spind",
+          "location": "Dorf (9 / 54 / 10), Werft (15 / 54 / 16)",
+          "contents": "Nahrung, Munition, Medizin, Waffen, Materialien und Module",
+          "takeaway": "Behälter mit dem breitesten Wert – können Kampf, Heilung, Unterschlupf-Fortschritt und Crafting in einem Run unterstützen."
+        },
+        {
+          "container": "Banditenleiche",
+          "location": "Dorf (14), Werft (16)",
+          "contents": "Nahrung, Kleidung, Munition und Waffen",
+          "takeaway": "Starker Folge-Loot nach Kämpfen – besonders nützlich für schnelle Munitions- und Waffen-Upgrades."
+        },
+        {
+          "container": "Sicherungskasten / Schaltkasten",
+          "location": "Dorf (8 Sicherungskästen, 6 Schaltkästen), Werft (1 Sicherungskasten)",
+          "contents": "Klebeband und Drähte",
+          "takeaway": "Zuverlässiger Stopp für Gebrauchsgegenstände, wenn das Ziel des Runs der Unterschlupf-Fortschritt, Crafting oder Händleraufgaben sind."
+        },
+        {
+          "container": "Werft-Container",
+          "location": "Werft (38 Container, 1 LKW-Container)",
+          "contents": "Zufällige Boden-Gegenstände – oft seltene Rigs und Panzerplatten",
+          "takeaway": "Suche mit höherem Potenzial für Spieler, die bereit sind, Zeit und Routensicherheit gegen seltene Rüstungs-Beute einzutauschen."
+        }
+      ]
+    },
+    "medicalGuide": {
+      "eyebrow": "MEDIZIN",
+      "title": "Road to Vostok Medizin-Leitfaden: Verletzungen und Heilung",
+      "subtitle": "Road to Vostok behandelt das medizinische Management als Teil des Überlebens. Zu wissen, was jeder Zustand bewirkt und wie man ihn behebt, ist ein wichtiger Teil des Überlebens.",
+      "intro": "Das medizinische Gameplay in Road to Vostok umfasst Blutungen, Frakturen, Hydrierung, Energie, Gewichtsabzüge und das Gewicht jedes Gegenstands in deiner Tasche. Das medizinische System ist so strukturiert, dass man ein zuverlässiges Taschen-Set zusammenstellen kann, ohne alles mitführen zu müssen.",
+      "items": [
+        {
+          "title": "Blutungs- und Risswundenkontrolle",
+          "summary": "Die dringendsten Trauma-Zustände – beide entziehen 1 Gesundheit pro Sekunde.",
+          "sections": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "label": "Ursachen",
+              "value": "Blutung: Waffe, Messer, Sturzschaden oder Explosionen. Risswunde: Waffe, Messer oder Explosionen."
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "label": "Effekte",
+              "value": "Blutung entzieht 1 Gesundheit pro Sekunde. Risswunden entziehen ebenfalls 1 Gesundheit pro Sekunde."
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "label": "Heilung",
+              "value": "Blutung — Bandage, Tourniquet, Medkit, IFAK, AFAK. Risswunde — Medkit, IFAK, AFAK."
+            },
+            {
+              "label": "Wichtige Gegenstände",
+              "value": "Bandage: 0,1 kg, 4s Anwendung, 20 Gesundheit. Tourniquet: 0,1 kg, 4s Anwendung. IFAK: 0,5 kg, 4s Anwendung, 50 Gesundheit."
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "title": "Fraktur, Verbrennung und schweres Trauma",
+          "summary": "Bewegungsverlust ist oft genauso gefährlich wie direkter Schaden, besonders wenn man noch extrahieren muss.",
+          "sections": [
+            {
+              "label": "Fraktur-Effekt",
+              "value": "Die Gesundheit sinkt alle 5 Sekunden um 1. Bewegungsgeschwindigkeit, Schwimmgeschwindigkeit und Sprunghöhe sinken alle um 50 %."
+            },
+            {
+              "label": "Fraktur-Heilung",
+              "value": "Schiene, Medkit, IFAK und AFAK heilen alle Frakturen."
+            },
+            {
+              "label": "Verbrennungs-Heilung",
+              "value": "Lotion, Bandage, Medkit, IFAK und AFAK."
+            },
+            {
+              "label": "Wichtige Gegenstände",
+              "value": "Medkit: 0,8 kg, 4s Anwendung, 50 Gesundheit. Schiene: 0,1 kg, 4s Anwendung. Lotion: 0,2 kg, 2s Anwendung."
+            }
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+          "title": "Dehydrierung und Verhungern",
+          "summary": "Diese Überlebensfehler ruinieren unbemerkt Durchläufe, wenn man Essen und Trinken ignoriert.",
+          "sections": [
+            {
+              "label": "Wann sie auftreten",
+              "value": "Verhungern beginnt, wenn die Energie 0 erreicht. Dehydrierung beginnt, wenn die Hydrierung 0 erreicht."
+            },
+            {
+              "label": "Effekte",
+              "value": "Beide entziehen alle 10 Sekunden 1 Gesundheit, erhöhen den Ausdauerverbrauch um 50 % und verringern die Ausdauerregeneration um 50 %."
+            },
+            {
+              "label": "Heilung",
+              "value": "Verhungern: Energie mit Nahrung über 0 halten. Dehydrierung: Hydrierung mit Getränken oder IV-Kit über 0 halten."
+            },
+            {
+              "label": "Warum es wichtig ist",
+              "value": "Ausdauerstrafen ruinieren Kämpfe, Fluchtwege und die Effizienz beim Plündern, noch bevor der Gesundheitsentzug kritisch wird."
+            }
           ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
-        }
-      },
-      "milestones": [
-        {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "title": "Überladungs-Notfall",
+          "summary": "Eine schlechte Inventarentscheidung kann genauso gefährlich sein wie eine unbehandelte Verletzung.",
+          "sections": [
+            {
+              "label": "Auslöser",
+              "value": "Überladung beginnt, wenn du mehr als dein Gewichtslimit trägst."
+            },
+            {
+              "label": "Effekte",
+              "value": "Der Ausdauerverbrauch steigt um 50 %, die Ausdauerregeneration wird deaktiviert und die Bewegungs-, Schwimm- und Sprunggeschwindigkeit sinken alle um 50 %."
+            },
+            {
+              "label": "Lösungen",
+              "value": "Gegenstände ablegen, in Ausrüstung mit höherer Kapazität wechseln. Abmontierte Waffenaufsätze wiegen im Inventar mehr als im montierten Zustand."
+            },
+            {
+              "label": "Auswirkung auf den Run",
+              "value": "Überladung verwandelt gewonnene Kämpfe in gescheiterte Extraktionen – Beutedisziplin ist Teil der medizinischen Disziplin in Road to Vostok."
+            }
+          ]
+        },
+        {
+          "title": "Händler Doctor und dein Taschen-Set",
+          "summary": "Der Doctor ist der spezialisierte medizinische Händler – der einfachste Weg, deine Heilungsökonomie zu stabilisieren.",
+          "sections": [
+            {
+              "label": "Standort des Doctors",
+              "value": "Werft, Keller des Hamikot Logistics Gebäudes – das erste Gebäude auf der linken Seite nach dem Betreten vom Dorf (Village) aus."
+            },
+            {
+              "label": "Vorrat",
+              "value": "Bandage, Medkit, Tourniquet und andere medizinische Gegenstände."
+            },
+            {
+              "label": "Auffüllzeit",
+              "value": "Wird alle 10 Minuten mit zufälligem Vorrat in jedem Zyklus aufgefüllt."
+            },
+            {
+              "label": "Taschen-Set",
+              "value": "Leichtes Allzweck-Setup: Bandage 0,1 kg, Tourniquet 0,1 kg, Schiene 0,1 kg, plus IFAK 0,5 kg oder Medkit 0,8 kg."
+            }
+          ]
         }
       ]
     }
@@ -791,177 +989,217 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Häufige Fragen zu Road to Vostok beantwortet",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Ist Road to Vostok ein Einzelspieler-Spiel?",
+        "answer": "Ja. Road to Vostok ist ein reiner Einzelspieler-PC-Survival-FPS. Es gibt keinen Mehrspieler- oder Koop-Modus, und die Entwickler haben keine Pläne angekündigt, einen hinzuzufügen."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Auf welchen Plattformen kann ich Road to Vostok spielen?",
+        "answer": "Road to Vostok ist auf Windows über Steam erhältlich. Die Entwickler haben Linux-Unterstützung als zukünftiges Ziel erwähnt. Die Unterstützung für Hauptkonsolen ist erst nach der PC-Version 1.0 geplant."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Was passiert, wenn man in Road to Vostok stirbt?",
+        "answer": "In Area 05 und der Grenzzone (Border Zone) kostet dich der Tod das, was du bei dir trägst. In Vostok ist der Tod permanent (Permadeath) und löscht deinen gesamten Fortschritt. Diese Permadeath-Mechanik ist das Kernrisiko, das einen normalen Run von einem Vostok-Vorstoß unterscheidet."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wie viel kostet Road to Vostok auf Steam?",
+        "answer": "Road to Vostok startete während der Steam Early Access Einführungsphase bei 14,99 $, mit einem Basispreis von 19,99 $, nachdem das Einführungsrabattfenster endet."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Wie lange dauert die Road to Vostok Early Access Phase?",
+        "answer": "Die Entwickler schätzen eine Steam Early Access Entwicklungszeit von etwa 2 bis 4 Jahren. Die offizielle Roadmap listet 8 benannte Builds auf, und Build 1 startete am 7. April 2026."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Was ist in der Road to Vostok Build 1 Launch-Version enthalten?",
+        "answer": "Build 1 erscheint mit dem Kern-Gameplay-Loop, erweiterten Karten einschließlich Schule (School), Autobahn (Highway), Außenposten (Outpost) in Area 05 und Terminal in Vostok, dynamischen Elementen, Unterstützung für mehrere Unterschlüpfe, Eventsystem, Weltkarte, Crafting-Menü, zwei neuen Spielmodi, zwei neuen Händlern und einem großen Launch-Changelog mit Aufgaben, Gegenständen und Systemen."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Road to Vostok zu erkunden?",
+    "description": "Tritt der Road to Vostok-Community auf Discord bei, um Leitfäden, Updates und Diskussionen zu erhalten!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Road to Vostok Wiki",
+    "description": "Dein kompletter Ressourcen-Hub für Road to Vostok Karten, Waffen, Aufgaben, Händler und Überlebens-Leitfäden.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Store",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Road to Vostok Wiki. Nicht verbunden mit den Entwicklern von Road to Vostok.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Road to Vostok Guide",
+      "description": "Umfassende Survival-Guides zu Mechaniken, Tipps und Strategien für Road to Vostok. Lerne Steuerung, Crafting, Angeln, medizinische Systeme und mehr.",
+      "metaTitle": "Road to Vostok Guide - Survival-Tipps & Mechaniken 2026",
+      "metaDescription": "Meistere Road to Vostok mit unseren Survival-Guides zu Steuerung, Crafting, medizinischen Systemen, Angeln, Speichermechaniken und fortgeschrittenen Überlebensstrategien.",
+      "categoryLabel": "SURVIVAL-GUIDES",
+      "whatIs": "Was sind Road to Vostok Guides?",
+      "whatIsDescription": "Detaillierte Guides zu jedem Aspekt des Road to Vostok Gameplays. Von den ersten Schritten in Area 05 bis hin zu fortgeschrittenen Taktiken für die Vostok-Zone helfen dir diese Guides, die Hardcore-Survival-Mechaniken, das physikbasierte Looting und die Progressionssysteme zu meistern.",
+      "why": "Warum Road to Vostok Guides lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Kernmechaniken meistern",
+        "step1Description": "Lerne die Steuerung, das Inventarmanagement und die grundlegenden Survival-Systeme vom ersten Tag an",
+        "step2Title": "Häufige Tode vermeiden",
+        "step2Description": "Verstehe Permadeath-Zonen und bereite dich effektiv vor, bevor du Hochrisikogebiete betrittst",
+        "step3Title": "Progression optimieren",
+        "step3Description": "Folge bewährten Strategien, um durch Unterschlupf-Upgrades und Händler-Freischaltungen voranzukommen"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "all": "Alle Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "map": {
+      "title": "Road to Vostok Karte",
+      "description": "Vollständige Road to Vostok Karten-Guides zu Survival-Zonen, Loot-Standorten, Navigationstipps und Zonenübergangsstrategien.",
+      "metaTitle": "Road to Vostok Karte - Zonen, Loot-Standorte & Navigation 2026",
+      "metaDescription": "Meistere die Road to Vostok Karte mit Zonen-Guides, den besten Loot-Standorten, interaktiven Kartenreferenzen und Navigationsstrategien für Area 05, Grenzzonen und Vostok.",
+      "categoryLabel": "KARTE & NAVIGATION",
+      "whatIs": "Was ist die Road to Vostok Karte?",
+      "whatIsDescription": "Road to Vostok bietet eine strukturierte Welt, die in drei Primärzonen unterteilt ist: Area 05 (Startregion Finnland), die Grenzzone (hohes Risiko) und Vostok selbst (extremer Permadeath). Das Verständnis des Kartenlayouts ist essenziell für das Überleben und den Fortschritt.",
+      "why": "Warum die Road to Vostok Karte lernen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Besten Loot finden",
+        "step1Description": "Finde wertvolle Plünderungsorte, Händler-Außenposten und versteckte Ressourcenlager",
+        "step2Title": "Sichere Routen planen",
+        "step2Description": "Navigiere effizient durch Gefahrenzonen und vermeide Hinterhalte und Risiken",
+        "step3Title": "Neue Gebiete freischalten",
+        "step3Description": "Verstehe die Zonenübergangsmechaniken, um sicher in Gebiete mit höherem Risiko vorzudringen"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "all": "Alle Karten-Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "weapons": {
+      "title": "Road to Vostok Waffen",
+      "description": "Vollständige Road to Vostok Waffendatenbank zu Schusswaffen, Munitionstypen, Kampftaktiken, Waffenreparatur und Ballistik für 2026.",
+      "metaTitle": "Road to Vostok Waffen - Schusswaffen, Munition & Kampf-Guide 2026",
+      "metaDescription": "Meistere Road to Vostok Waffen mit unserem kompletten Guide zu Schusswaffen, Munitionskalibern, Ballistik, Waffenreparatur, Nachlademechaniken und Kampftaktiken.",
+      "categoryLabel": "WAFFEN & KAMPF",
+      "whatIs": "Was sind Road to Vostok Waffen?",
+      "whatIsDescription": "Road to Vostok bietet ein realistisches Waffensystem mit physikalischer Ballistik, kaliberspezifischer Munition, Waffenverschleiß und authentischen Nachlademechaniken. Jede Waffe erfordert ordnungsgemäße Wartung und Munitionsmanagement, um im Einsatz effektiv zu bleiben.",
+      "why": "Warum Road to Vostok Waffen meistern?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Wähle das richtige Loadout",
+        "step1Description": "Wähle Schusswaffen, die zu deinem Spielstil und der Bedrohungsstufe deiner Zielzone passen",
+        "step2Title": "Munition verwalten",
+        "step2Description": "Lerne Kaliberkompatibilität und Plünderungsstrategien, um im Kampf nie ohne Munition dazustehen",
+        "step3Title": "Waffen funktionsfähig halten",
+        "step3Description": "Verstehe die Reparaturmechaniken, um die Waffenleistung zu erhalten und Fehlfunktionen zu vermeiden"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "all": "Alle Waffen-Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "tasks": {
+      "title": "Road to Vostok Aufgaben",
+      "description": "Vollständiger Guide zu Road to Vostok Aufgaben, Händlermissionen und Zielen. Lerne, wie du Aufgaben-Gegenstände findest und neue Gebiete sowie Belohnungen freischaltest.",
+      "metaTitle": "Road to Vostok Aufgaben - Missionen, Gegenstände & Belohnungen Guide 2026",
+      "metaDescription": "Schließe jede Road to Vostok Aufgabe mit unseren Missions-Guides ab. Finde aufgabenspezifische Gegenstände, verstehe Händlerziele und schalte Unterschlupf-Upgrades sowie neue Zonen frei.",
+      "categoryLabel": "AUFGABEN & MISSIONEN",
+      "whatIs": "Was sind Road to Vostok Aufgaben?",
+      "whatIsDescription": "Aufgaben in Road to Vostok sind von Händlern gestellte Ziele, die den Spielfortschritt vorantreiben. Das Abschließen von Missionen belohnt dich mit neuen Unterschlupf-Freischaltungen, Handelszugang und essenzieller Ausrüstung. Aufgaben erfordern das Finden spezifischer Gegenstände und das Navigieren durch gefährliche Zonen, um diese abzuliefern.",
+      "why": "Warum Road to Vostok Aufgaben abschließen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Neue Gebiete freischalten",
+        "step1Description": "Das Abschließen von Aufgaben ermöglicht den Zugang zu neuen Zonen, Händlern und wertvollen Loot-Standorten",
+        "step2Title": "Wichtige Belohnungen verdienen",
+        "step2Description": "Erhalte wertvolle Ausrüstung, Währung und Unterschlupf-Upgrades, die den Fortschritt beschleunigen",
+        "step3Title": "Die Geschichte vorantreiben",
+        "step3Description": "Aufgaben leiten deine Reise von Area 05 bis hin zur Vostok-Grenze"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "all": "Alle Aufgaben-Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "mods": {
+      "title": "Road to Vostok Mods",
+      "description": "Road to Vostok Mods, Cheats, Konsolenbefehle und Cheat Engine Guides zur Anpassung deines Hardcore-Survival-Erlebnisses.",
+      "metaTitle": "Road to Vostok Mods - Cheats, Konsolenbefehle & Cheat Engine 2026",
+      "metaDescription": "Entdecke Road to Vostok Mods, einschließlich Cheat Engine Setups, Konsolenbefehlen, God-Mode, unendlicher Munition und Injector-Guides für den 2026 Early Access.",
+      "categoryLabel": "MODS & CHEATS",
+      "whatIs": "Was sind Road to Vostok Mods?",
+      "whatIsDescription": "Road to Vostok Mods umfassen Cheat Engine Skripte, Konsolenbefehl-Exploits und Tools zur Speicherbearbeitung, mit denen Spieler das Spielerlebnis modifizieren können. Ob zum Testen von Mechaniken, zum Umgehen des harten Permadeath oder zum Experimentieren mit unendlichen Ressourcen – Mods bieten volle Kontrolle.",
+      "why": "Warum Road to Vostok Mods verwenden?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Ohne Risiko testen",
+        "step1Description": "Experimentiere mit Mechaniken, Waffen und Zonenerkundung, ohne deinen Fortschritt zu verlieren",
+        "step2Title": "Schwierigkeitsgrad überwinden",
+        "step2Description": "Nutze den God-Mode oder unendliche Munition, um schwierige Abschnitte zu überwinden und das Spiel zu lernen",
+        "step3Title": "Dein Erlebnis anpassen",
+        "step3Description": "Passe den Survival-Schwierigkeitsgrad und die Ressourcenverfügbarkeit an deinen Spielstil an"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "all": "Alle Mods & Cheats"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "release": {
+      "title": "Road to Vostok Release",
+      "description": "Alle Road to Vostok Release-Informationen, einschließlich Steam Early Access Launch, Demo-Download, Kaufberatung, Konsolen-Ports und Details vor dem Kauf.",
+      "metaTitle": "Road to Vostok Release - Early Access, Demo & Kaufberatung 2026",
+      "metaDescription": "Alles über den Road to Vostok Release: Steam Early Access Launch, kostenloser Demo-Download, Kaufberatung, Konsolenverfügbarkeit und was Sie erwartet.",
+      "categoryLabel": "RELEASE-INFO",
+      "whatIs": "Was ist der Road to Vostok Release?",
+      "whatIsDescription": "Road to Vostok wurde offiziell am 7. April 2026 im Steam Early Access veröffentlicht. Eine kostenlose Demo mit über einer Million Downloads ging der vollständigen Veröffentlichung voraus. Das Spiel wird vom Solo-Entwickler Antti Lehtinen entwickelt und bietet fortlaufende Inhalts-Updates als Teil der EA-Roadmap.",
+      "why": "Warum Road to Vostok Release-Infos prüfen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Das Spiel erhalten",
+        "step1Description": "Finden Sie heraus, wo und wie Sie Road to Vostok auf Steam kaufen können, einschließlich Preisen und Editionen",
+        "step2Title": "Vor dem Kauf ausprobieren",
+        "step2Description": "Laden Sie die kostenlose Demo herunter, um die Kernmechaniken zu erleben, bevor Sie sich zum Kauf entscheiden",
+        "step3Title": "Updates verfolgen",
+        "step3Description": "Bleiben Sie über die Early Access-Roadmap und kommende Inhalts-Patches informiert"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "all": "Alle Release-Guides"
+    },
+    "official": {
+      "title": "Road to Vostok Offiziell",
+      "description": "Offizielle Road to Vostok Informationen, einschließlich Entwickler-Updates, Devlogs, Details zur Game-Engine, Assets und Kontaktinformationen.",
+      "metaTitle": "Road to Vostok Offiziell - Entwickler-Infos, Devlogs & Updates 2026",
+      "metaDescription": "Offizielle Road to Vostok Neuigkeiten vom Solo-Entwickler Antti Lehtinen. Devlogs, Engine-Updates, Game-Assets, E-Mail-Kontakt und die gesamte Entwicklungsgeschichte.",
+      "categoryLabel": "OFFIZIELLE INFO",
+      "whatIs": "Was sind offizielle Road to Vostok Inhalte?",
+      "whatIsDescription": "Offizielle Inhalte umfassen direkte Informationen vom Road to Vostok Entwickler Antti Lehtinen, einschließlich Entwicklungs-Devlogs, Engine-Technologie, Game-Assets und offiziellen Kontaktkanälen. Dies ist die genaueste Quelle für Neuigkeiten zur Spielentwicklung und die zukünftige Roadmap.",
+      "why": "Warum den offiziellen Road to Vostok Updates folgen?",
+      "whySteps": {
+        "step1Title": "Informiert bleiben",
+        "step1Description": "Erhalten Sie präzise Entwicklungs-News direkt vom Solo-Entwickler ohne Spekulationen",
+        "step2Title": "Entwicklung verfolgen",
+        "step2Description": "Folgen Sie den Devlog-Updates, um kommende Funktionen und Änderungen im Early Access zu verstehen",
+        "step3Title": "Mit dem Entwickler vernetzen",
+        "step3Description": "Finden Sie offizielle Kontaktkanäle und Community-Links, um mit dem Entwicklungsteam in Kontakt zu treten"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle offiziellen Infos"
+    },
+    "language": {
+      "title": "Road to Vostok Sprache",
+      "description": "Road to Vostok Sprachunterstützungs-Guides für chinesische, japanische und russische Lokalisierung, Übersetzungsstatus und Tipps für mehrsprachiges Gameplay.",
+      "metaTitle": "Road to Vostok Sprache - Chinesische, japanische & russische Unterstützung 2026",
+      "metaDescription": "Road to Vostok Sprachunterstützungs-Guide für chinesische, japanische und russische Lokalisierung, UI-Übersetzung und Tipps für nicht-englischsprachige Spieler im Jahr 2026.",
+      "categoryLabel": "SPRACHUNTERSTÜTZUNG",
+      "whatIs": "Was ist die Road to Vostok Sprachunterstützung?",
+      "whatIsDescription": "Road to Vostok Sprach-Guides decken den aktuellen Stand der Lokalisierungsunterstützung für Chinesisch, Japanisch, Russisch und andere Sprachen ab. Erfahren Sie, welche UI-Elemente übersetzt sind, wie Sie Ihre bevorzugte Sprache einstellen und erhalten Sie Tipps für das Spielen in nicht-englischen Versionen.",
+      "why": "Warum Road to Vostok Sprach-Guides prüfen?",
+      "whySteps": {
+        "step1Title": "In Ihrer Sprache spielen",
+        "step1Description": "Finden Sie heraus, welche Sprachen unterstützt werden und wie Sie Ihre bevorzugten Spracheinstellungen aktivieren",
+        "step2Title": "Übersetzungsstatus verstehen",
+        "step2Description": "Wissen, welche Spielelemente übersetzt sind und welche noch das englische Original erfordern",
+        "step3Title": "Globaler Community beitreten",
+        "step3Description": "Vernetzen Sie sich mit chinesischen, japanischen, russischen und anderen regionalen Communities"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Sprach-Guides"
     }
   }
 }
