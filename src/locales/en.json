@@ -118,6 +118,26 @@
         "icon": "Gamepad2",
         "title": "Road to Vostok Steam Deck",
         "description": "Platinum Proton rating, Linux roadmap, and controller support status"
+      },
+      {
+        "icon": "Clock",
+        "title": "Road to Vostok Demo",
+        "description": "Demo history from 2022 to Early Access launch and what still applies today"
+      },
+      {
+        "icon": "Flag",
+        "title": "Road to Vostok Factions",
+        "description": "Bandits in Area 05, Guards at the Border, and the Military in Vostok"
+      },
+      {
+        "icon": "Archive",
+        "title": "Road to Vostok Loot Guide",
+        "description": "Container logic, rarity buckets, and efficient search routes for each zone"
+      },
+      {
+        "icon": "Heart",
+        "title": "Road to Vostok Medical Guide",
+        "description": "Injuries, afflictions, healing items, and the Doctor trader location guide"
       }
     ]
   },
@@ -610,7 +630,12 @@
       "title": "Road to Vostok Tasks Guide",
       "subtitle": "Track the current task flow, the items that matter most, and the progression blockers worth stashing early.",
       "intro": "Early Access already includes trading and task progression in Area 05. The current task loop revolves around active trader hubs, key hand-in items, and utility pieces that can quietly block your progress if you sell them too fast.",
-      "columns": ["Focus", "Current Known Data", "Why It Matters", "What to Keep"],
+      "columns": [
+        "Focus",
+        "Current Known Data",
+        "Why It Matters",
+        "What to Keep"
+      ],
       "rows": [
         {
           "focus": "Active task hubs",
@@ -695,6 +720,259 @@
         {
           "question": "What about controller support in Road to Vostok?",
           "answer": "Full native controller support is not the main Early Access focus. Community discussion tied to the official FAQ states controller support is planned before the main release, and users already report the game can be played with controller setup work, but without aim assist."
+        }
+      ]
+    },
+    "demoTimeline": {
+      "eyebrow": "DEMO HISTORY",
+      "title": "Road to Vostok Demo Timeline",
+      "subtitle": "The public demo track ran for over two years before Early Access and still shapes how new players discover the game.",
+      "intro": "Road to Vostok used a multi-stage public demo process before launching into Early Access. The Steam store notes say the project went through 4 demos, 15 demo updates, 35 devlog videos, 800,000 demo players, and 3,000 bug and feedback reports before release.",
+      "items": [
+        {
+          "date": "September 26, 2022",
+          "milestone": "Standalone Steam demo app goes live",
+          "details": "SteamDB lists the separate Road to Vostok Demo app as released on this date. This marks the start of the public Steam demo track tied to the main game."
+        },
+        {
+          "date": "June 10, 2024",
+          "milestone": "Public Demo 2 v2 patch roadmap published",
+          "details": "The official news post outlined three planned follow-up waves: an October optimization patch, a November content patch, and a December balancing patch."
+        },
+        {
+          "date": "December 2024",
+          "milestone": "Two-year demo phase ends",
+          "details": "Steam's Early Access Q&A states that Road to Vostok ended its two-year-long demo phase in December 2024, after which the focus shifted fully to the Early Access build."
+        },
+        {
+          "date": "October 2025",
+          "milestone": "Final Demo is the last pre-launch milestone",
+          "details": "The final demo was positioned as the closest public look at the commercial version before release — a build that represented the commercial version as closely as possible."
+        },
+        {
+          "date": "April 7, 2026",
+          "milestone": "Early Access launches on Steam",
+          "details": "Road to Vostok entered Steam Early Access on this date. The store page still offers a demo download alongside the paid Early Access build, keeping demo-related search intent alive."
+        },
+        {
+          "date": "Now",
+          "milestone": "What demo knowledge still carries over",
+          "details": "The most reusable demo lessons are the zone ladder from Area 05 to Border Zone to Vostok, inventory management, physics-based looting, barter-first survival, and the escalating danger of Bandits, Guards, and Military."
+        }
+      ]
+    },
+    "factions": {
+      "eyebrow": "FACTIONS",
+      "title": "Road to Vostok Factions: Bandits, Guards, and Military",
+      "subtitle": "Road to Vostok uses factions to teach the risk curve of the whole campaign. Who you are fighting tells you how serious the run has become.",
+      "intro": "Area 05 is shaped by Bandits, the Border Zone is controlled by Guards, and Vostok itself is dominated by the Military. That structure maps directly onto progression: the farther east you push, the more organized and punishing the opposition becomes.",
+      "items": [
+        {
+          "name": "Bandits",
+          "zone": "Area 05",
+          "role": "Starting-zone hostile pressure",
+          "riskLevel": "Low to Medium",
+          "description": "An anarchist group taking advantage of the lack of authority in Area 05. They are the first faction most players learn to fight — the core threat around early shelters, traders, and starter loot routes.",
+          "behaviorNotes": [
+            "Can run away when scared or heavily wounded",
+            "Use cover during firefights",
+            "Can ambush indoors or stalk the player's last known position"
+          ],
+          "equipmentNote": "Can spawn with a range of weapons, headgear, backpacks, and loot. Some carry two weapons."
+        },
+        {
+          "name": "Guards",
+          "zone": "Border Zone",
+          "role": "Crossing-point enforcers",
+          "riskLevel": "Medium to High",
+          "description": "Armed, corrupt enforcers who control the Border Zone between Finland and Russia. They rely on air support to prevent crossings and layer onto environmental threats like mines and waterways.",
+          "behaviorNotes": [
+            "Hold the approaches to crossing points",
+            "Layer onto mines, obstacles, and waterway threats",
+            "Punish direct pushes more than Area 05 encounters do"
+          ],
+          "equipmentNote": "Framed as organized border security rather than scavengers — more structured and coordinated than Bandits."
+        },
+        {
+          "name": "Military",
+          "zone": "Vostok",
+          "role": "Endgame faction",
+          "riskLevel": "Very High",
+          "description": "The most dangerous faction in the game, controlling Vostok — the high-risk, high-reward permadeath region. Designed to turn Vostok into a deliberate endgame commitment rather than a casual loot stop.",
+          "behaviorNotes": [
+            "Operates inside the permadeath zone",
+            "Uses heavy weaponry",
+            "Can use armored vehicles"
+          ],
+          "equipmentNote": "Heavy weaponry and armored vehicle support make the Military far more dangerous than either of the other two factions."
+        }
+      ]
+    },
+    "lootGuide": {
+      "eyebrow": "LOOT",
+      "title": "Road to Vostok Loot Guide: How Loot Works",
+      "subtitle": "Efficient looting is about opening the right containers, not every container. The game uses container-specific logic and rarity buckets to decide what appears.",
+      "intro": "Road to Vostok's loot system is structured rather than fully random. Each container type has its own loot table, the game sorts possible items into rarity buckets, and weight checks can stop items from spawning if a container would be overloaded. The documented roll outcomes: 51% no loot, 28% common, 15% common plus uncommon, 4% common plus rare, 2% common plus legendary.",
+      "headers": [
+        "Container",
+        "Key Locations",
+        "Common Contents",
+        "Practical Takeaway"
+      ],
+      "items": [
+        {
+          "container": "Medical Cabinet",
+          "location": "Village (6 total)",
+          "contents": "Medicine — IFAK noted as extremely rare",
+          "takeaway": "Cleanest early source of survival items with a narrow, directly useful loot pool."
+        },
+        {
+          "container": "Fridge / Freezer",
+          "location": "Village (9 fridges, 10 freezers), Shipyard (1 fridge)",
+          "contents": "Food only",
+          "takeaway": "Best stop for keeping hydration and energy above zero before stamina penalties begin stacking."
+        },
+        {
+          "container": "Wooden Crate / Cabinet / Locker",
+          "location": "Village (9 / 54 / 10), Shipyard (15 / 54 / 16)",
+          "contents": "Food, ammo, medicine, guns, materials, and modules",
+          "takeaway": "Broadest-value containers — can support combat, healing, shelter progress, and crafting in one run."
+        },
+        {
+          "container": "Bandit Corpse",
+          "location": "Village (14), Shipyard (16)",
+          "contents": "Food, clothes, ammo, and guns",
+          "takeaway": "Strong follow-up loot after fights — especially useful for quick ammo and weapon upgrades."
+        },
+        {
+          "container": "Fusebox / Electric Box",
+          "location": "Village (8 fuseboxes, 6 electric boxes), Shipyard (1 fusebox)",
+          "contents": "Duct tape and wires",
+          "takeaway": "Reliable utility stop when the run goal is shelter progress, crafting, or trader task support."
+        },
+        {
+          "container": "Shipyard Containers",
+          "location": "Shipyard (38 containers, 1 truck container)",
+          "contents": "Random floor items — often rare rigs and armor plates",
+          "takeaway": "Higher-upside search for players willing to trade time and route safety for rare armor-class loot."
+        }
+      ]
+    },
+    "medicalGuide": {
+      "eyebrow": "MEDICAL",
+      "title": "Road to Vostok Medical Guide: Injuries and Healing",
+      "subtitle": "Road to Vostok treats medical management as part of survival. Knowing what each condition does and what fixes it is a big part of staying alive.",
+      "intro": "Medical play in Road to Vostok covers bleeding, fractures, hydration, energy, weight penalties, and the weight cost of every item in your bag. The medical system is structured enough to build a reliable pocket kit without carrying everything.",
+      "items": [
+        {
+          "title": "Bleeding and Rupture Control",
+          "summary": "The most urgent trauma states — both drain 1 health per second.",
+          "sections": [
+            {
+              "label": "Causes",
+              "value": "Bleeding: weapon, knife, fall damage, or explosions. Rupture: weapon, knife, or explosions."
+            },
+            {
+              "label": "Effects",
+              "value": "Bleeding drains 1 health per second. Rupture also drains 1 health per second."
+            },
+            {
+              "label": "Cures",
+              "value": "Bleeding — Bandage, Tourniquet, Medkit, IFAK, AFAK. Rupture — Medkit, IFAK, AFAK."
+            },
+            {
+              "label": "Key Items",
+              "value": "Bandage: 0.1 kg, 4s use, 20 health. Tourniquet: 0.1 kg, 4s use. IFAK: 0.5 kg, 4s use, 50 health."
+            }
+          ]
+        },
+        {
+          "title": "Fracture, Burn, and Heavy Trauma",
+          "summary": "Movement loss is often as dangerous as raw damage, especially when you still need to extract.",
+          "sections": [
+            {
+              "label": "Fracture Effect",
+              "value": "Health drains 1 every 5 seconds. Movement speed, swim speed, and jump height all drop by 50%."
+            },
+            {
+              "label": "Fracture Cures",
+              "value": "Splint, Medkit, IFAK, and AFAK all cure fractures."
+            },
+            {
+              "label": "Burn Cures",
+              "value": "Lotion, Bandage, Medkit, IFAK, and AFAK."
+            },
+            {
+              "label": "Key Items",
+              "value": "Medkit: 0.8 kg, 4s use, 50 health. Splint: 0.1 kg, 4s use. Lotion: 0.2 kg, 2s use."
+            }
+          ]
+        },
+        {
+          "title": "Dehydration and Starvation",
+          "summary": "These survival failures quietly wreck runs if you ignore food and drink.",
+          "sections": [
+            {
+              "label": "When They Trigger",
+              "value": "Starvation begins when Energy reaches 0. Dehydration begins when Hydration reaches 0."
+            },
+            {
+              "label": "Effects",
+              "value": "Both drain 1 health every 10 seconds, increase stamina consumption by 50%, and reduce stamina regeneration by 50%."
+            },
+            {
+              "label": "Cures",
+              "value": "Starvation: keep Energy above 0 with food. Dehydration: keep Hydration above 0 with drinks or IV Kit."
+            },
+            {
+              "label": "Why It Matters",
+              "value": "Stamina penalties wreck combat, escape routes, and looting efficiency even before the health drain becomes critical."
+            }
+          ]
+        },
+        {
+          "title": "Overweight Emergency",
+          "summary": "A bad inventory decision can be as dangerous as an untreated injury.",
+          "sections": [
+            {
+              "label": "Trigger",
+              "value": "Overweight begins when you carry more than your weight limit."
+            },
+            {
+              "label": "Effects",
+              "value": "Stamina consumption increases 50%, stamina regeneration is disabled, and movement, swim, and jump speed all drop by 50%."
+            },
+            {
+              "label": "Fixes",
+              "value": "Drop items, swap into higher-capacity gear. Detached weapon attachments weigh more in inventory than when attached."
+            },
+            {
+              "label": "Run Impact",
+              "value": "Overweight turns winning fights into losing extractions — loot discipline is part of medical discipline in Road to Vostok."
+            }
+          ]
+        },
+        {
+          "title": "Doctor Trader and Your Pocket Kit",
+          "summary": "The Doctor is the dedicated medical trader — the easiest way to stabilize your healing economy.",
+          "sections": [
+            {
+              "label": "Doctor Location",
+              "value": "Shipyard, basement of Hamikot Logistics building — first building on the left after entering from Village."
+            },
+            {
+              "label": "Stock",
+              "value": "Bandage, Medkit, Tourniquet, and other medical items."
+            },
+            {
+              "label": "Restock Timing",
+              "value": "Restocks every 10 minutes with randomized stock each cycle."
+            },
+            {
+              "label": "Pocket Kit",
+              "value": "Light all-purpose setup: Bandage 0.1 kg, Tourniquet 0.1 kg, Splint 0.1 kg, plus IFAK 0.5 kg or Medkit 0.8 kg."
+            }
+          ]
         }
       ]
     }

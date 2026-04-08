@@ -3,11 +3,15 @@
 import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   ArrowRight,
+  Archive,
   BookOpen,
   Check,
   ChevronDown,
+  Clock,
   Crosshair,
   ExternalLink,
+  Flag,
+  Heart,
   MessageCircle,
   Monitor,
   Sparkles,
@@ -290,7 +294,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'release-date', 'beginner-guide', 'maps', 'roadmap',
                 'system-requirements', 'weapons-guide', 'zone-guide', 'shelter-customization',
-                'traders-guide', 'tasks-guide', 'multiplayer', 'steam-deck'
+                'traders-guide', 'tasks-guide', 'multiplayer', 'steam-deck',
+                'demo', 'factions', 'loot-guide', 'medical-guide'
               ]
               const sectionId = sectionIds[index]
 
@@ -902,6 +907,249 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </summary>
                 <div className="px-5 pb-5 pt-1">
                   <p className="text-muted-foreground text-sm leading-relaxed">{item.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 13: Demo Timeline */}
+      <section id="demo" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Clock className="w-3.5 h-3.5" />
+              {t.modules.demoTimeline.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.demoTimeline.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.demoTimeline.subtitle}
+            </p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">
+              {t.modules.demoTimeline.intro}
+            </p>
+          </div>
+
+          {/* Vertical Timeline */}
+          <div className="scroll-reveal relative">
+            {/* Timeline rail */}
+            <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-[hsl(var(--nav-theme)/0.2)] hidden sm:block" />
+            <div className="space-y-6">
+              {t.modules.demoTimeline.items.map((item: any, index: number) => {
+                const isLast = index === t.modules.demoTimeline.items.length - 1
+                const dotColor = isLast
+                  ? 'bg-[hsl(var(--nav-theme-light))] border-[hsl(var(--nav-theme))]'
+                  : index === 4
+                  ? 'bg-emerald-500 border-emerald-400'
+                  : 'bg-[hsl(var(--nav-theme)/0.3)] border-[hsl(var(--nav-theme)/0.5)]'
+                return (
+                  <div key={index} className="flex gap-6 group">
+                    {/* Timeline dot */}
+                    <div className="flex-shrink-0 relative z-10 hidden sm:flex">
+                      <div className={`w-12 h-12 rounded-full border-2 ${dotColor} flex items-center justify-center`}>
+                        <Clock className="w-5 h-5 text-white" />
+                      </div>
+                    </div>
+                    {/* Card */}
+                    <div className="flex-1 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                      <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold
+                                       bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                                       text-[hsl(var(--nav-theme-light))] mb-3">
+                        {item.date}
+                      </span>
+                      <h3 className="font-bold text-base mb-2">{item.milestone}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.details}</p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 14: Factions */}
+      <section id="factions" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Flag className="w-3.5 h-3.5" />
+              {t.modules.factions.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.factions.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.factions.subtitle}
+            </p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">
+              {t.modules.factions.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-5">
+            {t.modules.factions.items.map((faction: any, index: number) => {
+              const riskConfig: Record<string, { color: string; bg: string }> = {
+                'Low to Medium': { color: 'text-emerald-400', bg: 'bg-emerald-500/10 border-emerald-500/30' },
+                'Medium to High': { color: 'text-orange-400', bg: 'bg-orange-500/10 border-orange-500/30' },
+                'Very High': { color: 'text-red-400', bg: 'bg-red-500/10 border-red-500/30' },
+              }
+              const risk = riskConfig[faction.riskLevel] || { color: 'text-[hsl(var(--nav-theme-light))]', bg: 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]' }
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col gap-4">
+                  {/* Header */}
+                  <div className="flex items-start justify-between gap-3 flex-wrap">
+                    <div>
+                      <span className="text-xs text-muted-foreground block mb-1">{faction.zone}</span>
+                      <h3 className="font-bold text-xl text-[hsl(var(--nav-theme-light))]">{faction.name}</h3>
+                      <span className="text-xs text-muted-foreground">{faction.role}</span>
+                    </div>
+                    <span className={`text-xs px-2 py-1 rounded-full border flex-shrink-0 ${risk.bg} ${risk.color}`}>
+                      {faction.riskLevel}
+                    </span>
+                  </div>
+                  {/* Description */}
+                  <p className="text-muted-foreground text-sm leading-relaxed">{faction.description}</p>
+                  {/* Behavior Notes */}
+                  <div>
+                    <p className="text-xs font-semibold text-foreground/70 mb-2 uppercase tracking-wide">Behavior</p>
+                    <ul className="space-y-1.5">
+                      {faction.behaviorNotes.map((note: string, ni: number) => (
+                        <li key={ni} className="flex items-start gap-2 text-sm">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span className="text-muted-foreground">{note}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  {/* Equipment note */}
+                  <p className="text-xs text-[hsl(var(--nav-theme-light))/0.9] bg-[hsl(var(--nav-theme)/0.08)] rounded-lg px-3 py-2 mt-auto">
+                    {faction.equipmentNote}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 中型横幅 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 15: Loot Guide */}
+      <section id="loot-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Archive className="w-3.5 h-3.5" />
+              {t.modules.lootGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.lootGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.lootGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">
+              {t.modules.lootGuide.intro}
+            </p>
+          </div>
+
+          {/* Desktop Table */}
+          <div className="scroll-reveal overflow-hidden rounded-xl border border-border mb-4">
+            <div className="hidden md:block overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                    {t.modules.lootGuide.headers.map((h: string, i: number) => (
+                      <th key={i} className={`px-4 py-3 text-left font-semibold ${i === 0 ? 'text-muted-foreground w-44' : 'text-[hsl(var(--nav-theme-light))]'}`}>
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.modules.lootGuide.items.map((row: any, i: number) => (
+                    <tr key={i} className={`border-b border-border hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${i % 2 === 0 ? 'bg-white/[0.02]' : 'bg-white/[0.04]'}`}>
+                      <td className="px-4 py-3 text-muted-foreground font-medium align-top">{row.container}</td>
+                      <td className="px-4 py-3 align-top text-sm">{row.location}</td>
+                      <td className="px-4 py-3 align-top text-sm">{row.contents}</td>
+                      <td className="px-4 py-3 font-medium text-[hsl(var(--nav-theme-light))] align-top text-sm">{row.takeaway}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {/* Mobile stacked cards */}
+            <div className="md:hidden divide-y divide-border">
+              {t.modules.lootGuide.items.map((row: any, i: number) => (
+                <div key={i} className="p-4 bg-white/[0.02]">
+                  <p className="text-sm font-semibold text-[hsl(var(--nav-theme-light))] mb-2">{row.container}</p>
+                  <p className="text-xs text-muted-foreground mb-1"><span className="font-medium text-foreground/70">Location:</span> {row.location}</p>
+                  <p className="text-xs text-muted-foreground mb-2"><span className="font-medium text-foreground/70">Contents:</span> {row.contents}</p>
+                  <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] bg-[hsl(var(--nav-theme)/0.08)] rounded-lg px-3 py-1.5">{row.takeaway}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Medical Guide */}
+      <section id="medical-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                             bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                             text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-4">
+              <Heart className="w-3.5 h-3.5" />
+              {t.modules.medicalGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.medicalGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.medicalGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">
+              {t.modules.medicalGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.medicalGuide.items.map((item: any, index: number) => (
+              <details key={index} className="group border border-border rounded-xl overflow-hidden">
+                <summary className="flex items-center justify-between p-5 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                  <div className="flex flex-col gap-1 pr-4">
+                    <span className="font-semibold">{item.title}</span>
+                    <span className="text-sm text-muted-foreground">{item.summary}</span>
+                  </div>
+                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
+                </summary>
+                <div className="px-5 pb-5 pt-1">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {item.sections.map((sec: any, si: number) => (
+                      <div key={si} className="p-3 rounded-lg bg-white/5 border border-border">
+                        <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1 uppercase tracking-wide">{sec.label}</p>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{sec.value}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </details>
             ))}

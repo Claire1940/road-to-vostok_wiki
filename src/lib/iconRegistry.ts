@@ -36,6 +36,9 @@ export const iconRegistry: Record<string, LucideIcon> = {
   ShoppingBag: LucideIcons.ShoppingBag,
   ClipboardList: LucideIcons.ClipboardList,
   Laptop: LucideIcons.Laptop,
+  Flag: LucideIcons.Flag,
+  Archive: LucideIcons.Archive,
+  Heart: LucideIcons.Heart,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
