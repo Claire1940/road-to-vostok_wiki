@@ -1,0 +1,125 @@
+export const metadata = {
+  title: "How to Mod Road to Vostok: The Ultimate Installation Guide 2026",
+  description: "Learn how to mod Road to Vostok with our comprehensive 2026 guide. Master the Metro Mod Loader, MCM setup, and immersive overhaul installations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/fff?text=How+to+Mod+Road+to+Vostok",
+  date: "2026-04-22",
+  author: "Road to Vostok Wiki Team"
+}
+
+Road to Vostok has quickly established itself as a premier hardcore survival experience, but the community-driven enhancements are what truly push the game into a league of its own. Because the developer encourages a "play your own way" philosophy, learning **how to mod road to vostok** is one of the best ways to tailor the difficulty, immersion, and visual fidelity to your specific tastes. Whether you are looking to tweak AI behavior or overhaul the entire ballistics system, the process is remarkably accessible once you understand the underlying file structure.
+
+In this guide, we will break down the exact steps required for a clean installation. From setting up the essential Metro Mod Loader to managing your load order within the game's engine, this walkthrough ensures you can enhance your survival journey without breaking your save files. Understanding **how to mod road to vostok** properly is the difference between a seamless tactical experience and a frustrating technical headache, so follow these steps closely to get started in 2026.
+
+## Understanding the Modding Architecture
+
+Before moving files around, it is vital to understand that Road to Vostok utilizes two distinct directory paths for its modding framework. Unlike some games that keep everything in a single "Mods" folder, this title requires specific configuration files to be placed in the root directory, while the actual logic scripts often reside in your local AppData.
+
+The modding community primarily relies on the **Metro Mod Loader**. This tool acts as the bridge between the base game files and the custom scripts authored by creators. Without this loader, the game will simply ignore any third-party additions you place in your folders.
+
+### Essential File Paths
+
+| Component | Destination Type | Typical Path |
+| :--- | :--- | :--- |
+| **Game Root Folder** | Steam Installation | `SteamLibrary\steamapps\common\Road to Vostok` |
+| **AppData Folder** | Local User Data | `%appdata%\RoadToVostok` |
+| **Override Config** | Root Directory | Placed directly in the main game folder |
+| **Mod Loader Script** | AppData Directory | Placed inside the specific game data folder |
+
+> **⚠️ Warning:** Always create a manual backup of your save files before installing mods. Navigate to your AppData folder and copy all files ending in `.tre` to a secure "Backup" folder.
+
+## Step-By-Step: Installing the Metro Mod Loader
+
+The Metro Mod Loader is the foundational requirement for nearly every modification available for the game. This loader consists of two primary files: `mod_loader.gd` and `override_config`.
+
+### 1. Accessing the Game Root
+To find your game folder, right-click **Road to Vostok** in your Steam Library, select **Manage**, and then click **Browse local files**. This will open the directory where the game's executable is located. 
+
+### 2. Placing the Override Configuration
+Take the `override_config` file from your downloaded mod loader archive and drop it directly into this root folder. While you are here, you should also create a new folder named exactly `mods`. This is where you will eventually place your individual mod files (like the Mod Configuration Menu).
+
+### 3. Navigating to AppData
+Press `Windows + R` on your keyboard, type `%appdata%`, and hit Enter. Look for the folder associated with your version of the game. 
+*   **Early Access Version:** Look for the folder simply named `RoadToVostok`.
+*   **Demo Version:** You may see a folder labeled `Road to Vostok Demo`. Ensure you are using the folder that matches the version you intend to play.
+
+Move the `mod_loader.gd` file into this AppData folder. This script tells the game engine to look for the "mods" folder you created in the previous step.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/VCyJ48OqNsI"
+    title="How to add mods to Road to Vostok (Early Access)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Essential Initial Mods to Install
+
+Once the loader is active, you shouldn't just start grabbing every mod you see. There is a specific hierarchy of tools that make the experience much smoother. The most important of these is the **Mod Configuration Menu (MCM)**.
+
+### Recommended Starter Mods
+
+| Mod Name | Purpose | Key Features |
+| :--- | :--- | :--- |
+| **Mod Configuration Menu (MCM)** | Interface | Adds a settings menu for other mods |
+| **Immersive Overhaul** | Gameplay | Tweaks AI vision, hearing, and suppression |
+| **AI Spawn Adjuster** | Difficulty | Increases or decreases total AI on the map |
+| **FOV & ADS Tweak** | Visuals | Allows for custom Field of View and zoom toggle |
+
+The MCM is essentially a "mod for mods." It provides a user-friendly interface within the game's settings menu, allowing you to use sliders and toggles rather than editing text files. To install it, simply download the file and drop it into the `mods` folder you created in the Game Root directory.
+
+## Managing Load Order and Priorities
+
+When you launch the game with the Metro Mod Loader installed, a small pop-up window will appear before the main menu. This is the load order manager. Understanding how to prioritize these files is a crucial part of learning **how to mod road to vostok**.
+
+The loader uses a numerical priority system. A **lower number** means the mod loads earlier. In most cases, you want your framework mods (like MCM) to have the lowest priority number (e.g., 0 or 1) so they are ready before the gameplay overhauls attempt to utilize them.
+
+1.  **Priority 0-1:** Frameworks and Menus (MCM).
+2.  **Priority 2-5:** Large Overhauls (Immersive Overhaul).
+3.  **Priority 6+:** Minor tweaks, weapon skins, or specific sound replacements.
+
+> **💡 Tip:** If a mod isn't showing up in the game, check the loader pop-up to ensure the box next to the mod name is checked. You can temporarily disable mods by unchecking them here without deleting the files.
+
+## Configuring Mods In-Game
+
+After the game reaches the main menu, navigate to the **Settings** tab. If you installed the Mod Configuration Menu correctly, you will see a new button labeled **MCM**.
+
+Clicking this button opens a sub-menu where you can fine-tune your experience. For instance, if you are using the Immersive Overhaul, you can:
+*   Adjust the **AI Count** (up to 15 or more, depending on your CPU performance).
+*   Toggle **ADS Zoom** on or off for a more realistic feel.
+*   Change the **FOV degrees** beyond the standard game limits.
+*   Modify **AI hearing ranges**, making stealth more or less viable.
+
+Remember that increasing AI counts significantly can impact your frame rate. It is recommended to increase these values in small increments to find the "sweet spot" for your hardware.
+
+## Troubleshooting Common Issues
+
+Even if you know **how to mod road to vostok**, updates to the game can sometimes break existing installations. The game is in active development, meaning the file structure may shift.
+
+*   **Version Mismatch:** Always look for the "Purple Tag" on mod hosting sites, which usually indicates compatibility with the latest Early Access release.
+*   **Mod Not Loading:** Double-check that `override_config` is in the Root folder and `mod_loader.gd` is in the AppData folder. If these are swapped, nothing will work.
+*   **Game Crashes on Launch:** This is usually a load order issue. Try disabling all mods in the loader and re-enabling them one by one to identify the culprit.
+*   **Missing MCM Button:** This usually means the MCM mod file is not in the `mods` folder or the mod loader itself isn't active.
+
+For the latest updates and community support, visiting the [Road to Vostok Steam Community](https://steamcommunity.com/app/2128580) is highly recommended, as players frequently share configuration files and compatibility patches for new game versions.
+
+## FAQ
+
+**Q: Will modding Road to Vostok get me banned?**
+
+A: No. Road to Vostok is currently a single-player focused experience, and the developer actively encourages the community to mod the game to fit their personal playstyles. There are no anti-cheat systems that would penalize you for using mods.
+
+**Q: Where can I find the best mods for the game?**
+
+A: Most creators host their work on community Discords or dedicated modding sites. Look for the "Road to Vostok Modding" channels in the official community hubs for the most up-to-date links.
+
+**Q: How do I completely remove all mods?**
+
+A: To revert to a vanilla state, delete the `mods` folder in your game directory, remove the `override_config` file from the root, and delete `mod_loader.gd` from your AppData folder. You may also want to "Verify Integrity of Game Files" through Steam to ensure everything is back to default.
+
+**Q: Does learning how to mod road to vostok require coding knowledge?**
+
+A: Not at all. While the mods themselves are written in GDScript (Godot's scripting language), the installation process only requires moving files and folders. If you can copy-paste and rename folders, you can mod this game.
