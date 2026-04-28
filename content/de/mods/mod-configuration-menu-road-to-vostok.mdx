@@ -1,0 +1,191 @@
+export const metadata = {
+  title: "mod configuration menu road to vostok: Einrichtung, Lade-Reihenfolge & Fixes 2026",
+  description: "Erfahre, wie du das Mod Configuration Menu in Road to Vostok installierst und nutzt – einschließlich Loader-Einrichtung, Lade-Reihenfolge, Performance-Tuning und häufiger Fixes.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Road+to+Vostok+MCM+Guide",
+  date: "2026-04-29",
+  author: "Road to Vostok Wiki Team"
+}
+
+Wenn du 2026 eine sauberere Mod-Kontrolle willst, sollte **mod configuration menu road to vostok** deine erste Installation sein. Die meisten Spieler springen direkt zu Waffenpaketen oder AI-Overhauls, aber wenn du **mod configuration menu road to vostok** früh einrichtest, bekommst du eine sicherere Grundlage für jede zukünftige Mod. Statt jedes Mal Dateien manuell zu bearbeiten, kannst du – sofern unterstützt – In-Game-Schalter, Slider und Presets nutzen. Das bedeutet schnelleres Testen, weniger Konflikte und einfacheres Zurückrollen, wenn sich etwas falsch anfühlt. In diesem Tutorial bekommst du einen praktischen Einrichtungsablauf: Loader installieren, Dateien korrekt platzieren, Ladepriorität setzen, den MCM-Button in den Einstellungen prüfen und Performance-Einbrüche beheben, die mit aggressiver KI oder Grafikoptionen zusammenhängen. Folge jedem Abschnitt der Reihe nach, und du erhältst ein stabiles, upgrade-freundliches modifiziertes Profil.
+
+## Warum das Mod Configuration Menu in Road to Vostok wichtig ist
+
+In Road to Vostok kann Modding von kleinen Quality-of-Life-Anpassungen bis zu vollständigen Gameplay-Overhauls reichen. Warum **mod configuration menu road to vostok** so wichtig ist, ist einfach: Es fungiert als gemeinsame Steuerungsebene für unterstützte Mods.
+
+Statt Konfigurationsdateien zu öffnen, kannst du Optionen im Spiel anpassen:
+
+- FOV- und ADS-Verhalten
+- KI-Spawn-Anzahlen
+- Sichtbarkeits- und Hör-Intensität (je nach Mod)
+- Feature-Toggles für modulare Overhauls
+
+Das reduziert Reibung beim Testen und hilft dir, Einstellungen in laufenden Gameplay-Sessions schnell zu vergleichen.
+
+| Vorteil | Was es verändert | Warum es hilft |
+|---|---|---|
+| **Zentralisierte Einstellungen** | Viele Mod-Optionen erscheinen in einem Menü | Schnellere Iteration zwischen Raids |
+| **Weniger Einrichtungsaufwand** | Weniger manuelle Konfigurationsänderungen | Weniger Spielraum für Dateifehler |
+| **Sichereres Experimentieren** | Features ohne Neuinstallation ein-/ausschalten | Probleme leichter isolierbar |
+| **Kompatibilitätsbereitschaft** | Einige fortgeschrittene Mods erwarten MCM | Verhindert Probleme mit fehlenden Menüs |
+
+> **⚠️ Warnung:** MCM ist keine universelle Wunderlösung. Eine Mod muss das Menüsystem weiterhin unterstützen, damit dort Einstellungen angezeigt werden.
+
+Für offizielle Spielupdates und Patch-Kontext behalte die [Road to Vostok Steam-Seite](https://store.steampowered.com/app/1963610/Road_to_Vostok/) im Blick, besonders bevor du ein stark gemoddetes Setup aktualisierst.
+
+## Voraussetzungen vor der Installation von mod configuration menu road to vostok
+
+Bevor du Dateien anfasst, bestätige deinen Spielzweig und erstelle ein Backup. So bleibt die Wiederherstellung einfach, falls eine schlechte Kombination Abstürze oder fehlerhaftes Verhalten verursacht.
+
+### 1) Bestätige, dass du die richtige Spielversion moddest
+
+Wenn du zuvor einen Demo-Build genutzt hast, können alte Ordner noch vorhanden sein. Verifiziere, dass dein Zielordner deine aktuelle Early-Access-Installation ist.
+
+### 2) Erstelle ein leichtes Backup von save-relevanten Dateien
+
+Das Sichern von AppData-Inhalten dauert eine Minute und kann dir später Stunden sparen.
+
+### 3) Bereite die erforderlichen Ordner vor
+
+Du brauchst einen **mods**-Ordner im Spielverzeichnis, und du musst Loader-Komponenten an zwei verschiedenen Orten ablegen.
+
+| Element | Speicherort | Aktion |
+|---|---|---|
+| **Spielordner** | Steam → Verwalten → Lokale Dateien durchsuchen | `mods`-Ordner erstellen |
+| **override config** | Stammverzeichnis des Spiels | Datei dorthin kopieren |
+| **mod loader file** | `%appdata%`-Pfad für Road to Vostok | Datei dorthin kopieren |
+| **Backup-Ordner** | Innerhalb von Road to Vostok AppData | Save-relevante Dateien speichern |
+
+> **💡 Tipp:** Nimm Änderungen vor, während das Spiel vollständig geschlossen ist. Mit halb aktualisierten Dateien zu starten, ist eine häufige Ursache für falsche „Mod hat mein Spiel kaputt gemacht“-Meldungen.
+
+## Schritt-für-Schritt-Installationsablauf (Loader + MCM)
+
+Nutze diese Reihenfolge genau. So bleibt dein erster Start sauber und vorhersehbar.
+
+1. Lade das erforderliche Mod-Loader-Paket herunter.
+2. Entpacke das Archiv.
+3. Verschiebe die Override-Config-Datei des Loaders in dein Spielverzeichnis.
+4. Verschiebe die Laufzeitdatei des Loaders in den Road-to-Vostok-AppData-Pfad.
+5. Erstelle einen `mods`-Ordner, falls er fehlt.
+6. Lade **mod configuration menu road to vostok** herunter.
+7. Lege die MCM-Datei/den MCM-Ordner in `mods` ab.
+8. Starte das Spiel und öffne den Loader-Bildschirm.
+9. Stelle MCM so ein, dass es früh lädt (niedrige Prioritätszahl).
+
+| Schritt | Erwartetes Ergebnis | Schneller Check |
+|---|---|---|
+| **Loader-Dateien platziert** | Loader-UI erscheint beim Start | Du siehst die Mod-Liste vor dem Hauptmenü |
+| **MCM installiert** | MCM-Eintrag als Mod sichtbar | Aufgelistet und aktiviert |
+| **Priorität gesetzt** | MCM initialisiert vor abhängigen Mods | Andere Mods zeigen später Einstellungen an |
+| **In-Game-Verifizierung** | MCM-Button erscheint in den Einstellungen | Öffnen und unterstützte Mods durchsuchen |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/VCyJ48OqNsI"
+    title="How to add mods to Road to Vostok (Early Access)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Best Practices für Lade-Reihenfolge und In-Game-Konfiguration
+
+Nach der Installation kommen die meisten Probleme durch Reihenfolge und falsche Erwartungen. Ein praktischer Ansatz:
+
+- Framework-artige Mods zuerst laden (einschließlich MCM)
+- Overhauls als Zweites
+- Kosmetische oder kleine Tweaks zuletzt
+- Immer nur eine Einstellungsgruppe ändern und testen
+
+Wenn **mod configuration menu road to vostok** korrekt funktioniert, erscheinen unterstützte Mods in der MCM-Liste. Wenn eine Mod nicht erscheint, unterstützt sie MCM möglicherweise nicht oder lädt falsch.
+
+### Empfohlene anfängliche Ladestrategie
+
+| Prioritätszone | Mod-Typ | Beispielverhalten |
+|---|---|---|
+| **Oben (lädt am frühesten)** | Framework-/UI-Abhängigkeitsmods | MCM und Kern-Helfer |
+| **Mitte** | KI-, Mechanik- und Balance-Overhauls | Kampf- und Spawn-Logik |
+| **Unten** | Optionale Tweaks/Kosmetik | HUD-Stil, kleine Änderungen |
+
+### Tuning-Ziele für die erste Session
+
+Starte konservativ und skaliere dann hoch:
+
+- KI-Anzahl: zunächst moderat halten
+- FOV: in kleinen Schritten anpassen
+- ADS-Zoom: umschalten und auf Distanz testen
+- Sound-/Erkennungs-Modifikatoren: drinnen und draußen testen
+
+> **💡 Tipp:** Wenn du performance-sensitive Einstellungen testest (z. B. höhere KI), laufe dieselbe Route zweimal. Ein Durchlauf als Basis, einer nach den Änderungen. So erkennst du echte Unterschiede schneller.
+
+## Performance- und Stabilitäts-Tuning für größere Mod-Listen
+
+Viele Spieler installieren **mod configuration menu road to vostok**, um größere Overhauls zu unterstützen. Das funktioniert gut, aber einige Kombinationen können Frametimes verschlechtern oder Abstürze erhöhen.
+
+Konzentriere dich zuerst auf diese Regler:
+
+1. KI-Populations-Einstellungen
+2. Sicht-/Hör-Multiplikatoren
+3. Grafiklastige Effekte aus separaten Mods
+4. Konfliktierende Gameplay-Overhauls mit ähnlichen Änderungen
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---|---|---|
+| **Ruckeln im Kampf** | KI-Spawn-Anzahl zu hoch | KI-Limit reduzieren und erneut testen |
+| **Menü vorhanden, Mod fehlt in MCM** | Mod hat keine MCM-Unterstützung oder falsche Version | Kompatibilitäts-Tag/Version prüfen |
+| **Absturz beim Start** | Falsche Dateiablage oder defekte Abhängigkeit | Loader-Dateipfade erneut prüfen |
+| **Einstellungen werden nicht gespeichert** | Berechtigungs-/Pfadproblem in AppData | Mit korrekten Rechten starten, Ordner prüfen |
+| **Inkonsistentes Verhalten nach Updates** | Alte Dateien vom vorherigen Branch | Alte Mod-Kopien bereinigen und neu installieren |
+
+### Sichere Rollback-Methode
+
+Wenn Instabilität auftritt:
+
+- Eine Mod nach der anderen im Loader deaktivieren (schnelle Triage)
+- Wenn ungelöst, neueste Mod aus dem `mods`-Ordner entfernen
+- Aus dem Backup wiederherstellen, falls Save-Verhalten beschädigt wirkt
+- Liste in kleinen Chargen neu aufbauen (2–3 Mods pro Durchlauf)
+
+Dieser Prozess hält dein **mod configuration menu road to vostok**-Setup intakt, während du den tatsächlichen Konflikt isolierst.
+
+## Empfohlener Starter-Stack rund um MCM (2026)
+
+Du kannst schnell eine stabile Basis aufbauen, wenn du nicht sofort mehrere Mega-Overhauls stapelst.
+
+| Stack-Stufe | Was zuerst installieren | Warum |
+|---|---|---|
+| **Stufe 1 (Fundament)** | Loader + **mod configuration menu road to vostok** | Kern-Abhängigkeitsebene |
+| **Stufe 2 (Quality of Life)** | FOV-/ADS-/Support-Mods mit MCM-Steuerung | Schnelle Gewinne, geringes Risiko |
+| **Stufe 3 (Gameplay-Tiefe)** | Ein großer KI-/Kampf-Overhaul | Hoher Einfluss, kontrolliertes Testen |
+| **Stufe 4 (Extras)** | Kosmetik-/Audio-Tweaks | Feinschliff |
+
+Eine praktische wöchentliche Routine im Jahr 2026:
+
+- Einen „stabilen Profil“-Ordnersnapshot behalten
+- Pro Session eine neue Mod testen
+- Geänderte Einstellungen in einer Textnotiz festhalten
+- Mods nur nach Prüfung der Versionskompatibilität aktualisieren
+
+> **⚠️ Warnung:** Wenn zwei Mods dieselben KI-Systeme bearbeiten, garantiert eine höhere Priorität nicht „besser“. Sie entscheidet nur, welche Werte später geladen werden.
+
+Wenn du **mod configuration menu road to vostok** als dein Steuerzentrum behandelst – und nicht nur als eine weitere Mod –, verbringst du weniger Zeit mit Konfliktbehebung und mehr Zeit damit, das Gameplay auf deinen Stil abzustimmen.
+
+## FAQ
+
+**F: Ist mod configuration menu road to vostok für jede Mod erforderlich?**
+
+A: Nein. Manche Mods laufen ohne es. Aber viele fortgeschrittene Mods bieten über MCM sauberere Einstellungen, daher erleichtert eine frühe Installation spätere Erweiterungen.
+
+**F: Ich habe MCM installiert, sehe aber keine Optionen für eine bestimmte Mod. Warum?**
+
+A: Die Mod unterstützt MCM möglicherweise nicht, ist für deinen Spiel-Build veraltet oder lädt in der falschen Reihenfolge. Prüfe Kompatibilitäts-Tags und stelle MCM so ein, dass es zuerst lädt.
+
+**F: Kann ich eine Mod vorübergehend deaktivieren, ohne Dateien zu löschen?**
+
+A: Ja. Nutze das Kontrollkästchen im Mod-Loader, um sie zum Testen zu deaktivieren. Für eine dauerhafte Entfernung schließe das Spiel und entferne die Mod aus dem `mods`-Ordner.
+
+**F: Was ist der sicherste Weg, den Schwierigkeitsgrad mit MCM-Einstellungen zu erhöhen?**
+
+A: Erhöhe jeweils nur eine Variable – üblicherweise zuerst die KI-Anzahl, dann Sicht-/Hör-Werte. Teste Performance und Überlebensfähigkeit, bevor du weitere Änderungen stapelst.

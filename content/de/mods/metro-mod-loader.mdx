@@ -1,0 +1,137 @@
+export const metadata = {
+  title: "Metro Mod Loader: Road to Vostok Modding-Leitfaden 2026",
+  description: "Erfahre, wie du den Metro Mod Loader für Road to Vostok installierst und nutzt. Schritt-für-Schritt-Anleitung für Early-Access-Modding, MCM-Einrichtung und immersive Overhauls.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Metro+Mod+Loader+Guide",
+  date: "2026-04-29",
+  author: "Road to Vostok Wiki-Team"
+}
+
+Die Survival-Horror-Landschaft wurde durch das Aufkommen von Road to Vostok erheblich geprägt, einem Titel, der Spieler dazu ermutigt, ihr Erlebnis durch umfangreiche, von der Community erstellte Inhalte anzupassen. Um dies zu ermöglichen, ist der **metro mod loader** zu einem unverzichtbaren Werkzeug für alle geworden, die ihr Gameplay verbessern möchten. Als grundlegendes Tool dient der **metro mod loader** als Brücke zwischen rohen Spieldateien und den kreativen Ergänzungen, die von der Community entwickelt wurden. Ob du das KI-Verhalten anpassen, Waffenmechaniken verändern oder die gesamte visuelle Atmosphäre überarbeiten möchtest – zu verstehen, wie man diesen Loader einsetzt, ist der erste Schritt zu einem personalisierten Survival-Erlebnis.
+
+In diesem umfassenden Leitfaden sehen wir uns den Installationsprozess, die Integration des Mod Configuration Menu (MCM) und das Verwalten der Ladereihenfolge an, um eine stabile Spielumgebung sicherzustellen. Wenn du diese professionellen Schritte befolgst, kannst du die trostlosen Landschaften von Vostok in eine maßgeschneiderte Herausforderung verwandeln, die zu deinem spezifischen Spielstil passt.
+
+## Was ist der Metro Mod Loader?
+
+Der vom Community-Mitglied Metro entwickelte **metro mod loader** ist ein leichtgewichtiges Dienstprogramm zum Laden von Skripten, das speziell für die Godot-basierte Architektur von Road to Vostok entworfen wurde. Im Gegensatz zu traditionellen Mod-Managern, die möglicherweise Kerndaten des Spiels überschreiben, verwendet dieser Loader ein Override-System, um benutzerdefinierte Skripte und Assets während der Initialisierungsphase des Spiels einzuschleusen.
+
+Dieses Tool ist besonders während der Early-Access-Phase 2026 wichtig, da das Spiel häufige Updates erhält. Der Loader ist auf Robustheit ausgelegt, dennoch sollten Spieler immer sicherstellen, dass sie die Version verwenden, die mit dem aktuellen „EA“-Release kompatibel ist.
+
+| Komponente | Beschreibung | Primäre Funktion |
+| :--- | :--- | :--- |
+| **mod_loader.gd** | Die zentrale Skriptdatei | Übernimmt die Reihenfolge und Einbindung aller Mods im Ordner. |
+| **override.cfg** | Konfigurationsdatei | Weist die Spiel-Engine an, modifizierte Skripte zu erkennen. |
+| **Mods-Ordner** | Vom Benutzer erstelltes Verzeichnis | Das zentrale Verzeichnis, in dem alle `.pck`- oder Skriptdateien gespeichert werden. |
+
+## Vor der Installation: Sichern deiner Daten
+
+Bevor du Spieldateien modifizierst, ist es Best Practice, deinen aktuellen Fortschritt zu sichern. Road to Vostok speichert sensible Spielstände und Konfigurationsdateien im lokalen AppData-Verzeichnis. Modding ist zwar im Allgemeinen sicher, kann aber gelegentlich zu beschädigten Spielständen führen, wenn ein Mod nicht korrekt entfernt wird oder Versionskonflikte auftreten.
+
+1.  Drücke `Windows + R` auf deiner Tastatur, um den Ausführen-Dialog zu öffnen.
+2.  Gib `%appdata%` ein und drücke Enter.
+3.  Navigiere zum Ordner `RoadToVostok` (achte darauf, dass es die aktuelle Version ist, nicht der alte Demo-Ordner).
+4.  Erstelle einen neuen Ordner mit dem Namen **Backup_2026**.
+5.  Kopiere alle Dateien mit der Endung `.tre` sowie deine Konfigurationsdateien in diesen Backup-Ordner.
+
+> **Warnung:** Das Modifizieren von Spieldateien kann zu unerwarteten Abstürzen führen. Halte immer ein aktuelles Backup deiner Spielstände bereit, bevor du neue Versionen des Mod Loaders installierst.
+
+## Schritt-für-Schritt-Installationsanleitung
+
+Die Installation des **metro mod loader** umfasst das Verschieben bestimmter Dateien an zwei unterschiedliche Orte: das Steam-Spielverzeichnis und den AppData-Systemordner. Befolge diese Schritte sorgfältig, damit der Loader korrekt initialisiert wird.
+
+### Teil 1: Das Spielverzeichnis
+Zuerst musst du deine lokalen Spieldateien finden. Klicke in Steam mit der rechten Maustaste auf *Road to Vostok*, wähle **Verwalten** und dann **Lokale Dateien durchsuchen**.
+
+| Zu verschiebende Datei | Ziel | Aktion |
+| :--- | :--- | :--- |
+| **override.cfg** | Stammordner des Spiels | Bei Aufforderung überschreiben (nur bei Update). |
+| **Neuer Ordner** | Stammordner des Spiels | Erstelle einen Ordner namens **mods** (alles klein geschrieben). |
+
+### Teil 2: Das AppData-Verzeichnis
+Die zweite Hälfte des Loaders befindet sich dort, wo das Spiel seine persistenten Daten speichert.
+
+1.  Kehre zum Ordner `%appdata%/RoadToVostok` zurück, den du während der Backup-Phase geöffnet hast.
+2.  Verschiebe die Datei **mod_loader.gd** direkt in dieses Verzeichnis.
+3.  Stelle sicher, dass die Datei nicht in Unterordnern liegt; sie muss neben den Spielständen liegen, damit die Engine sie erkennt.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/VCyJ48OqNsI"
+    title="How to add mods to Road to Vostok (Early Access)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Integration des Mod Configuration Menu (MCM)
+
+Sobald der **metro mod loader** aktiv ist, ist die nächste wichtige Ergänzung das Mod Configuration Menu, oft als MCM bezeichnet. Dieses „Mod für Mods“, erstellt vom Community-Entwickler doink oink, bietet eine grafische Benutzeroberfläche innerhalb der Spieleinstellungen.
+
+Ohne MCM würden viele komplexe Mods verlangen, dass Nutzer Textdateien manuell bearbeiten, um Einstellungen wie FOV, KI-Schwierigkeit oder Spawn-Raten zu ändern. Mit installiertem MCM sind diese Variablen über Schieberegler und Umschalter im Hauptmenü zugänglich.
+
+### So installierst du MCM:
+1.  Lade das MCM-Paket herunter, das mit dem EA-Release 2026 kompatibel ist (achte auf das lila Kompatibilitäts-Tag).
+2.  Entpacke die Datei und verschiebe den resultierenden Ordner/die Datei in den `mods`-Ordner, den du im Spielverzeichnis erstellt hast.
+3.  Starte das Spiel. Du solltest im normalen Einstellungsmenü einen neuen „MCM“-Button sehen.
+
+## Ladereihenfolge und Prioritäten verwalten
+
+Wenn du Road to Vostok mit installiertem Loader startest, erscheint typischerweise vor dem Hauptmenü ein Pop-up-Fenster. Über diese Oberfläche kannst du bestimmte Mods aktivieren oder deaktivieren und – noch wichtiger – ihre Priorität festlegen.
+
+Das Prioritätssystem arbeitet auf einer numerischen Skala, bei der **je kleiner die Zahl, desto früher lädt der Mod**. Für ein stabiles Erlebnis folge dieser empfohlenen Prioritätsstruktur:
+
+| Mod-Typ | Empfohlene Priorität | Grund |
+| :--- | :--- | :--- |
+| **MCM (Mod Config Menu)** | 0 oder 1 | Muss zuerst laden, damit andere Mods ihre Einstellungen registrieren können. |
+| **Core-Frameworks** | 5-10 | Alle Mods, die Assets für andere Mods bereitstellen. |
+| **Overhauls (z. B. Immersive Overhaul)** | 20 | Groß angelegte Änderungen sollten laden, nachdem das Framework gesetzt ist. |
+| **Kleine Tweaks** | 50+ | Einzelne Waffen-Skins oder Sound-Swaps können zuletzt laden. |
+
+> **Tipp:** Wenn das Spiel beim Start abstürzt, deaktiviere im Loader-Fenster zunächst alle Mods und aktiviere sie dann einzeln wieder, um den Verursacher zu identifizieren.
+
+## Empfohlene Inhalte für 2026
+
+Nachdem der **metro mod loader** erfolgreich eingerichtet ist, kannst du nun die beliebtesten Mods für die Early-Access-Version erkunden. Die Community war äußerst produktiv bei der Erstellung von „Immersive Overhauls“, die Schwierigkeit und Realismus des Spiels drastisch verändern.
+
+### Old Man's Immersive Overhaul
+Dies gilt weithin als Goldstandard für Road-to-Vostok-Modding. Es zielt auf mehrere Kernsysteme ab:
+*   **KI-Sicht & Gehör:** Gegner reagieren jetzt realistischer auf Lichtverhältnisse und Geräusche von Schritten oder sich öffnenden Türen.
+*   **Ballistik:** Anpassungen an Geschossabfall und Unterdrückungseffekten.
+*   **UI-Bereinigung:** Entfernung aufdringlicher HUD-Elemente für ein cineastischeres Erlebnis.
+*   **Spawn-Raten:** Ermöglicht Spielern, die Gesamtzahl der KI auf der Karte zu erhöhen (bis zu 15 oder mehr, abhängig von der Hardwareleistung).
+
+| Feature | Mod-Effekt | Vorteil |
+| :--- | :--- | :--- |
+| **KI-Tweaks** | Erhöhte Erkennungsreichweite | Höhere Spannung beim Schleichen. |
+| **Nachladen** | Realistische Animationsgeschwindigkeiten | Verhindert „Run-and-Gun“-Gameplay. |
+| **FOV-Einstellungen** | Erweiterte Sichtwinkel | Bessere periphere Sicht für Ultrawide-Monitore. |
+
+Für weitere Informationen zur Entwicklung des Spiels besuche die [offizielle Road to Vostok Steam-Seite](https://store.steampowered.com/app/1963610/Road_to_Vostok/) für die neuesten Patchnotes und Entwickler-Logs.
+
+## Fehlerbehebung bei häufigen Problemen
+
+Selbst mit einem robusten Tool wie dem **metro mod loader** können Probleme durch Versionskonflikte oder falsche Dateiplatzierung auftreten.
+
+*   **Loader wird nicht angezeigt:** Stelle sicher, dass sich `override.cfg` im Stammordner und `mod_loader.gd` im AppData-Ordner befindet. Fehlt eine der beiden Dateien, startet das Spiel ohne Fehlermeldung im „Vanilla“-Modus.
+*   **MCM-Button fehlt:** Das passiert meist, wenn der MCM-Mod in einem zu tiefen Unterordner innerhalb des `mods`-Verzeichnisses liegt, den der Loader nicht scannt. Halte die Ordnerstruktur flach.
+*   **Leistungseinbrüche:** Das Erhöhen der KI-Anzahl über MCM kann die CPU-Leistung deutlich beeinträchtigen. Wenn du Ruckler bemerkst, reduziere das KI-Spawn-Limit auf 10 oder weniger.
+
+## FAQ
+
+**F: Funktioniert der metro mod loader mit der kostenlosen Demo-Version?**
+
+A: Zwar gab es Versionen des Loaders für die Demo, die aktuelle Version ist jedoch für das Early-Access-Release optimiert. Es wird dringend empfohlen, die EA-kompatible Version des **metro mod loader** zu verwenden, um Abstürze zu vermeiden, da sich die Dateistrukturen zwischen Demo und EA deutlich unterscheiden.
+
+**F: Kann ich diesen Loader für Multiplayer verwenden?**
+
+A: Derzeit ist Road to Vostok auf ein Einzelspieler-Erlebnis ausgerichtet. Modding ist für lokales Spielen vorgesehen. Falls in Zukunft Multiplayer-Funktionen hinzukommen, müssten wahrscheinlich alle Spieler exakt dieselbe Mod-Liste und Ladereihenfolge verwenden, um Desyncs zu vermeiden.
+
+**F: Wie deinstalliere ich alle Mods vollständig?**
+
+A: Um vollständig zum Vanilla-Zustand zurückzukehren, lösche den `mods`-Ordner im Spielverzeichnis und entferne die Datei `override.cfg`. Lösche zusätzlich die Datei `mod_loader.gd` aus deinem AppData-Ordner. Dadurch versucht das Spiel nicht mehr, benutzerdefinierte Skripte zu laden.
+
+**F: Wo finde ich Hilfe, wenn mein Spiel ständig abstürzt?**
+
+A: Die beste Anlaufstelle ist der Road to Vostok Modding Discord. Dort gibt es einen speziellen „user-help“-Kanal, in dem Community-Mitglieder und Mod-Autoren Unterstützung zum Loader und zu bestimmten Overhaul-Paketen bieten. Gib bei Support-Anfragen immer deine Crash-Logs an.
