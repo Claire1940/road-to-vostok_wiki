@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "road to vostok enemies: Complete Tactics & Survival Guide 2026",
+  description: "Master combat against road to vostok enemies with our comprehensive 2026 guide. Learn AI behavior, looting mechanics, and high-stakes survival tactics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Road+to+Vostok+Enemies+Guide",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Road to Vostok enemies** are extremely lethal at close range; maintain a **50-meter buffer** to ensure survival.
+- **Flashlights are traps** during night cycles as they make you a high-visibility target for AI from hundreds of meters away.
+- **Physical Looting** is mandatory for weapons; firearms do not appear in the standard NPC inventory UI.
+- **Vostok Area Permadeath** is absolute, wiping your entire shelter progress and stash if you die in the final zone.
+- **Tourniquets** are the only way to stop severe arterial bleeding, which can kill a player in mere seconds.
+</Callout>
+
+Road to Vostok is a brutal, hardcore survival shooter that refuses to hold the player's hand, especially when dealing with the unpredictable nature of the environment and its inhabitants. Understanding how to handle **road to vostok enemies** is the single most important skill you can develop to prevent losing hours of progress. Unlike arcade shooters where you can rely on quick reflexes, this game demands tactical patience, environmental awareness, and a deep understanding of hidden mechanics that the game never explicitly explains.
+
+Navigating the border zone toward Vostok requires more than just good aim; it requires a shift in mindset. Every encounter with **road to vostok enemies** is a high-stakes gamble where the AI is programmed to punish impulsiveness. In this comprehensive 2026 guide, we will break down the lethal AI behavior, the unique physical looting system, and the critical survival strategies you need to reach the final zone and survive the ultimate test of the Vostok area.
+
+<Section icon={Map} title="Enemy Detection and the Stealth Trap">
+
+The AI in Road to Vostok operates on a sophisticated detection system influenced by light, sound, and time of day. One of the most common mistakes new players make is relying on "comfort items" like flashlights. While the darkness of the Finnish forests is terrifying, turning on a light source effectively places a target on your chest. Enemies may struggle to see in the dark, but they are hyper-sensitive to light sources, allowing them to spot you from over 200 meters away while you can only see two meters ahead.
+
+**Video Highlights:**
+- Why the flashlight is your worst enemy at night.
+- Understanding the "Physical Looting" system for weapons.
+- The lethality of AI at close ranges (under 10 meters).
+- How the shelter system handles time and survival stats.
+
+<YouTubeEmbed videoId="6foRoU3e9Vg" title="Road to Vostok: 10 things the game DOESN'T tell you" />
+
+Visibility is also dictated by the game's 24-hour cycle. Noon represents the peak of enemy activity, where patrols are most aggressive and have maximum visual range. Crossing open fields during the day is a death sentence compared to the relative safety of a low-light midnight transition.
+
+| Factor | Daytime Impact | Nighttime Impact | Tactical Advice |
+| :--- | :--- | :--- | :--- |
+| **Visual Range** | Maximum (300m+) | Minimal (< 50m) | Use night for crossing open areas |
+| **AI Aggression** | High Patrol Frequency | Static/Guarding | Move slowly and use your ears |
+| **Flashlight Use** | Negligible | Extreme Danger | Never use in open hallways or fields |
+| **Detection Speed** | Instant | Delayed (unless lit) | Wait for eyes to adapt to moonlight |
+
+<Callout type="warning" title="Light Pollution">
+Even a momentary flicker of a flashlight can alert every bandit in a 150-meter radius. If you must use a light, turn it on for a split second to check your bearings, then immediately kill the power and reposition.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Engagement and the 50m Rule">
+
+Engaging **road to vostok enemies** requires a strict adherence to the "Golden Rule of 50 Meters." The AI is intentionally tuned to be absurdly lethal at close range. If you attempt to clear a building or a tight hallway using "run-and-gun" tactics, the AI's reaction time will almost always beat yours. At 10 meters, the bandit has the advantage; at 50 meters, you have the tactical upper hand.
+
+Precision is further complicated by the Arm Stamina system. This is a hidden mechanic separate from your overall movement fatigue. Holding your weapon in the "ready" position or firing long bursts drains your arm strength. Once the arm icon turns red, your weapon sway becomes uncontrollable, making it impossible to land shots even on stationary targets.
+
+| Engagement Zone | Threat Level | Recommended Strategy |
+| :--- | :--- | :--- |
+| **0m - 15m** | **Critical** | Avoid direct confrontation; use grenades or wait for them to move. |
+| **15m - 50m** | **High** | Use hard cover; never peek the same angle twice. |
+| **50m - 100m** | **Moderate** | Ideal engagement range for rifles; maintain distance. |
+| **100m+** | **Low** | Sniper territory; AI detection is significantly reduced. |
+
+<Callout type="tip" title="Managing Arm Stamina">
+During a prolonged firefight, you must consciously lower your weapon (using the 'lower weapon' keybind) to recover arm stamina. It feels counter-intuitive to put your gun down while being shot at, but 2 seconds of rest is the difference between a headshot and a wasted magazine.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Physical Looting System">
+
+One of the most frustrating moments for new players is killing a bandit and finding their inventory empty. In most survival games, the weapon is part of the loot UI. In Road to Vostok, the looting system is manual and physical. The weapon the enemy was using remains a physical object in the game world, often still clutched in the NPC's hands or lying on the ground next to the body.
+
+<Steps>
+  <Step num="1" title="Neutralize the Threat">
+    Ensure all enemies in the immediate area are dealt with. Never attempt to loot while a second bandit is active, as map transitions can trigger respawns.
+  </Step>
+  <Step num="2" title="Identify the Physical Weapon">
+    Look at the NPC's hands or the ground within a 1-meter radius of the body. The rifle will be visible as a 3D model.
+  </Step>
+  <Step num="3" title="Manual Interaction">
+    Hover your reticle directly over the weapon model until the interaction prompt appears. Click specifically on the weapon to add it to your hands or backpack.
+  </Step>
+  <Step num="4" title="Check the Inventory UI">
+    Only after grabbing the physical weapon should you open the inventory (Tab) to loot smaller items like ammo, bandages, or food.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Loot Respawns">
+Road to Vostok uses a zone-based reset. Every time you transition between maps or return to your shelter, the loot—and more importantly, the bandits—will respawn. Never assume a previously cleared area is safe after a loading screen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Medical Emergency: The Tourniquet Priority">
+
+The injury system is designed to be punishingly realistic. While common bandages can handle minor scrapes, they are useless against severe arterial bleeding. If you are hit by **road to vostok enemies** and suffer a "Severe Bleed," you have approximately 10 to 15 seconds to live. 
+
+<CardGrid cols={2}>
+  <Card title="The Bandage Trap">
+    Standard bandages take too long to apply and do not stop heavy hemorrhaging. Many players die while the "applying" animation is still running.
+  </Card>
+  <Card title="The Tourniquet Solution">
+    The tourniquet is the most valuable medical item in the game. It stops severe bleeds instantly, buying you time to use other medical supplies.
+  </Card>
+</CardGrid>
+
+| Medical Item | Use Case | Speed | Essential Rating |
+| :--- | :--- | :--- | :--- |
+| **Tourniquet** | Severe/Arterial Bleeding | **Instant/Very Fast** | ★★★★★ |
+| **Bandage** | Minor Bleeding/Scratches | Slow | ★★★☆☆ |
+| **Splint** | Broken Bones/Limping | Moderate | ★★★★☆ |
+| **Painkillers** | Combat Buff/Injury Masking | Fast | ★★★☆☆ |
+
+<Callout type="success" title="The Rule of Two">
+Always carry at least two tourniquets in your quick-access slots. If you take two serious hits in a single ambush, you will need to apply both in rapid succession. Having only one is effectively the same as having none in a multi-hit scenario.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Vostok Area and Absolute Permadeath">
+
+Progressing through the game involves moving through increasingly dangerous zones. While dying in Area 5 is painful—resulting in the loss of your current gear and backpack—the Vostok Area introduces a "Layered Permadeath" system that is unique to the genre. 
+
+Entering the Vostok zone is an irreversible tactical decision. If you die within the borders of Vostok, the game deletes your entire save profile. This includes your weapon stash at the shelter, your base builds, and every bit of progress you've made since starting the game. It is the ultimate "Hardcore" experience.
+
+<Checklist
+  id="vostok-prep"
+  title="Pre-Vostok Deployment Checklist:"
+  items={[
+    "Minimum of 4 Tourniquets in quick-slots",
+    "High-tier armor with maximum durability",
+    "Weight below 70% to maintain stamina",
+    "Full hunger and thirst meters (Shelter doesn't pause stats)",
+    "Suppressed weapon to avoid multi-enemy aggro"
+  ]}
+/>
+
+<Callout type="warning" title="No Safe Havens">
+Remember that the Shelter is NOT a safe room. While you are organizing your stash or looking at maps, your hunger and thirst continue to drain. Players have frequently died of starvation while staring at their inventory screen inside their own base.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why can't I find the guns on the enemies I kill?",
+    answer: "Road to Vostok uses a physical looting system. You must look at the actual 3D model of the gun in the NPC's hand or on the ground and click it manually; it won't appear in the loot menu UI."
+  },
+  {
+    question: "How do I deal with the aggressive road to vostok enemies at noon?",
+    answer: "The best strategy is to avoid movement during peak daylight. Wait in cover or at your shelter until dusk or dawn when AI visibility and patrol routes are significantly reduced."
+  },
+  {
+    question: "Does the game pause when I am in the shelter?",
+    answer: "No. Time and survival stats (hunger, thirst, bleeding) continue to run in real-time while you are in the shelter. Always eat and drink before managing your inventory."
+  },
+  {
+    question: "Is there any way to recover my stash after dying in the Vostok area?",
+    answer: "No. Death in the Vostok area results in a total wipe of your progress, including your stash and shelter upgrades. This is a deliberate design choice by the developer."
+  }
+]} />
+
+</Section>

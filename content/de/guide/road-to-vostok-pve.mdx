@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok PvE: Ultimativer Guide zu Überleben & Fortschritt 2026",
+  description: "Meistern Sie das PvE-Überleben in Road to Vostok mit unserem umfassenden Guide, der Permadeath-Zonen, Handel, Crafting und Kampfstrategien abdeckt.",
+  category: "Überlebens-Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Road+to+Vostok+PvE",
+  date: "2026-05-16",
+  author: "Road Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok PvE** bietet ein Hardcore-Einzelspieler-Überlebenserlebnis mit Permadeath.
+- **Area 05** dient als Ihre anfängliche sichere Zone zum Lernen und Ausrüsten, ohne Permadeath.
+- **Grenzgebiete** führen erhöhte Gefahr mit korrupten Wachen und Umweltgefahren ein.
+- **Wostok (Russland)** ist die ultimative Permadeath-Zone, die die beste Beute bietet, aber alles riskiert.
+- **Handel** ist itembasiert; es gibt kein traditionelles Geldsystem.
+</Callout>
+
+Die gefährliche Reise in **Road to Vostok PvE** erfordert strategisches Denken, Einfallsreichtum und einen starken Überlebenswillen. Dieses Hardcore-Einzelspieler-Überlebensspiel fordert die Spieler heraus, eine trostlose postapokalyptische Landschaft zu durchqueren und von Finnland in die unversöhnliche russische Grenzzone von Wostok zu gelangen. Mit seiner einzigartigen Permadeath-Mechanik, dem physikbasierten Looting und der dynamischen Welt ist das Verständnis der Kern-Gameplay-Loops und Fortschrittssysteme entscheidend für jeden, der es nach Wostok und darüber hinaus schaffen möchte. Dieser Guide wird Sie mit dem Wissen ausstatten, das Sie benötigen, um in dieser brutalen Welt zu gedeihen, von Ihren ersten Schritten in Area 05 bis zu den risikoreichen Permadeath-Zonen.
+
+<Section icon={Map} title="Verständnis der PvE-Zonen und Permadeath">
+**Road to Vostok PvE** ist um verschiedene Zonen herum strukturiert, die jeweils eskalierende Herausforderungen und Konsequenzen bieten. Ihre Reise beginnt in einem relativ sichereren Bereich und drängt Sie allmählich in die ultimative Risiko-Belohnungs-Umgebung, wo ein einziger Fehler Sie alles kosten kann. Das Meistern der Nuancen jeder Zone ist grundlegend für das langfristige Überleben.
+
+**Video-Highlights:**
+- **Area 05**: Ihre Startzone in Finnland, ein relativ sicherer Bereich zum Lernen und Sammeln von Ressourcen.
+- **Grenzgebiete**: Zwischenbereiche mit gefährlicheren Feinden und Umweltgefahren.
+- **Wostok (Permadeath-Zone)**: Der letzte, gefährlichste Bereich, in dem der Tod bedeutet, alles zu verlieren.
+
+<YouTubeEmbed videoId="4iBcSER_C6c" title="ROAD TO VOSTOK But I Don't Waste Your Time (Features & Before You Buy)" />
+
+<Callout type="warning" title="Permadeath-Mechanik">
+In **Wostok** verlieren Sie bei Ihrem Tod Ihren gesamten Charakter, alle gelagerten Gegenstände und Unterkünfte. Dies bedeutet, dass der gesamte Fortschritt zurückgesetzt wird. Planen Sie sorgfältig, bevor Sie eintreten, und wägen Sie immer die Risiken gegen die Belohnungen ab.
+</Callout>
+
+### Zonenübersicht und Risikobewertung
+
+| Zonenname        | Standort             | Risikostufe | Permadeath | Hauptmerkmale                                      |
+|:-----------------|:---------------------|:-----------|:-----------|:--------------------------------------------------|
+| **Area 05**      | Südostfinnland       | Niedrig    | Nein       | Lernbereich, grundlegendes Looting, Banditenbegegnungen |
+| **Grenzgebiete** | Finnland-Russland-Grenze| Mittel     | Nein       | Korrupte Wachen, Minen, Wasserüberquerungen, bessere Beute|
+| **Wostok**       | Russland             | Hoch       | Ja         | Beste Beute, Militärpatrouillen, ultimative Herausforderung|
+
+</Section>
+
+<Section icon={Target} title="Wesentliche Überlebensmechaniken in Road to Vostok PvE">
+Das Überleben in **Road to Vostok PvE** geht über den Kampf hinaus; es umfasst ein akribisches Ressourcenmanagement, strategischen Handel und effektiven Basisbau. Jede Entscheidung, von dem, was Sie tragen, bis zu dem Ort, an dem Sie Ihr Versteck einrichten, wirkt sich auf Ihre Langlebigkeit aus.
+
+### Ressourcenmanagement und Spielerstatistiken
+
+Das Wohlbefinden Ihres Charakters ist entscheidend. Sie müssen mehrere Statistiken überwachen, um am Leben und effektiv zu bleiben. Das Vernachlässigen dieser kann zu mentalem Verfall oder körperlichem Zusammenbruch führen.
+
+| Statistikname      | Auswirkungen auf das Gameplay                          | Strategien zur Minderung                                  |
+|:-------------------|:-----------------------------------------------------|:-----------------------------------------------------------|
+| **Gesundheit**     | Bestimmt das Überleben im Kampf, Stürze durch Verletzungen| Medizinische Versorgung (Verbände, Schmerzmittel), Ruhe   |
+| **Energie**        | Beeinflusst Ausdauer, Bewegungsgeschwindigkeit und Aktionseffizienz| Nahrungsaufnahme, Ruhe                                     |
+| **Hydration**      | Beeinflusst Energie und allgemeines Wohlbefinden     | Wasser, zuckerhaltige Getränke                             |
+| **Mentale Stabilität**| Reduziert durch schlechtes Essen, raues Wetter; beeinflusst Genauigkeit| Komfortartikel (Snacks, Zigaretten), Unterschlupf, gutes Essen|
+
+<Callout type="tip" title="Physikbasiertes Looting">
+Das Spiel verfügt über ein physikbasiertes Looting-System, bei dem Gegenstände nicht an festen Orten spawnen. Durchsuchen Sie jeden Behälter und jedes interaktive Objekt; nichts ist garantiert zweimal am selben Ort, was eine gründliche Erkundung fördert.
+</Callout>
+
+### Handels- und Tauschsystem
+
+**Road to Vostok PvE** funktioniert ohne traditionelle Währung. Stattdessen beteiligen sich die Spieler an einem Tauschsystem mit Händlern, bei dem Gegenstände basierend auf ihrem wahrgenommenen Wert in einer postapokalyptischen Welt ausgetauscht werden.
+
+| Beispiel Händleraufgabe    | Erforderliche Gegenstände                    | Belohnungs-Gegenstandskategorie              |
+|:---------------------------|:-------------------------------------|:-----------------------------------------|
+| "Medizinische Versorgungsfahrt"| Spezifische medizinische Artikel (z.B. Schmerzmittel, Verbände) | Waffenaufsätze, seltene Lebensmittel     |
+| "Schatzsuche"              | Gewöhnliche Haushaltsgegenstände (z.B. Toilettenpapier, Seife) | Unterschlupf-Anpassungsgegenstände, grundlegende Werkzeuge|
+| "Waffenteil-Tausch"        | Beschädigte Waffenteile, Munition bestimmter Kaliber | Funktionale Waffen, fortgeschrittene Ausrüstung|
+
+</Section>
+
+<Section icon={Shield} title="Unterschlupfsystem und Basisbau">
+Ihr Unterschlupf ist mehr als nur ein Speicherpunkt; er ist ein anpassbarer sicherer Hafen, der ein Gefühl von Fortschritt und Sicherheit vermittelt. Das Einrichten und Aufrüsten Ihrer Unterschlüpfe ist der Schlüssel zur Vorbereitung auf die härteren Herausforderungen, die in **Road to Vostok PvE** vor Ihnen liegen.
+
+<Steps>
+  <Step num="1" title="Unterschlupf finden">
+    Unterschlüpfe finden Sie in der gesamten Area 05 und werden schrittweise durch Händleraufgaben freigeschaltet. Sie variieren in Größe und anfänglicher Ausstattung.
+  </Step>
+  <Step num="2" title="Ihren Raum anpassen">
+    Nutzen Sie das physikbasierte System, um Möbel zu bewegen und Gegenstände überall zu platzieren. Organisieren Sie Ihre Beute und erstellen Sie eine funktionale Basis.
+  </Step>
+  <Step num="3" title="Upgrade und Erweiterung">
+    Das Abschließen anspruchsvollerer Händleraufgaben schaltet neue, größere Unterschlüpfe frei, sodass Sie Ihren Lagerplatz und Ihre Operationsbasis näher an die Grenze erweitern können.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategische Platzierung des Unterschlupfs">
+Obwohl Area 05 im Allgemeinen sicherer ist, sollten Sie in Erwägung ziehen, Unterschlüpfe in der Nähe wichtiger Ressourcenpunkte oder Händlerstandorte einzurichten, um Reisezeiten und die Exposition gegenüber Banditen zu minimieren.
+</Callout>
+
+### Inventarverwaltung und Ausrüstungsfortschritt
+
+Eine effektive Inventarverwaltung ist entscheidend, wobei ein Tetris-ähnliches System für Rucksäcke, Taschen und Westenplätze verwendet wird. Hunderte von Gegenständen, von Waffen und Aufsätzen bis hin zu Lebensmitteln und medizinischen Vorräten, müssen gesammelt und organisiert werden.
+
+| Ausrüstungstyp       | Beispiele                                         | Bedeutung                                             |
+|:-------------------|:-------------------------------------------------|:-------------------------------------------------------|
+| **Waffen**         | AK-74, Mosin Nagant, Pistolen                      | Kampfeffektivität, Selbstverteidigung                     |
+| **Aufsätze**       | Zielfernrohre, Schalldämpfer, Griffe                | Waffenanpassung, verbesserte Leistung             |
+| **Rüstung/Kleidung**| Westen, Jacken, Helme                             | Schadensreduzierung, Umweltschutz             |
+| **Medizinisch**    | Verbände, Medkits, Schmerzmittel                   | Verletzungsheilung, Gesundheitsmanagement                      |
+| **Essen/Wasser**   | Konserven, Flaschenwasser, MREs                 | Energie- und Hydratationsauffüllung                     |
+| **Werkzeuge**      | Messer, Multitools, Reparaturkits                  | Crafting, Wartung, Nützlichkeit                         |
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Feindbegegnungen">
+Der Kampf in **Road to Vostok PvE** ist realistisch und unversöhnlich. Von Scharmützeln mit Banditen bis hin zu intensiven Feuergefechten mit Militärkräften ist das Verständnis der Waffenmechanik und der Feindtypen entscheidend.
+
+### Realistische FPS-Kampfmechanik
+
+Das Spiel legt Wert auf ein realistisches First-Person-Shooter-Erlebnis. Waffenhandhabung, Munitionstypen und Ballistik spielen bei jedem Gefecht eine wichtige Rolle.
+
+<Checklist
+  id="combat-essentials"
+  title="Checkliste zur Kampfbereitschaft:"
+  items={[
+    "Waffe häufig auf Munition und Feuermodus überprüfen (keine UI-Pop-ups)",
+    "Reale Kaliber verstehen und Munition den Magazinen zuordnen",
+    "Deckung und Umweltvorteile in Feuergefechten nutzen",
+    "Waffenwartung und -reparatur üben, um Fehlfunktionen zu vermeiden",
+    "Sich an verschiedene Feindtypen und deren Ausrüstung anpassen"
+  ]}
+/>
+
+### Feindtypen und Bedrohungsstufen
+
+Je weiter Sie in den Zonen voranschreiten, desto besser ausgerüstet und gefährlicher werden die Feinde, denen Sie begegnen.
+
+| Feindtyp         | Zone, in der er anzutreffen ist | Ausrüstungsstufe   | Bedrohungsstufe | Taktiken                                             |
+|:-----------------|:---------------------|:-------------------|:-------------|:----------------------------------------------------|
+| **Banditen**     | Area 05              | Grundlegende Schusswaffen, Nahkampf | Niedrig      | Hinterhalte, opportunistische Angriffe                       |
+| **Grenzschutz**  | Grenzgebiete         | Bessere Schusswaffen, Rüstung | Mittel       | Patrouillieren, aktiv verfolgen, Checkpoint-Verteidigung       |
+| **Militär**      | Wostok               | Schwere Waffen, gepanzerte Fahrzeuge | Hoch         | Koordinierte Angriffe, befestigte Stellungen, tödliches Feuer |
+
+<Callout type="info" title="Dynamische Welt und Ereignisse">
+Die Spielwelt ist dynamisch und bietet einen vollständigen Tag-Nacht-Zyklus, saisonale Veränderungen (Sommer bis Winter) und zufällige Ereignisse wie Airdrops, Absturzstellen und Fraktionsbewegungen. Diese Elemente verändern ständig die Umgebung und bringen neue Herausforderungen und Möglichkeiten mit sich.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Langfristiger Fortschritt und Spielweisen">
+**Road to Vostok PvE** bietet ein Sandbox-Erlebnis, das vielfältige Spielweisen ermöglicht. Ob Sie einen kampforientierten Ansatz oder eine friedlichere Existenz bevorzugen, das Spiel bietet die Werkzeuge, um Ihre einzigartige Reise zu gestalten.
+
+### Sandbox-Freiheit und Rollenspiel
+
+Sie sind nicht gezwungen, einen einzigen Spielstil zu verfolgen. Das Spiel ermutigt die Spieler, ihre eigenen Ziele und Überlebensmethoden zu definieren.
+
+| Spielweise           | Fokus                                           | Empfohlene Ausrüstung/Fähigkeiten                      |
+|:--------------------|:------------------------------------------------|:-------------------------------------------------------|
+| **Kampfspezialist** | Feindliche Fraktionen bekämpfen, militärische Beute suchen | Hochwertige Waffen, Rüstung, Kampffähigkeiten, medizinische Versorgung |
+| **Plünderer/Händler**| Seltene Gegenstände finden, mit NPCs handeln, Ressourcenmanagement | Große Rucksäcke, Werkzeuge, wertvolle Handelsgüter   |
+| **Einsiedler/Überlebenskünstler**| Von der Natur leben, angeln, abgelegene Gebiete erkunden | Angelausrüstung, Handwerkswerkzeuge, Überlebensfähigkeiten in der Wildnis |
+
+<Callout type="warning" title="Early Access Entwicklung">
+Road to Vostok befindet sich im Early Access, eine vollständige Veröffentlichung ist in 2-4 Jahren (ungefähr 2026-2030) geplant. Erwarten Sie fortlaufende Updates, neue Funktionen und potenzielle Änderungen an der Mechanik. Der Entwickler war transparent mit Roadmaps und Demos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Road to Vostok PvE: Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist Road to Vostok PvE ein Einzelspieler-Spiel?",
+    answer: "Ja, Road to Vostok ist als Einzelspieler-Überlebensspiel konzipiert, das sich auf ein Hardcore-Einzelerlebnis gegen die Umgebung und KI-Feinde konzentriert."
+  },
+  {
+    question: "Was passiert, wenn ich in Area 05 oder einer Grenzzone sterbe?",
+    answer: "Wenn Sie in Area 05 oder einer Grenzzone sterben, verlieren Sie die Ausrüstung, die Sie derzeit tragen, aber Ihr Charakter, gelagerte Beute und Unterkünfte bleiben intakt."
+  },
+  {
+    question: "Wie funktioniert der Handel in Road to Vostok PvE?",
+    answer: "Der Handel basiert auf Tauschhandel. Es gibt kein Geldsystem; stattdessen tauschen Sie Gegenstände direkt mit Händlern basierend auf ihrem Überlebenswert aus, wie z.B. medizinische Vorräte gegen Waffenteile."
+  },
+  {
+    question: "Wann wird die vollständige Veröffentlichung von Road to Vostok erwartet?",
+    answer: "Das Spiel befindet sich derzeit im Early Access, wobei die vollständige Veröffentlichung voraussichtlich 2-4 Jahre nach dem Early Access-Start im April 2026 erfolgen wird, mit weiteren Karten, Händlern und Gegenständen."
+  }
+]} />
+
+</Section>
