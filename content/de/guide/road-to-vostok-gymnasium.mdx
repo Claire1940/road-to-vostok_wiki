@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Gymnasium: Plünder- & Überlebensführer 2026",
+  description: "Meistern Sie das Road to Vostok Gymnasium auf der Schulkarte. Lernen Sie Beuteorte, Gegnerspawns und Überlebenstaktiken für diese wertvolle Zone 05.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Gymnasium+Survival+Guide",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok Gymnasium**: Ein Unterstandort mit hoher Beutedichte auf der **Schulkarte** in der Startregion von Gebiet 05.
+- **Beutepriorität**: Konzentrieren Sie sich auf medizinische Vorräte in der Krankenstation und Rucksäcke/Kleidung in den Umkleideräumen.
+- **Risikostufe**: Moderat. Obwohl in Gebiet 05, machen die engen Gänge im Inneren es zu einem idealen Ort für **Banditenüberfälle**.
+- **Überlebensmechanik**: Ein Tod hier führt zum Verlust aller getragenen Ausrüstung, löscht aber nicht den gesamten Account wie in der Vostok-Zone.
+- **Bestes Werkzeug**: Eine Pumpgun wie die **RM-870** ist äußerst effektiv für den Nahkampf im Inneren.
+</Callout>
+
+Das **Road to Vostok Gymnasium** hat sich seit dem Early-Access-Start des Spiels am 7. April 2026 schnell zu einem der am meisten umkämpften Orte entwickelt. Diese Einrichtung befindet sich auf der weitläufigen Schulkarte in Gebiet 05 und bietet eine Mischung aus Vertikalität und klaustrophobischen Korridoren, die selbst erfahrene Überlebenskünstler herausfordert. Während die Spieler die südöstliche finnische Grenze navigieren, dient das Gymnasium als wichtiger Meilenstein, um die notwendigen Ressourcen für den weiteren Vorstoß nach Osten in die Grenzzone und die risikoreiche Vostok-Region zu sammeln.
+
+Das Verständnis des Layouts des **Road to Vostok Gymnasiums** ist für jeden Spieler unerlässlich, der seine Plünderungsrouten optimieren möchte. Da *Road to Vostok* auf physikbasierter Beute und realistischem Waffenhandling basiert, erfordert jede Ecke, die im Fitnessstudio betreten wird, taktische Geduld. Dieser Leitfaden erläutert die wesentlichen Strategien zum Räumen des Gebäudes, zur Identifizierung wertvoller Gegenstands-Spawns und zum Management der Banditenpräsenz, die häufig die Tribünen und Umkleideräume besetzt.
+
+<Section icon={Map} title="Gymnasium-Layout und Kartenintegration">
+
+Das Gymnasium ist ein primäres Wahrzeichen auf der **Schulkarte**, einer der vier Startkarten, die in Build 1 der Early-Access-Veröffentlichung enthalten sind. Es befindet sich in Gebiet 05 und dient als Übergangspunkt zwischen der frühen Spielphase des Sammelns und der mittleren Spielphase der Vorbereitung. Das Gebäude ist in drei verschiedene Zonen unterteilt: den Hauptplatz, die Umkleideräume und die Empore.
+
+<CardGrid cols={3}>
+  <Card title="Der Hauptplatz">
+    - **Offene Sichtlinien**: Gefährlich für Spieler ohne Weitwinkeloptik.
+    - **Physik-Beute**: Sportgeräte und Kisten, die auf dem Boden verstreut sind.
+    - **Deckung**: Nutzen Sie die umgestürzten Tribünen, um Scharfschützenfeuer von der Empore zu vermeiden.
+  </Card>
+  <Card title="Umkleideräume">
+    - **CQB-Fokus**: Extrem enge Gänge, die Taschenlampen oder NVGs erfordern.
+    - **Hoher Wert**: Primärer Spawn-Punkt für Rucksäcke und tragbare Ausrüstung.
+    - **Hinterhalte**: Banditen verstecken sich oft in offenen Spinden oder Duschkabinen.
+  </Card>
+  <Card title="Die Empore">
+    - **Taktische Höhe**: Bietet einen vollständigen Blick auf den Eingang und den Hauptplatz.
+    - **Tech-Spawns**: Elektronische Komponenten und aufgabenbezogene Gegenstände.
+    - **Zugang zur Extraktion**: Nächster Punkt zu den oberen Fensterausgängen.
+  </Card>
+</CardGrid>
+
+| Zone | Gefahrenstufe | Primärer Beutetyp | Konnektivität |
+|:---|:---|:---|:---|
+| **Hauptplatz** | Hoch | Industriell / Allgemein | Führt zu Umkleideräumen und Bühne |
+| **Umkleideräume** | Mittel | Kleidung / Rucksäcke | Direkter Zugang zu Seitenausgängen |
+| **Krankenstation** | Niedrig | Medizinisch / Chemikalien | Befindet sich hinter dem Umkleidegang |
+| **Ausrüstungsraum** | Hoch | Waffen / Munition | Benötigt den Schlüssel 'Schulwartung' |
+
+<Callout type="warning" title="Grenznähe">
+Obwohl das Gymnasium in Gebiet 05 liegt, ist es nah genug an der Grenzzone, dass KI-Patrouillen gelegentlich in der Nähe des Außenbereichs umherwandern können. Überprüfen Sie immer den Umfang, bevor Sie die Haupttüren betreten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hochwertige Beute und Gegenstands-Spawns">
+
+Das Plündern des **Road to Vostok Gymnasiums** erfordert ein scharfes Auge für die physikbasierte Gegenstandsplatzierung des Spiels. Im Gegensatz zu traditionellen Shootern, bei denen Beute leuchtet, werden Gegenstände hier realistisch auf Bänken, in Schließfächern oder unter Trümmern platziert. Das Gymnasium ist besonders bekannt für seine medizinischen Vorräte und Lagerbehälter.
+
+| Gegenstandskategorie | Häufige Spawns | Seltenheit | Warum es wichtig ist |
+|:---|:---|:---|:---|
+| **Medizinisch** | Bandagen, Morphium, Kochsalzlösung | Häufig | Wesentlich für die Genesung von Banditen-Scharmützeln |
+| **Lagerung** | Seesäcke, Jagdrucksäcke | Ungewöhnlich | Erhöht Ihre Tragfähigkeit für die Rückreise |
+| **Technisch** | Kabel, Batterien, Klebeband | Häufig | Wird für die Anpassung des Unterschlupfs und den Händlerhandel verwendet |
+| **Taktisch** | 9x19 Munition, Pistolenmagazine | Selten | Im Sicherheitsbüro nahe dem Haupteingang gefunden |
+
+<Callout type="tip" title="Durchsuchen Sie die Spinde">
+Schauen Sie nicht nur auf den Boden. Viele Spinde im **Road to Vostok Gymnasium** können interagiert werden. Öffnen Sie jede Tür, da hochwertige Kleidungsstücke wie taktische Westen oft hinten in den Fächern versteckt sind.
+</Callout>
+
+Im aktuellen Build 1 (veröffentlicht im April 2026) werden die Beutepools durch das dynamische Wettersystem beeinflusst. Während "Winter"-Zyklen finden Sie in den Lagerbereichen des Gymnasiums eher warme Kleidung und Heizelemente, während "Sommer"-Zyklen Hydratations- und medizinische Vorräte priorisieren.
+
+</Section>
+
+<Section icon={Swords} title="Kampftaktiken für das Gymnasium-Innere">
+
+Der Kampf im **Road to Vostok Gymnasium** ist unversöhnlich. Die realistische Waffenmechanik bedeutet, dass Lauflänge und Kaliber Ihre Leistung in diesen engen Räumen erheblich beeinflussen. Banditen in Gebiet 05 sind im Allgemeinen schlecht ausgerüstet, nutzen aber ihre Anzahl und ihr Wissen über das Gebäudelayout, um Spieler zu fangen.
+
+**Video-Highlights:**
+- Demonstriert die "Point Aiming"-Mechanik für schnelle Zielerfassung in den Umkleideräumen.
+- Zeigt den Unterschied zwischen dem Räumen mit einem Gewehr und einer kompakten SMG.
+- Identifiziert die gängigen Banditen-"Leaning"-Punkte auf dem Balkon im zweiten Stock.
+
+<YouTubeEmbed videoId="WK5f9EMmYS4" title="Road to Vostok Combat Mechanics Guide" />
+
+<Steps>
+  <Step num="1" title="Einbrechen und Räumen">
+    Vermeiden Sie die Haupttüren. Benutzen Sie den seitlichen Wartungseingang, um zuerst die Umkleideräume zu betreten und Ihre Flanke zu sichern, bevor Sie sich zum offenen Platz bewegen.
+  </Step>
+  <Step num="2" title="Überprüfen Sie die Dachsparren">
+    Banditen spawnen oft auf den oberen Laufstegen. Bevor Sie den Boden plündern, verwenden Sie eine Waffe mit Zielfernrohr, um die Empore und die Dachsparren zu räumen, um nicht von oben beschossen zu werden.
+  </Step>
+  <Step num="3" title="Achten Sie auf Audio-Hinweise">
+    Die Holzböden des Gymnasiums verstärken Schritte. Halten Sie alle 30 Sekunden an, um auf das charakteristische Geräusch von KI zu hören, die Positionen wechselt oder nachlädt.
+  </Step>
+  <Step num="4" title="Sichern Sie das Sicherheitsbüro">
+    Das Büro nahe dem Eingang enthält die Lichtschalter des Gebäudes. Das Ausschalten der Lichter, wenn Sie NVGs haben, verschafft Ihnen einen massiven taktischen Vorteil gegenüber Banditen.
+  </Step>
+</Steps>
+
+| Waffentyp | Effektivität | Empfohlenes Modell | Taktischer Hinweis |
+|:---|:---|:---|:---|
+| **Schrotflinten** | Ausgezeichnet | **RM-870** | Tötet die meisten Feinde innerhalb von 5 Metern mit einem Schuss |
+| **Pistolen** | Gut | **G17** | Hohe Magazinkapazität zum Räumen kleiner Räume |
+| **Gewehre** | Moderat | **AKS-74U** | Kompakt genug für Flure, aber hoher Rückstoß |
+| **Präzision** | Schlecht | **Mosin** | Zu langsam für die schnellen Begegnungen im Fitnessstudio |
+
+<Callout type="success" title="Munitionsmanagement">
+Überprüfen Sie Ihr Magazin immer manuell, bevor Sie das Fitnessstudio betreten. Das "Realistische Nachlade"-System bedeutet, dass Sie sich leicht mit einem halb leeren Magazin mitten in einem Feuergefecht wiederfinden können.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überleben und Unterschlupf-Integration">
+
+Das **Road to Vostok Gymnasium** ist nicht nur ein Beuteort; es ist ein Test Ihres Überlebenskreislaufs. Da das Spiel ein Multi-Shelter-Unterstützungssystem bietet, sollte Ihr Ziel sein, das Fitnessstudio zu plündern und zum nächsten Unterschlupf in Gebiet 05 zurückzukehren, um Ihren Fortschritt zu speichern und Ihre Funde zu lagern.
+
+<Checklist
+  id="gym-prep"
+  title="Checkliste vor dem Lauf:"
+  items={[
+    "Rüsten Sie eine Taschenlampe oder eine an der Waffe montierte Lampe aus",
+    "Bringen Sie mindestens zwei schwere Bandagen für Blutungen mit",
+    "Stellen Sie sicher, dass Ihre Hunger- und Durstanzeigen über 75% liegen",
+    "Tragen Sie einen Ersatzschlüssel 'Schulwartung', falls verfügbar",
+    "Räumen Sie mindestens 50% Ihres Rucksackplatzes für Beute frei"
+  ]}
+/>
+
+Unterkünfte in *Road to Vostok* dienen als Ihre einzigen Speicherpunkte. Wenn Sie nach einem erfolgreichen Fitnessstudio-Lauf sterben, aber bevor Sie eine Unterkunft erreichen, verlieren Sie alles aus dieser Sitzung. Die nächste Unterkunft zum Gymnasium ist die "Vorstadthütte", die sich etwa 300 Meter westlich befindet.
+
+<Callout type="info" title="Dekorationsmodus">
+Gegenstände, die im Gymnasium gefunden werden, wie Stühle oder kleine Behälter, können manchmal im "Dekorationsmodus" in Ihrem Unterschlupf aufgenommen und verwendet werden. Suchen Sie nach Gegenständen mit der Aufforderung 'Interagieren', um Ihre Heimatbasis anzupassen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Aufgaben und Fortschritt">
+
+Händler wie der **Generalist** und der **Doktor** stellen häufig Aufgaben, die einen Besuch des Gymnasiums erfordern. Diese Ziele sind der primäre Weg, um Ihre Wirtschaft aufzubauen und bessere Ausrüstung für den Vostok-Vorstoß freizuschalten.
+
+| Aufgabenname | Ziel | Belohnung | Händler |
+|:---|:---|:---|:---|
+| **Medizinische Bergung** | Finde 3 Kochsalzlösungen in der Krankenstation des Gymnasiums | 500 $ + Medkit | Doktor |
+| **Spindreinigung** | Eliminiere 5 Banditen im Gymnasium | 5.45x39 Munitionskiste | Generalist |
+| **Wartungszugang** | Finde den Wartungsschlüssel im Sicherheitsbüro | Unterschlupf-Schlüsselkarte | Waffenschmied |
+| **Das verlorene Signal** | Platziere einen Peilsender auf dem Dach des Gymnasiums | 1.200 $ | Wissenschaftler |
+
+<Callout type="tip" title="Fortschrittsengpass">
+Viele Spieler bleiben bei der Aufgabe 'Wartungszugang' stecken. Der Schlüssel befindet sich nicht immer im Büro; er kann auch am Gürtel des "Anführer-Banditen" spawnen, der die Umkleideräume patrouilliert.
+</Callout>
+
+Das Erfüllen dieser Aufgaben ist entscheidend, um sich der **Grenzzone** zu nähern. Die Belohnungen umfassen oft die spezielle Ausrüstung – wie Tauchausrüstung oder Minendetektoren –, die für das Überleben des Übergangs in die Permadeath-Region Vostok benötigt wird.
+
+</Section>
+
+<Section icon={Trophy} title="Road to Vostok Gymnasium FAQ">
+
+<FAQ items={[
+  {
+    question: "Gibt es Permadeath im Road to Vostok Gymnasium?",
+    answer: "Nein, das Gymnasium befindet sich in Gebiet 05. Wenn Sie hier sterben, verlieren Sie die Ausrüstung, die Sie gerade tragen, aber Ihr Charakter und der Fortschritt Ihres Unterschlupfs bleiben intakt. Permadeath tritt nur ein, wenn Sie die Vostok-Region betreten."
+  },
+  {
+    question: "Wo findet man am besten den Schulwartungsschlüssel?",
+    answer: "Der Schlüssel spawnt am häufigsten auf dem Schreibtisch des Sicherheitsbüros oder am Körper des Banditenanführers im Gymnasium. Er wird benötigt, um den Ausrüstungsraum zu öffnen, der hochwertige Waffenteile enthält."
+  },
+  {
+    question: "Kann ich die Gymnasium-Karte mit Freunden spielen?",
+    answer: "Road to Vostok ist ausschließlich ein Einzelspieler-Erlebnis. Es sind keine Koop- oder Multiplayer-Unterstützung für die Early-Access-Phase im Jahr 2026 geplant."
+  },
+  {
+    question: "Wie speichere ich mein Spiel, nachdem ich das Gymnasium geplündert habe?",
+    answer: "Sie müssen zu einem bestimmten Unterschlupf reisen. Dort können Sie mit dem Speicherpunkt interagieren, um Ihre Beute und Ihren Fortschritt zu sichern. Das Speichern ist im Gymnasium selbst nicht möglich."
+  }
+]} />
+
+</Section>

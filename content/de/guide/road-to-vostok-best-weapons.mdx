@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Beste Waffen: Ultimativer Guide & Tier List 2026",
+  description: "Entdecke die besten Waffen in Road to Vostok für jede Kampfsituation. Erfahre mehr über Waffenkategorien, Munitionstypen, Aufsätze und optimale Loadouts für das Überleben im Jahr 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/36454F/fff?text=Road+to+Vostok+Weapons",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Die **besten Waffen in Road to Vostok** hängen stark von deinem Spielstil und der Zone ab, in der du dich befindest.
+- **Gewehre** bieten die breiteste Allzweck-Nutzung für die meisten Kampfbegegnungen.
+- **Präzisionswaffen** sind hervorragend für Langstrecken-Gefechte, erfordern aber sorgfältige Handhabung.
+- **Schrotflinten** sind unübertroffen im Nahkampf für Paniksituationen.
+- **Munitionsmanagement** ist entscheidend; passe Munitionstypen an spezifische Waffen an, um die Effektivität zu gewährleisten.
+</Callout>
+
+Die tückische Reise durch die finnisch-russischen Grenzgebiete in Road to Vostok erfordert mehr als nur Entschlossenheit; sie erfordert überlegene Feuerkraft und taktisches Verständnis. Deine Waffenwahl kann in diesem Hardcore-Survival-FPS den Unterschied zwischen Leben und Permadeath bedeuten. Dieser Guide befasst sich mit dem verfügbaren Arsenal und hilft dir, die besten Waffen in Road to Vostok für verschiedene Szenarien zu identifizieren, die Feinheiten der Munition zu verstehen und deine Loadouts zu optimieren, um Area 05, die Grenzzone und die tödliche Vostok-Region zu erobern. Bereite dich darauf vor, realistisches Schussverhalten zu meistern und dein Überleben im Jahr 2026 zu sichern.
+
+<Section icon={Swords} title="Waffenkategorien und Rollen verstehen">
+
+Road to Vostok bietet eine vielfältige Auswahl an Schusswaffen, die jeweils für bestimmte Kampfrollen und Reichweiten konzipiert sind. Von leichten Pistolen für Notfälle bis hin zu leistungsstarken Präzisionsgewehren für Langstrecken-Gefechte ist es entscheidend, die Stärken und Schwächen deiner Waffe zu kennen. Das Spiel legt Wert auf realistische FPS-Mechaniken, bei denen jede Kugel und jeder Nachladevorgang zählt.
+
+<CardGrid cols={3}>
+  <Card title="Pistolen: Backup & Mobilität">
+    - **Leicht und kompakt:** Ideal als Zweitwaffe.
+    - **Notfalleinsatz:** Schnelles Ziehen im Nahkampf.
+    - **Begrenzte Kapazität:** Erfordert präzise Schüsse oder schnelles Nachladen.
+  </Card>
+  <Card title="Gewehre: Vielseitigkeit & Feuerkraft">
+    - **Allzweck:** Effektiv in den meisten Kampfsituationen.
+    - **Verschiedene Kaliber:** Anpassbar an verschiedene Gegnertypen.
+    - **Aufsatzoptionen:** Hochgradig anpassbar für Reichweite und Rückstoß.
+  </Card>
+  <Card title="Präzisionswaffen: Langstrecken-Dominanz">
+    - **Hoher Schaden pro Schuss:** Hervorragend zum Eliminieren entfernter Bedrohungen.
+    - **Niedrige Feuerrate:** Bestraft Fehlschüsse.
+    - **Spezialisierte Optik:** Unerlässlich zur Maximierung der Reichweite.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Waffenspezialisierung">
+Konzentriere dich darauf, ein oder zwei Waffenkategorien zu meistern, die zu deinem bevorzugten Kampfstil passen. Dies ermöglicht eine bessere Muskelgedächtnis und ein effizienteres Munitionsmanagement bei intensiven Begegnungen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wichtige Waffenstatistiken und Auswahl">
+
+Bei der Wahl deiner Primär- und Sekundärwaffen solltest du Faktoren wie Schaden, Feuerrate (RPM), Magazinkapazität und effektive Reichweite berücksichtigen. Diese Statistiken beeinflussen direkt die Leistung einer Waffe in den rauen Umgebungen von Road to Vostok.
+
+| Kategorie         | Beispiele                 | Munitionstyp           | Magazinkapazität | Wichtige Fakten                                 | Warum es wichtig ist                              |
+|-------------------|--------------------------|----------------------|--------------|-------------------------------------------------|---------------------------------------------------|
+| **Pistolen**      | C1911, Makarov, G17      | .45 ACP, 9x18, 9x19  | 8-17         | Leichteste Feuerwaffenfamilie, 3 Modelle gelistet. | Ideales Backup, schnelle Gefechte.                |
+| **Gewehre**       | AK-12, AKM, AKS-74U, MK18 | 5.45x39, 7.62x39, 5.56x45 | 30           | Breiteste Allzweckwaffe für den Kampf.          | Vielseitig für die meisten mittleren Reichweiten. |
+| **Präzision**     | Mosin, SVD               | 7.62x54R             | 5-10         | Mosin (50 Schaden, 10 RPM), SVD (60 Schaden, 200 RPM). | Harte Treffer, Langstrecken-Gefechte.             |
+| **Schrotflinte**  | RM-870                   | 12/70                | 10           | One-Shots Banditen bis 2m, schwach über 10m.   | Stärkste Nahkampf-Panikwaffe.                     |
+
+<Callout type="warning" title="Munitionsspezifität">
+Jedes Waffenkaliber ist bestimmten Waffen zugeordnet. Das Tragen der falschen Munition oder unzureichender Mengen kann dich wehrlos machen. Überprüfe immer deine Ausrüstung, bevor du dich auf den Weg machst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimierung deines Loadouts mit Optiken und Mündungen">
+
+Aufsätze spielen eine entscheidende Rolle bei der Anpassung deiner Waffe an unterschiedliche taktische Bedürfnisse. Optiken verbessern die Präzision und Zielerfassung, während Mündungsvorrichtungen wie Schalldämpfer einen erheblichen taktischen Vorteil bieten können, indem sie deine Geräuschsignatur reduzieren.
+
+| Aufsatztyp          | Beispiele                                   | Funktion                                     | Auswirkungen auf das Gameplay                            |
+|---------------------|--------------------------------------------|----------------------------------------------|----------------------------------------------------------|
+| **Kurzstreckenoptik** | MRM, SRO, PRO, EXPS, Kobra                 | Schnelle Zielerfassung, Nah- bis Mittelbereich. | Verbessert die Präzision auf engem Raum und bei schnellen Gefechten. |
+| **Mittelstreckenoptik** | HMR, ACOG                                  | Ausgewogene Vergrößerung, vielseitige Nutzung. | Gut für Nah- und Mittelstreckenkämpfe.                   |
+| **Langstreckenoptik** | PU, Leopard, VDU                           | Hohe Vergrößerung, Präzisionsschüsse.        | Unerlässlich für Scharfschützen und das Eliminieren entfernter Bedrohungen. |
+| **Schalldämpfer**   | Hybrid, Navy                               | Reduziert Mündungsfeuer und Geräuschsignatur. | Entscheidend für Tarnung, Hinterhalte und das Vermeiden von Entdeckung. |
+
+<Callout type="success" title="Strategische Aufsatznutzung">
+Berücksichtige die Karte und dein Ziel. Ein schallgedämpftes Gewehr mit einer Mittelstreckenoptik ist hervorragend für Stealth-Läufe in Area 05, während ein hochvergrößerndes Zielfernrohr auf einem Präzisionsgewehr für die offenen Bereiche von Vostok unerlässlich ist.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Munitionshandhabung und Inventarverwaltung">
+
+In Road to Vostok ist Munition keine generische Ressource. Jedes Kaliber hat einzigartige Eigenschaften, und sein Gewicht wird pro Schuss verfolgt. Eine effiziente Munitionshandhabung ist entscheidend für das Überleben.
+
+<Steps>
+  <Step num="1" title="Priorisiere Kaliberkonsistenz">
+    Versuche, Waffen zu tragen, die gängige Munitionstypen verwenden, um das Inventar zu vereinfachen und das Gewicht zu reduzieren. Wenn du beispielsweise ein AK-12 hast, priorisiere nach Möglichkeit 5.45x39mm Munition für deine Primär- und Sekundärwaffe.
+  </Step>
+  <Step num="2" title="Munitionsstapel verstehen">
+    Aktuelle Daten zeigen Munitionsstapel von 100 bis 300 Schuss, abhängig vom Kaliber. Kenne die typischen Stapelgrößen für deine gewählte Munition, um den Inventarplatz effektiv zu verwalten.
+  </Step>
+  <Step num="3" title="Nachlademechaniken üben">
+    Road to Vostok bietet realistische Nachlademechaniken. Mache dich mit den Animationen und dem Timing für jede Waffe vertraut, um im Feuergefecht nicht in Panik zu geraten. Schnelles Nachladen kann dein Leben retten.
+  </Step>
+  <Step num="4" title="Gleichgewicht zwischen Munition und anderer Ausrüstung">
+    Munition kann schwer sein. Finde ein Gleichgewicht zwischen ausreichend Munition für anhaltende Gefechte und ausreichend Platz für wichtige medizinische Vorräte, Beute und andere Überlebensausrüstung.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nachladeübung">
+Verbringe Zeit in sichereren Zonen oder deinem Unterschlupf, um das Nachladen deiner Primärwaffen zu üben. Dieses Muskelgedächtnis wird unter Druck von unschätzbarem Wert sein.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Top-Waffenempfehlungen für 2026">
+
+Obwohl persönliche Vorlieben eine Rolle spielen, schneiden bestimmte Waffen in Road to Vostok in verschiedenen Szenarien consistently gut ab, was sie zu starken Anwärtern auf den Titel "beste Waffen" macht.
+
+<CardGrid cols={2}>
+  <Card title="AK-12 (Gewehr)">
+    - **Vielseitigkeit:** Hervorragend für den Kampf auf mittlere Distanz.
+    - **Gängige Munition:** 5.45x39mm ist im Allgemeinen verfügbar.
+    - **Anpassung:** Große Auswahl an Aufsätzen.
+  </Card>
+  <Card title="SVD (Präzisionsgewehr)">
+    - **Langstrecken-Power:** Hoher Schaden für entfernte Ziele.
+    - **Genauigkeit:** Ideal für sorgfältige, taktische Gefechte.
+    - **Optik-Kompatibilität:** Passt gut zu hochvergrößernden Zielfernrohren.
+  </Card>
+  <Card title="G17 (Pistole)">
+    - **Zuverlässigkeit:** Eine solide Wahl als Sekundärwaffe.
+    - **Magazinkapazität:** 17 Schuss sorgen für gute anhaltende Feuerkraft.
+    - **Gängige Munition:** 9x19mm ist oft zu finden.
+  </Card>
+  <Card title="RM-870 (Schrotflinte)">
+    - **Nahkampf-König:** Verheerend auf kurze Distanzen.
+    - **Panikwaffe:** Hochwirksam bei plötzlichen Begegnungen.
+    - **Area 05 Dominator:** Räumt Gebäude und enge Räume mit Leichtigkeit.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="weapon-checklist"
+  title="Wichtige Waffenüberlegungen:"
+  items={[
+    "Trage immer eine zuverlässige Primärwaffe.",
+    "Stelle sicher, dass deine Sekundärwaffe leicht zugänglich ist.",
+    "Passe deine Waffenwahl an die Bedrohungen der aktuellen Zone an.",
+    "Priorisiere den Munitionstyp über die reine Waffenstärke, wenn die Versorgung knapp ist.",
+    "Vernachlässige Aufsätze nicht; sie verbessern die Waffenleistung erheblich."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ: Road to Vostok Waffen">
+
+<FAQ items={[
+  {
+    question: "Was sind die besten Road to Vostok Waffen für Anfänger?",
+    answer: "Für Anfänger sind Gewehre wie das AKM oder AK-12 aufgrund ihrer Vielseitigkeit und relativ häufig vorkommenden Munition sehr zu empfehlen. Die Kombination mit einer zuverlässigen Pistole wie der G17 bietet ein ausgewogenes Start-Loadout. Konzentriere dich darauf, die Waffenhandhabung zu lernen, bevor du nach High-Tier-Ausrüstung strebst."
+  },
+  {
+    question: "Wie wichtig ist der Munitionstyp in Road to Vostok?",
+    answer: "Der Munitionstyp ist von entscheidender Bedeutung. Jedes Kaliber ist spezifisch für bestimmte Waffen, und seine Leistung (Schaden, Durchschlagskraft) kann variieren. Im Gegensatz zu anderen Spielen wird Munition pro Schuss verfolgt und hat Gewicht, daher ist das Tragen des richtigen Typs und der richtigen Menge entscheidend für erfolgreiche Läufe. Eine starke Waffe ist nur nützlich, wenn dein Munitionstyp und deine Aufsätze tatsächlich dazu passen."
+  },
+  {
+    question: "Kann ich meine Waffen in Road to Vostok anpassen?",
+    answer: "Ja, die Waffenanpassung ist ein zentrales Feature. Du kannst verschiedene Optiken (Kurz-, Mittel-, Langstrecke) und Mündungsvorrichtungen (wie Schalldämpfer) anbringen, um deine Waffe an unterschiedliche Kampfsituationen anzupassen. Dies ermöglicht es dir, eine Waffe für die Raumreinigung, Gefechte auf mittlere Distanz oder kontrollierte Langstreckenläufe zusammenzustellen."
+  },
+  {
+    question: "Wo finde ich bessere Waffen in Road to Vostok?",
+    answer: "Bessere Waffen und Aufsätze sind typischerweise in gefährlicheren Gebieten zu finden, insbesondere in der Grenzzone und in Vostok. Händler bieten auch eine Auswahl an Schusswaffen und Ausrüstung an, oft im Austausch gegen wertvolle Beute oder das Erfüllen von Aufgaben. Risikoreichere Läufe bringen größere Belohnungen, bergen aber auch die Permadeath-Bedrohung in Vostok."
+  }
+]} />
+
+</Section>

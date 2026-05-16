@@ -1,0 +1,184 @@
+import { Home, Warehouse, Save, Package, Lock, Shield, Map, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Keller: Unterschlupf-Survival & Beute-Lagerungs-Guide 2026",
+  description: "Meistere die Road to Vostok Keller- und Unterschlupfsysteme. Erfahre, wie du dein Spiel speicherst, die Lagerung verwaltest und deine Basis im 2026 Early Access Build anpasst.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f59e0b?text=Road+to+Vostok+Cellar+Guide",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok Keller**: Dein primärer Sicherheitsbereich zum **Speichern des Fortschritts** und Lagern wertvoller Beute.
+- **Lagerungsmechanik**: Die physikbasierte Platzierung von Gegenständen ermöglicht eine **realistische Organisation** in deinem Unterschlupf.
+- **Speichersystem**: Schlafen oder die Interaktion mit der Unterschlupf-Oberfläche ist der **einzige Weg, deinen aktuellen Spielstand zu speichern**.
+- **Standortstrategie**: Sichere immer einen Unterschlupf in **Gebiet 05**, bevor du versuchst, die gefährliche Grenzzone zu überqueren.
+- **Permadeath-Risiko**: Während dein Keller sicher ist, führt der Tod in der **Vostok-Region** zu einem vollständigen Verlust des gesamten Fortschritts.
+</Callout>
+
+In der unversöhnlichen Wildnis der finnisch-russischen Grenze dient dein **Road to Vostok Keller** als die einzige dünne Linie zwischen Überleben und totalem Verlust. Als Hardcore-Einzelspieler-Survival-FPS erfordert dieses Spiel mehr als nur scharfes Schießen; es verlangt akribische Vorbereitung und eine sichere Operationsbasis. Ob du dich in einer kleinen Holzhütte oder einem verstärkten Betonbunker verschanzt, der **Road to Vostok Keller** ist der Ort, an dem du deinen nächsten Schritt planst, deine gesammelte Ausrüstung organisierst und sicherstellst, dass dein Fortschritt vor dem nächsten Überfall aufgezeichnet wird. In diesem umfassenden Leitfaden werden wir die wesentlichen Mechaniken von Unterschlüpfen untersuchen, von den physikbasierten Lagersystemen bis zu den kritischen Speicherungsmechanismen, die das hochriskante Gameplay von Build 1 definieren. Zu verstehen, wie du deinen Keller effektiv nutzt, ist der Unterschied zwischen einer erfolgreichen Extraktion und dem Verlust von allem an die rauen Elemente oder feindliche Banditen.
+
+<Section icon={Home} title="Die Kernrolle von Keller und Unterschlupf">
+
+Das Unterschlupfsystem ist das Herzstück des Spielfortschritts. Im Gegensatz zu Gelegenheits-Shootern mit automatischen Speicherpunkten zwingt dich dieses Hardcore-Erlebnis, zu deiner Basis zurückzukehren, um deine Funde zu sichern. Der **Road to Vostok Keller** fungiert als persistenter Weltraum, in dem jeder Gegenstand, den du fallen lässt, genau dort bleibt, wo du ihn verlassen hast, dank des fortschrittlichen physikbasierten Speichersystems.
+
+**Video-Highlights:**
+- **Startstatus**: Überblick über die Build 1 "Road"-Funktionen.
+- **Kartenstruktur**: Bewegung von Gebiet 05 durch die Grenzzone.
+- **Überlebensmechaniken**: Realistisches Waffenhandling und medizinische Systeme.
+- **Unterschlupf-Nutzung**: Demonstriert, wie man Gegenstände speichert und lagert.
+
+<YouTubeEmbed videoId="OTFgTRsz43Q" title="Road to Vostok Early Access Trailer" />
+
+In Build 1, veröffentlicht am 7. April 2026, wurden die Unterschlüpfe erweitert, um mehrere Standorte zu unterstützen. Das bedeutet, deine Reise nach Osten ist nicht auf einen einzigen Keller beschränkt; du kannst ein Netzwerk von sicheren Häusern auf der Karte freischalten und unterhalten.
+
+| Unterschlupf-Merkmal | Beschreibung | Einfluss auf das Gameplay |
+| :--- | :--- | :--- |
+| **Speicherpunkt** | Interaktion mit Bett/Schnittstelle speichert das Spiel | Verhindert Fortschrittsverlust zwischen Sitzungen |
+| **Beutelagerung** | Permanente Behälter und Bodenfläche | Ermöglicht das Horten von Munition, Nahrung und medizinischen Vorräten |
+| **Sicherheitszone** | Feindliche KI (Banditen/Wachen) kann nicht eindringen | Bietet eine stressfreie Umgebung für die Ausrüstungsverwaltung |
+| **Anpassung** | Möglichkeit, Möbel zu bewegen und zu drehen | Optimiert das Layout für schnellere Ausrüstungssortierung |
+
+<Callout type="info" title="Build 1 Update">
+Die offizielle Roadmap bestätigt, dass Build 1 (Road) die Unterstützung für mehrere Unterschlüpfe eingeführt hat, die es den Spielern ermöglichen, mehrere Keller gleichzeitig zu besitzen, um lange Reisen in Richtung der Vostok-Zone zu erleichtern.
+</Callout>
+
+</Section>
+
+<Section icon={Warehouse} title="Den Road to Vostok Keller meistern: Lagerung und Sicherheit">
+
+Die Lagerung in deinem **Road to Vostok Keller** ist nicht nur ein Menü; es ist eine physische Interaktion. Du kannst Gegenstände einzeln in Regale legen, Kisten in Ecken stapeln oder spezielle Möbelbehälter verwenden. Da Gegenstände physikbasiert sind, musst du darauf achten, deine Gehwege nicht zu überladen, da dies beim Laden zu "Physik-Explosionen" führen kann, bei denen Gegenstände durch den Raum fliegen.
+
+<CardGrid cols={3}>
+  <Card title="Kleine Hütten">
+    - **Begrenzter Platz**: Am besten für die Lagerung im frühen Spiel.
+    - **Geringe Sichtbarkeit**: Schwerer für Feinde aus der Ferne zu entdecken.
+    - **Schneller Zugang**: Befinden sich normalerweise in der Nähe von Start-Beutezonen.
+  </Card>
+  <Card title="Betonbunker">
+    - **Massive Lagerung**: Ideal zum langfristigen Horten von Waffen.
+    - **Hoher Schutz**: Befinden sich an besser verteidigbaren Positionen.
+    - **Komplexes Layout**: Umfasst mehrere Räume und Keller.
+  </Card>
+  <Card title="Aufgaben-Unterschlüpfe">
+    - **Exklusiver Zugang**: Nur über Händleraufgaben freigeschaltet.
+    - **Premium-Beute**: Enthält oft vorgespawnte seltene Gegenstände.
+    - **Strategische Punkte**: Positioniert in der Nähe von Grenzübergängen.
+  </Card>
+</CardGrid>
+
+Eine effiziente Verwaltung deines Inventars im Keller ermöglicht es dir, ein "Ready-to-go"-Kit bereitzuhalten. Viele erfahrene Spieler bewahren eine spezielle "Panikbox" in der Nähe der Tür auf, die eine geladene Pistole, einen Verband und eine Flasche Wasser für einen schnellen Wiedereinstieg nach einem Tod enthält.
+
+| Lagermethode | Kapazität | Organisationsgrad |
+| :--- | :--- | :--- |
+| **Bodenablegung** | Unbegrenzt | Schlecht (Gegenstände können verloren gehen/verrutschen) |
+| **Möbelbehälter** | Feste Plätze | Exzellent (Kategorisierte Lagerung) |
+| **Physikregale** | Nur visuell | Gut (Am besten für Waffenanzeigen) |
+| **Rucksack-Stapelung** | Hoch | Moderat (Erfordert verschachtelte Menüs) |
+
+<Callout type="tip" title="Organisationstipp">
+Verwende den "Dekorationsmodus", um Möbel zu katalogisieren und zu verschieben. Indem du Behälter in der Nähe des Eingangs deines **Road to Vostok Kellers** platzierst, kannst du Beute nach einem Überfall deutlich schneller entladen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt für Schritt: Deinen ersten Unterschlupf sichern">
+
+Wenn du zum ersten Mal in Gebiet 05 spawnen, bist du verwundbar. Das Finden und Sichern deines ersten **Road to Vostok Kellers** sollte deine absolute Priorität sein. Befolge diese Schritte, um deine Operationsbasis im Build 2026 zu etablieren.
+
+<Steps>
+  <Step num="1" title="Finde eine Startkarte">
+    Beginne in Karten von Gebiet 05 wie **Schule** oder **Autobahn**. Diese Regionen sind für den Spielfortschritt im frühen Stadium konzipiert und enthalten die höchste Dichte an einfachen Unterschlüpfen.
+  </Step>
+  <Step num="2" title="Räume den unmittelbaren Umkreis">
+    Bevor du einen potenziellen Unterschlupf betrittst, überprüfe die Umgebung auf Banditen. Du möchtest nicht in deine Sicherheitszone verfolgt werden, da Feinde sich außerhalb der Tür aufhalten können.
+  </Step>
+  <Step num="3" title="Initialisiere den Speicherpunkt">
+    Betritt den Unterschlupf und suche den Interaktionspunkt (normalerweise ein Bett oder ein Laptop). Dies registriert den Unterschlupf als deinen aktiven Spawnpunkt und speichert dein aktuelles Inventar.
+  </Step>
+  <Step num="4" title="Richte die grundlegende Logistik ein">
+    Verschiebe eine Lagerkiste in die Nähe der Tür. Leere deinen Rucksack von allen nicht-essenziellen Gegenständen wie Handwerkskomponenten oder Handelswaren, um den Platz für deinen nächsten Lauf zu maximieren.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritische Warnung">
+Ein Tod in Gebiet 05 kostet dich nur die Ausrüstung an deiner Person. Wenn du jedoch nicht in deinem **Road to Vostok Keller** gespeichert hast, kannst du Stunden des Weltzustandsfortschritts verlieren. Speichere immer, bevor du dich abmeldest.
+</Callout>
+
+</Section>
+
+<Section icon={Lock} title="Unterschlupf-Standorte und Freischaltungsmechaniken">
+
+Nicht alle Keller sind von Anfang an verfügbar. Während einfache Hütten für jeden zugänglich sind, erfordern die strategischsten Unterschlüpfe Schlüssel oder die Erfüllung spezifischer Dienste für Händler wie den **Waffenschmied** oder den **Arzt**.
+
+| Standortname | Kartenregion | Zugangsbedingung | Einzigartiger Vorteil |
+| :--- | :--- | :--- | :--- |
+| **Starterhütte** | Gebiet 05 | Keine (Offen) | In der Nähe von Autobahn-Beute |
+| **Kellerbüro** | Schule | Schlüsselkarte (Plünderbar) | Zentrale Kartenposition |
+| **Grenzaußenposten** | Grenzzone | Händleraufgabe | Sofortiger Zugang zu Übergängen |
+| **Terminalbunker** | Vostok | Hochrangige Aufgabe | Sichere Zone im Permadeath-Gebiet |
+
+Das Freischalten dieser Orte ist ein Kernbestandteil der "Build 3 - Signal"-Update-Roadmap, die sich auf gerichteten Fortschritt und Lore-Elemente konzentriert. Bis 2026 bietet das Quest-System klare Meilensteine, damit Spieler sich ihren Weg zu besseren Unterkünften verdienen können.
+
+<Callout type="success" title="Fortschrittsmeilenstein">
+Das Erfüllen von Aufgaben für den **Generalisten-Händler** belohnt dich oft mit "Unterschlupf-Schlüsseln". Diese Schlüssel schalten dauerhaften Zugang zu Kellern frei, die eine bessere Beleuchtung, mehr Behälter und eine größere Nähe zu hochrangigen Beutezonen bieten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Das Vostok-Risiko: Warum der Keller wichtig ist">
+
+Das ultimative Ziel des Spiels ist der Vorstoß in die Vostok-Region Russlands. Hier wird der **Road to Vostok Keller** zu deinem wertvollsten Gut. In Vostok ändern sich die Spielregeln: **Permadeath ist aktiviert**.
+
+<Checklist
+  id="shelter-pre-flight"
+  title="Checkliste vor dem Vostok-Lauf:"
+  items={[
+    "Lagere mindestens zwei Ersatzkits (Waffe + Rüstung) in deinem Keller in Gebiet 05.",
+    "Lagere Nahrung und Wasser für 5+ Tage, falls ein Lauf fehlschlägt.",
+    "Stelle sicher, dass du einen 'Wiederherstellungsschlüssel' gespeichert hast, um den Zugang zu gesperrten Zonen wiederzuerlangen.",
+    "Speichere dein Spiel im Unterschlupf der Grenzzone, bevor du die Linie überquerst.",
+    "Übertrage alle nicht-essenziellen seltenen Beutestücke aus deinem Rucksack in den permanenten Speicher."
+  ]}
+/>
+
+Da ein Tod in Vostok deinen gesamten Charakterfortschritt löscht, fungiert dein Keller in Gebiet 05 als "Bank". Alles, was in Finnland gelagert wird, bleibt sicher, selbst wenn du in Russland umkommst. Dies schafft eine Gameplay-Schleife von "Beute in Vostok, Lagerung in Gebiet 05".
+
+<Callout type="tip" title="Profi-Strategie">
+Nimm niemals deine beste Ausrüstung bei deinem ersten Versuch mit nach Vostok. Verwende ein "Wegwerf-Kit", um die Patrouillenrouten der Militärkräfte kennenzulernen, bevor du deine Hauptwaffe aus deiner Kellersammlung riskierst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Können andere Spieler meinen Road to Vostok Keller überfallen?",
+    answer: "Nein. Road to Vostok ist ein dediziertes Einzelspieler-Erlebnis. Dein Keller ist eine vollständig private Instanz, in der deine Beute vor anderen Spielern sicher ist."
+  },
+  {
+    question: "Verschwinden Gegenstände, wenn ich sie auf dem Boden des Kellers liegen lasse?",
+    answer: "Gegenstände verschwinden nicht. Das Spiel verwendet ein physikbasiertes Speichersystem, das die genauen Koordinaten jedes Gegenstands speichert, der innerhalb der Unterschlupfgrenzen fallen gelassen wird."
+  },
+  {
+    question: "Wie viele Unterschlüpfe kann ich im Build 2026 gleichzeitig besitzen?",
+    answer: "Mit dem Build 1 'Road'-Update können Spieler mehrere Unterschlüpfe auf der Weltkarte unterhalten, was ein Netzwerk von Sicherheitszonen auf ihren Reisen nach Osten ermöglicht."
+  },
+  {
+    question: "Was passiert mit meiner Kellerbeute, wenn ich in der Vostok-Zone sterbe?",
+    answer: "Wenn du in Vostok stirbst, werden dein Charakter und dein gesamter Fortschritt gelöscht (Permadeath). Beute, die in Unterschlüpfen in Gebiet 05 gelagert wurde, bleibt jedoch zugänglich, wenn du einen neuen Lauf beginnst, und fungiert als Legacy-Speicher."
+  }
+]} />
+
+</Section>
+
+Stand Mai 2026 bleibt der **Road to Vostok Keller** der wichtigste Mechanismus für langfristiges Überleben. Indem du die Kunst der Lagerung meisterst, den Dekorationsmodus für eine bessere Organisation nutzt und strategisch neue Unterschlüpfe freischaltest, kannst du die extremen Risiken der Vostok-Grenze mindern. Denk daran: Die Grenze wird bewacht, das Wetter ist dynamisch und deine Ausrüstung ist temporär – aber ein gut ausgestatteter Keller ist für immer. Bleib wachsam, speichere oft und bereite dich auf den langen Weg vor. Für weitere Informationen zu spezifischen Waffen-Builds, die du in deinem Keller lagern kannst, schau dir unseren [Waffen-Guide](/road-to-vostok-weapons-guide) an oder erkunde die [Vollständige Weltkarte](/maps), um deine nächste Unterschlupf-Erweiterung zu planen.

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Flame Beanie: How to Get This Rare Item 2026",
+  description: "Discover the definitive guide to obtaining the elusive Flame Beanie in Road to Vostok, including Punisher spawn mechanics, modding tips, and combat strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800000/fff?text=Flame+Beanie+Guide",
+  date: "2026-05-16",
+  author: "Road Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Road to Vostok Flame Beanie** is a rare drop from The Punisher event.
+- **Punisher spawn rate** is extremely low without mods (2.5-3.3% per map instance).
+- **Modding** is highly recommended to increase Punisher spawn probability to 100%.
+- **Outpost map** is ideal for hunting The Punisher due to its open layout and cover options.
+- **Preparation** is key: bring reliable gear, armor, and medical supplies.
+</Callout>
+
+The coveted Flame Beanie in Road to Vostok is more than just a cosmetic item; it's a badge of honor, signifying your triumph over one of the game's most elusive challenges: The Punisher. This guide will walk you through everything you need to know to acquire the Road to Vostok Flame Beanie, from understanding Punisher spawn mechanics to effectively engaging him in combat. Be prepared for a challenging hunt, but with the right strategy, this rare item can be yours.
+
+<Section icon={Target} title="Understanding The Punisher Spawn Mechanics">
+Obtaining the Flame Beanie hinges entirely on encountering and defeating The Punisher. However, The Punisher's spawn rate is notoriously low, making it one of the most frustrating aspects of the hunt. The game's internal mechanics make his appearance a rare event, often leaving players in the dark about how to even get him to show up.
+
+<Callout type="warning" title="Low Spawn Probability">
+The base chance for The Punisher to spawn is approximately 2.5% to 3.3% per map instance, depending on the map and in-game days. Even if he spawns, there's an additional chance he might just drive through the map without stopping or engaging, further reducing your actual encounter rate.
+</Callout>
+
+The game first selects a random event from a list of possibilities applicable to your current map and in-game progression. For example, the Village map can trigger fighter jets, The Punisher, or air drops. The Outpost map has these three plus the "Outpost Compromised" event. The Punisher does not spawn on the Border Zone or Vostok Permadeath maps. Once The Punisher event is rolled, there's a percentage chance for him to actually appear. If this roll fails, no event occurs. This multi-layered probability system makes a natural encounter incredibly rare.
+
+**Video Highlights:**
+- Explains the low base spawn chance (2.5-3.3%).
+- Details how map events are rolled and how it impacts Punisher spawns.
+- Highlights that The Punisher may drive through without stopping.
+
+<YouTubeEmbed videoId="o3Hwsuv4fk4" title="STOP Waiting! How to 100% Spawn & Kill The Punisher | Road to Vostok Guide" />
+
+To overcome these dismal odds, many players opt to modify the game files to increase the spawn probability. This is by far the most efficient way to ensure you actually get a chance to fight The Punisher for your Flame Beanie.
+
+</Section>
+
+<Section icon={Sparkles} title="Modding for Guaranteed Punisher Spawns">
+Given the extremely low natural spawn rate, modding is the most practical solution for consistently encountering The Punisher. This involves installing a few essential mods that allow you to adjust the spawn probability.
+
+<Callout type="tip" title="Why Modding is Recommended">
+Modding allows you to set The Punisher's spawn probability to 100% *if* the game selects his event. While it doesn't guarantee he'll stop his van every time, it drastically reduces the time spent waiting for an encounter, making the hunt for the Flame Beanie much more efficient.
+</Callout>
+
+Here's a step-by-step guide to setting up the necessary mods:
+
+<Steps>
+  <Step num="1" title="Install Metro Mod Loader">
+    Download the Metro Mod Loader from modworkshop.net/mod/55623. This acts as a mod organizer for Road to Vostok. Unzip the downloaded file. Copy `override_config.gd` into your game's installation folder (e.g., `Steam/steamapps/common/Road to Vostok`). Create a `mods` folder in the game directory if it doesn't exist. Place `modloader.gd` into `C:/Users/[YourName]/AppData/Roaming/Road to Vostok`.
+  </Step>
+  <Step num="2" title="Install Mod Configuration Menu">
+    Download the Mod Configuration Menu mod from modworkshop.net/mod/53713. Drag and drop the downloaded `.vmz` file into the `mods` folder you created in your game installation directory.
+  </Step>
+  <Step num="3" title="Install Event Hints Mod">
+    Download the Event Hints Mod from modworkshop.net/mod/55994. Similarly, place this `.vmz` file into the `mods` folder in your game directory.
+  </Step>
+  <Step num="4" title="Configure Mod Settings In-Game">
+    Launch the game. You'll see the mod organizer window; ensure priority is at -100 as per mod instructions, then launch the game. Go to settings, locate the Mod Configuration Menu icon in the upper right. Select "Event Hints" and dial up The Punisher's percent chance to 100%. It's also recommended to reduce the max wait time to 60 seconds to avoid long waits for him to appear.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Required Mods">
+    - **Metro Mod Loader**: Mod organizer
+    - **Mod Configuration Menu**: In-game mod settings
+    - **Event Hints Mod**: Adjusts event probabilities
+  </Card>
+  <Card title="Configuration Settings">
+    - Punisher Spawn Chance: **100%**
+    - Max Event Wait Time: **60 seconds**
+    - Mod Priority: **-100** (as instructed by mod documentation)
+  </Card>
+</CardGrid>
+
+Once configured, you can repeatedly enter and exit your tent or shelter on a chosen map until you receive the "Hey, you hear sirens?" notification, indicating The Punisher's arrival.
+
+</Section>
+
+<Section icon={Map} title="Choosing the Right Battlefield: Best Maps for The Punisher">
+Selecting the optimal map significantly impacts your success in taking down The Punisher and securing the Flame Beanie. The Outpost map is widely considered the best choice for this encounter due to its advantageous layout.
+
+<Callout type="success" title="Outpost Advantages">
+The Outpost offers clear sightlines for spotting The Punisher's van, a central intersection where he's likely to pass, and abundant cover options (rocks, bridges, burnt-out cars) to engage him safely. Its open design also mitigates close-quarters combat risks from other AI.
+</Callout>
+
+Here's a comparison of common maps for hunting The Punisher:
+
+| Map | Punisher Spawn Chance | Advantages | Disadvantages | Recommended |
+|:----|:----------------------|:-----------|:--------------|:------------|
+| **Outpost** | 1 in 4 (with mods) | Clear visibility, central routes, ample cover, long-range AI | Still has AI, but generally less threatening | ★★★★★ |
+| **Village** | 1 in 3 (with mods) | Familiar layout, some cover | More close-quarters combat with AI, harder to spot van | ★★☆☆☆ |
+| **School** | 1 in 3 (with mods) | Good loot potential | Extremely dangerous close-quarters AI, very difficult to engage Punisher safely | ★☆☆☆☆ |
+| **Border Zone** | N/A | N/A | Punisher does not spawn here | N/A |
+| **Vostok Permadeath** | N/A | N/A | Punisher does not spawn here | N/A |
+
+The Outpost's design allows you to easily spot The Punisher's van from a distance, giving you time to prepare and position yourself for an ambush. The common intersection point ensures he will pass through a predictable area, making it easier to set up.
+
+</Section>
+
+<Section icon={Shield} title="Gear Up: Essential Loadout for The Punisher Fight">
+Defeating The Punisher requires more than just a good strategy; it demands proper preparation and a reliable loadout. Don't skimp on gear when the Flame Beanie is on the line.
+
+<Callout type="tip" title="Don't Scrounge on Meds">
+Always bring a full medkit and sufficient medical supplies. Killing The Punisher only to bleed out from a headshot or rupture afterward is incredibly frustrating. Better safe than sorry.
+</Callout>
+
+**Recommended Loadout Checklist:**
+
+<Checklist
+  id="punisher-loadout"
+  title="Punisher Hunter's Kit:"
+  items={[
+    "Reliable firearm (Condition 70% or higher to prevent jamming)",
+    "Full body armor (100% condition recommended)",
+    "Multiple magazines of high-damage ammunition",
+    "First Aid Kit (for critical injuries like ruptures/headshots)",
+    "Painkillers/Bandages (for minor injuries and sustained combat)",
+    "Grenades (useful for stopping the van or flushing him out of cover)"
+  ]}
+/>
+
+Your weapon choice should prioritize reliability and stopping power. Avoid guns with low durability, as a jam in the middle of a firefight can be fatal. Armor is crucial, as The Punisher and his guards will spray a lot of bullets. While hiding behind cover is effective, some shots will inevitably hit.
+
+</Section>
+
+<Section icon={Swords} title="Engaging The Punisher: Combat Strategy">
+Once you hear the sirens and receive the notification, it's time to execute your plan. The key is to stop his van, find cover, and engage methodically.
+
+<Callout type="warning" title="Prioritize Cover">
+The Punisher and his team will unleash a hail of bullets. As soon as his van stops, immediately move to solid cover. Rocks, burnt-out cars, and bridge structures on the Outpost are excellent choices.
+</Callout>
+
+Here's a breakdown of the engagement process:
+
+| Phase | Objective | Tactics | Key Considerations |
+|:------|:----------|:--------|:-------------------|
+| **1. Stop the Van** | Force The Punisher's vehicle to halt. | Shoot at the tires or engine block of the van as it approaches. A few well-placed shots can stop it. | He has a high chance of spotting you and stopping if you shoot at the van. |
+| **2. Secure Cover** | Minimize exposure to incoming fire. | As soon as the van stops, sprint to the nearest substantial cover (rocks, bridge, etc.). | Avoid exposing your center mass; peek around cover to shoot. |
+| **3. Eliminate Guards** | Reduce numerical advantage. | Prioritize the accompanying guards first. They are less armored and easier to take down. | Maintain cover; don't rush. Pick them off one by one. |
+| **4. Engage The Punisher** | Defeat The Punisher himself. | Use sustained fire to his head or chest. He is heavily armored. | Be patient; he will spray a lot. Wait for openings. |
+| **5. Loot & Extract** | Claim the Flame Beanie and other rewards. | Once all enemies are down, quickly loot The Punisher for the Flame Beanie and his KP-31 Soumi. | Check for remaining AI before looting. Have an extraction plan. |
+
+Remember, patience is a virtue in this fight. Don't expose yourself unnecessarily. Use cover to your advantage and pick your shots carefully. The Flame Beanie is a hard-earned reward, and it requires a methodical approach.
+
+</Section>
+
+<Section icon={Trophy} title="Flame Beanie Acquisition and Beyond">
+After successfully defeating The Punisher and looting his body, you will find the coveted Flame Beanie, along with his unique KP-31 Soumi submachine gun. This achievement marks a significant milestone in your Road to Vostok journey.
+
+<Callout type="success" title="Victory Loot">
+The Flame Beanie is a guaranteed drop from The Punisher. Don't forget to also grab his KP-31 Soumi, a powerful and unique weapon, as part of your spoils.
+</Callout>
+
+The Flame Beanie is a cosmetic item, but its value lies in the difficulty of its acquisition. It demonstrates your mastery over one of the game's toughest challenges. With the Flame Beanie in hand, you can now proudly display your accomplishment. Continue to explore the unforgiving world of Road to Vostok, armed with your new gear and enhanced experience.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the Road to Vostok Flame Beanie?",
+    answer: "The Road to Vostok Flame Beanie is a rare cosmetic item dropped by The Punisher, a unique enemy event in the game. It signifies a significant achievement for players who manage to defeat him."
+  },
+  {
+    question: "How do I make The Punisher spawn more often for the Flame Beanie?",
+    answer: "The most effective way to increase The Punisher's spawn rate is by using mods like Metro Mod Loader, Mod Configuration Menu, and Event Hints Mod to set his spawn probability to 100% in the game settings."
+  },
+  {
+    question: "Which map is best for hunting The Punisher?",
+    answer: "The Outpost map is highly recommended due to its open layout, clear sightlines, common vehicle routes, and abundant cover options, making it ideal for spotting and engaging The Punisher safely."
+  },
+  {
+    question: "What gear should I bring to fight The Punisher?",
+    answer: "You should bring a reliable firearm (70%+ condition), full body armor (100% condition), multiple magazines, and comprehensive medical supplies including a First Aid Kit for critical injuries. Grenades can also be useful."
+  }
+]} />
+
+</Section>

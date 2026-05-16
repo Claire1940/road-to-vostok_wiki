@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Home, ShoppingCart, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Kann man Möbel verkaufen: Unterschlupf-Guide 2026",
+  description: "Entdecken Sie, wie Sie Möbel in Road to Vostok verwalten, herstellen und handeln. Erfahren Sie mehr über den Dekorationsmodus, den Möbelkatalog und die Handelsmechaniken von 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Road+to+Vostok+Furniture+Guide",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Möbel-Interaktion**: Verwenden Sie den **Dekorationsmodus (F1)**, um Objekte in Ihrem Unterschlupf zu bewegen, zu drehen und zu platzieren.
+- **Erwerbsmethoden**: Möbel können durch **Herstellungsrezepte**, das Finden von Gegenständen in der Welt oder das **Handelssystem** erworben werden.
+- **Aufbewahrungslösungen**: Der **Möbelkatalog** dient als temporärer Tetris-ähnlicher Speicher für große Gegenstände.
+- **Gegenstandsgruppierung**: Kleinere Gegenstände, die auf Möbeln platziert werden, **bewegen sich automatisch** mit dem Möbelstück.
+- **Handelsrealität**: Im Early Access 2026 erfolgt der "Verkauf" über das **Tauschsystem** mit bestimmten Händlern.
+</Callout>
+
+Die Überlebenslandschaft von Road to Vostok hat sich mit der Einführung fortschrittlicher Unterschlupfanpassungen erheblich weiterentwickelt. Während Spieler die rauen Umgebungen durchsuchen, stellt sich eine häufige Frage: **road to vostok kann man möbel verkaufen**, um einen Gewinn zu erzielen oder Platz zu schaffen? Das Verständnis der Wirtschaft Ihres Verstecks ist genauso wichtig wie die Beherrschung der ballistischen Mechanik. Ob Sie die anfängliche Hütte bewohnen oder ein taktisches Zelt aufstellen, Möbel bieten mehr als nur Ästhetik; sie bieten wesentlichen Stauraum und Nutzen.
+
+In diesem umfassenden Leitfaden werden wir die Mechaniken der Early-Access-Version von 2026 untersuchen, wobei der Schwerpunkt darauf liegt, wie Sie Möbel manipulieren, herstellen und handeln können. Wir werden die Nuancen des Tauschsystems und die Art und Weise, wie der Entwickler das Feedback der Spieler bezüglich der Behälterbeschränkungen berücksichtigt hat, behandeln. Am Ende dieses Artikels werden Sie genau wissen, wie Sie Ihr Unterschlupf-Layout optimieren und was Sie mit den überschüssigen Gegenständen tun können, die Sie in der Vostok-Zone finden. **Road to Vostok kann man Möbel verkaufen** ist eine Frage, die die tiefere Handelslogik berührt, die derzeit implementiert wird.
+
+<Section icon={Home} title="Den Dekorationsmodus und die Platzierung meistern">
+
+Der Kern der Unterschlupfanpassung in Road to Vostok ist der **Dekorationsmodus**. Im Gegensatz zu den statischen Umgebungen der ersten Demo ermöglicht die aktuelle Version den Spielern, fast jede Requisite in ihrer Sicherheitszone zu manipulieren. Durch Drücken der Standardtaste **F1** wechseln Sie von der Standard-Überlebensschnittstelle in einen speziellen Bearbeitungsmodus.
+
+**Video-Highlights:**
+- **Dynamische Manipulation**: Sofas, Stühle und Betten frei bewegen.
+- **Beleuchtungssteuerung**: Lichtschalter verwenden, um die Stimmung einzelner Räume zu ändern.
+- **Rasterausrichtung**: Sicherstellen, dass Möbel perfekt an Wänden und Böden ausgerichtet sind.
+- **Ungültige Shader**: Visuelle Hinweise zeigen Ihnen genau an, wo ein Gegenstand nicht platziert werden kann.
+
+<YouTubeEmbed videoId="cqaxEE5efpg" title="Shelter Customization | Feature Highlight #2 | Road to Vostok" />
+
+Das Platzierungssystem verwendet einen "Gültig/Ungültig"-Shader-Effekt. Wenn ein Gegenstand rot hervorgehoben ist, deutet dies auf eine Kollision oder eine nicht unterstützte Oberfläche hin. Zum Beispiel können Wandregale nur an vertikalen Oberflächen befestigt werden, während Teppiche die einzigartige Fähigkeit besitzen, andere Möbelstücke zu überlappen, ohne dass das obere Element zuerst entfernt werden muss.
+
+| Aktion | Steuerung (Standard) | Funktion |
+| :--- | :--- | :--- |
+| **Dekorationsmodus betreten** | F1 | Schaltet die Möbelmanipulationsschnittstelle um |
+| **Objekt greifen** | Linke Maustaste | Nimmt das anvisierte Möbelstück auf |
+| **Objekt drehen** | Mausrad / R | Passt die Ausrichtung des Gegenstands an |
+| **Abstand anpassen** | Alt + Mausrad | Bewegt das Objekt näher oder weiter vom Spieler weg |
+| **Katalog öffnen** | Tab (Im Dekorationsmodus) | Greift auf den Tetris-ähnlichen Möbelstauraum zu |
+
+<Callout type="tip" title="Profi-Tipp">
+Verwenden Sie die Funktion **Rasterausrichtung**, um "unschöne Lücken" zwischen Ihren Regalen und Wänden zu vermeiden. Dies ist besonders nützlich, wenn Sie versuchen, die Lagerdichte in kleineren Unterständen wie dem Zelt zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Möbelbeschaffung und -herstellung">
+
+Der Erwerb neuer Möbel ist ein wichtiger Fortschrittsmeilenstein. Sie sind nicht länger auf die Standardausstattung beschränkt, die Sie in Ihrem Startunterschlupf finden. Das Update von 2026 führte über 20 verschiedene Möbelrezepte ein, die spezifische Materialien erfordern, die aus der Welt gesammelt wurden.
+
+**Road to Vostok kann man Möbel verkaufen** oder herstellen? Die Antwort liegt im speziellen Möbelbereich des Herstellungsmenüs. Diese Rezepte haben eine "Unterschlupf-Nähe"-Anforderung, was bedeutet, dass sie nur abgeschlossen werden können, während Sie sich physisch in einer Ihrer Sicherheitszonen befinden.
+
+<Steps>
+  <Step num="1" title="Materialien sammeln">
+    Sammeln Sie Rohstoffe wie Holz, Decken, Kissen und Isomatten aus verlassenen Wohngebieten.
+  </Step>
+  <Step num="2" title="Herstellungsmenü aufrufen">
+    Öffnen Sie Ihr Inventar im Unterschlupf und navigieren Sie zum Tab **Möbel**.
+  </Step>
+  <Step num="3" title="Ressourcen eingeben">
+    Ziehen Sie die benötigten Materialien in die Rezeptfelder. Für ein Militärbett benötigen Sie möglicherweise zwei Isomatten und einen Schlafsack.
+  </Step>
+  <Step num="4" title="Fertigstellen und platzieren">
+    Sobald die Herstellung abgeschlossen ist, erscheint der Gegenstand in Ihrem **Möbelkatalog**. Sie können ihn dann überall in Ihrem Unterschlupf platzieren.
+  </Step>
+</Steps>
+
+| Möbelstück | Primärmaterialien | Nutzen |
+| :--- | :--- | :--- |
+| **Militärbett** | Isomatten, Schlafsack | Spawn-Punkt setzen / Ausruhen |
+| **Einzelbett** | Holz, Matratzenrolle, Kissen | Grundlegende Ruhefunktion |
+| **Wandregal** | Holz, Nägel | Kleiner Stauraum |
+| **Großer Kühlschrank** | Elektronik, Metallschrott | Lebensmittelkonservierung (Geplant) |
+| **Rya-Teppich** | Stoffreste, Faden | Ästhetik / Überlappende Platzierung |
+
+<Callout type="warning" title="Ressourcenmanagement">
+Die Möbelherstellung verbraucht erhebliche Mengen an Gewicht und Platz in Ihrem Rucksack. Planen Sie Ihre Sammeltouren speziell für Möbelkomponenten, um in gefährlichen Zonen nicht überladen zu sein.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingCart} title="Das Handelssystem: Kann man Möbel verkaufen?">
+
+Wenn Spieler fragen **road to vostok kann man möbel verkaufen**, suchen sie normalerweise nach einer Möglichkeit, überschüssige Stühle oder Tische in Währung oder Munition umzuwandeln. In Road to Vostok basiert die Wirtschaft auf einem **Tauschsystem**. Händler haben spezifische Beutetabellen, und obwohl sie hauptsächlich Möbel verkaufen, können Sie Ihre Gegenstände auch über die Handelsoberfläche tauschen.
+
+Der Entwickler hat angedeutet, dass verschiedene Händler spezialisierte Inventare haben werden. Zum Beispiel konzentriert sich die Händlerin, bekannt als "Oma", auf stoffbezogene Gegenstände wie Teppiche und Bettwäsche.
+
+<CardGrid cols={2}>
+  <Card title="Der Generalist-Händler">
+    - **Inventar**: Grundlegende Überlebensausrüstung und gewöhnliche Möbel.
+    - **Am besten für**: Das Eintauschen gewöhnlicher Haushaltsgegenstände gegen Munition.
+    - **Ort**: In frühen Grenzgebieten zu finden.
+  </Card>
+  <Card title="Oma (Spezialist)">
+    - **Inventar**: Hochwertige Teppiche, Vorhänge und Stoffe.
+    - **Am besten für**: Den Erwerb seltener ästhetischer Gegenstände.
+    - **Ort**: Wohn- oder ländliche Sicherheitszonen.
+  </Card>
+</CardGrid>
+
+Die Handelslogik ermöglicht es Ihnen, Möbel aus Ihrem **Möbelkatalog** in das Handelsfenster zu verschieben. Wenn der Händler die Kategorie des Gegenstands akzeptiert, wird dessen Wert auf Ihren Kauf angerechnet. Dies beantwortet effektiv die Frage nach dem "Verkauf": Ja, Sie können Möbel tauschen, vorausgesetzt, Sie haben eine Möglichkeit, sie zum Händler zu transportieren, oder der Händler ist von Ihrem Unterschlupf aus erreichbar.
+
+| Händlertyp | Kauft Möbel? | Verkauft Möbel? | Spezialität |
+| :--- | :--- | :--- | :--- |
+| **Generalist** | Ja (Allgemein) | Ja | Nachttische, Kühlschränke, Hocker |
+| **Oma** | Ja (Stoffe) | Ja | Teppiche, Bettwäsche, Kissen |
+| **Sanitäter** | Nein | Nein | N/A |
+| **Waffenhändler** | Nein | Nein | N/A |
+
+<Callout type="success" title="Inventarerweiterung">
+Durch das Platzieren weiterer Behälter und Regale können Sie Hunderte von Gegenständen lagern. Dies löst das Feedback aus der Demo, bei dem Spieler das Gefühl hatten, dass der Dachboden-Unterschlupf nicht genügend Stauraum bot.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erweitertes Management: Gegenstandsgruppierung und Kataloge">
+
+Eine der innovativsten Funktionen im Update 2026 ist die **Gegenstandsgruppierung**. Dieses System stellt sicher, dass Ihre harte Arbeit beim Dekorieren nicht umsonst ist, wenn Sie beschließen, Ihr Zimmer neu zu gestalten. Wenn Sie eine Laterne oder ein Werkzeug auf einem Tisch platzieren, wird dieser Gegenstand mit dem Tisch "gruppiert".
+
+- **Bewegungskonsistenz**: Wenn Sie den Tisch im Dekorationsmodus greifen, bleibt die Laterne oben.
+- **Tetris-Katalog**: Der Möbelkatalog verwendet ein rasterbasiertes System zur Speicherung großer Objekte, wodurch Ihr Unterschlupf bei Renovierungen nicht zu überladen wird.
+- **Unterstützung mehrerer Unterschlupfe**: Sie können jetzt mehrere Unterschlupfe unterhalten (z. B. eine Hauptkabine und ein Ausweichzelt). Möbel können über das Katalogsystem zwischen diesen Orten übertragen werden.
+
+<Checklist
+  id="shelter-setup"
+  title="Wesentliche Unterschlupfziele:"
+  items={[
+    "Mindestens ein Bett herstellen, um Ihren Respawn-Punkt festzulegen",
+    "Wandregale in der Nähe des Eingangs für schnelle Ausrüstungsablage installieren",
+    "Einen Küchenbereich mit einem Kühlschrank für die Lebensmittellagerung organisieren",
+    "Einen sekundären 'Flucht'-Unterschlupf in einer anderen Zone einrichten",
+    "Überschüssige Möbel mit dem Generalist-Händler gegen Vorräte tauschen"
+  ]}
+/>
+
+<Callout type="info" title="Modding-Zukunft">
+Der Entwickler hat ein "Möbelkomponenten"-Tool erstellt. Dies wird es Moddern schließlich ermöglichen, jedes 3D-Modell mit einem einzigen Klick in dynamische, interaktive Möbel zu verwandeln, wodurch die Vielfalt der verfügbaren Gegenstände erheblich erweitert wird.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Road to Vostok Möbel-FAQ">
+
+<FAQ items={[
+  {
+    question: "Kann man in Road to Vostok Möbel an jeden Händler verkaufen?",
+    answer: "Nein, Sie können Möbel nur mit bestimmten Händlern wie dem Generalisten oder der Oma tauschen. Die meisten spezialisierten Händler (wie der Sanitäter) akzeptieren keine Möbel im Austausch für ihre Waren."
+  },
+  {
+    question: "Wie verschiebe ich Möbel zwischen verschiedenen Unterschlüpfen?",
+    answer: "Sie können das Möbelkatalogsystem verwenden. Indem Sie ein Möbelstück in einem Unterschlupf in Ihrem Katalog 'lagern', können Sie dann zu einem anderen Unterschlupf reisen und es dort platzieren, vorausgesetzt, der Katalog wird geteilt oder Sie tragen die Gegenstände."
+  },
+  {
+    question: "Bieten Möbel irgendwelche Stat-Boni?",
+    answer: "Derzeit dienen Möbel hauptsächlich zur Lagerung, als Respawn-Punkte (Betten) und zur ästhetischen Anpassung. Der Entwickler prüft jedoch Nutzungsfunktionen wie die Lebensmittelkonservierung für Kühlschränke."
+  },
+  {
+    question: "Was passiert mit den Gegenständen in meinem Regal, wenn ich das Regal lösche?",
+    answer: "Gegenstände werden mit den Möbeln gruppiert. Wenn Sie das Regal in Ihren Katalog verschieben, werden die Gegenstände normalerweise in Ihr allgemeines Inventar oder den Katalogspeicher zurückgeführt, um Verluste zu vermeiden."
+  }
+]} />
+
+</Section>

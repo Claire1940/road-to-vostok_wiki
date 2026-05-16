@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Mods: Anleitung zur Installation & Anpassung 2026",
+  description: "Erfahren Sie, wie Sie Mods für Road to Vostok installieren und verwalten, um Ihr Hardcore-Survival-FPS-Erlebnis zu verbessern. Lernen Sie potenzielle Tools und Best Practices für die Anpassung kennen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/36454F/fff?text=Road+to+Vostok+Mods",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok Mods** werden derzeit nicht offiziell unterstützt, da sich das Spiel auf seine Kernentwicklung im Early Access konzentriert.
+- Obwohl offizielle Modding-Tools noch nicht verfügbar sind, suchen Spieler oft nach Community-basierten Lösungen für die **Spielanpassung**.
+- Sichern Sie immer Ihre Spieldateien, bevor Sie inoffizielle Modifikationen versuchen, um Datenverlust zu vermeiden.
+- Verfolgen Sie offizielle **Road to Vostok** Ankündigungen für zukünftige Pläne bezüglich Mod-Unterstützung.
+- Priorisieren Sie die Spielstabilität gegenüber umfassender Anpassung, insbesondere bei einem Early Access-Titel.
+</Callout>
+
+Die Verbesserung Ihres Spielerlebnisses in Hardcore-Survival-Titeln beinhaltet oft die Erkundung der Welt der Modifikationen oder Mods. Für ein Spiel wie **Road to Vostok**, das Realismus und eine herausfordernde Umgebung betont, können Mods neue Perspektiven, Verbesserungen der Lebensqualität oder sogar völlig neue Inhalte bieten. Da es sich jedoch um einen Early Access-Titel handelt, kann der Prozess der Installation von Mods für Road to Vostok von etablierteren Spielen abweichen. Dieser Leitfaden führt Sie durch das aktuelle Verständnis des Moddings für Road to Vostok und bietet Best Practices und Überlegungen für Spieler, die ihre Reise nach Vostok anpassen möchten.
+
+<Section icon={Sparkles} title="Modding in Road to Vostok's Early Access verstehen">
+Road to Vostok ist ein Hardcore-Einzelspieler-Survival-FPS, das sich derzeit im Early Access befindet. Dies bedeutet, dass das Spiel noch aktiv entwickelt wird und offizielle Mod-Unterstützung, falls geplant, möglicherweise noch nicht implementiert ist. Die Entwickler konzentrieren sich auf den Aufbau des Kernspielablaufs, die Erweiterung von Karten und die Verfeinerung von Mechaniken wie realistischem FPS-Handling und Permadeath.
+
+<Callout type="warning" title="Überlegungen zum Early Access Modding">
+Das Modding eines Early Access-Spiels wie Road to Vostok birgt inhärente Risiken. Häufige Updates können bestehende Mods unbrauchbar machen, und inoffizielle Modifikationen können mit Spieldateien in Konflikt geraten, was zu Abstürzen oder beschädigten Speicherständen führt. Gehen Sie immer mit Vorsicht vor und priorisieren Sie die Spielstabilität.
+</Callout>
+
+Derzeit erwähnen offizielle Kanäle für Road to Vostok keine dedizierten Modding-Tools oder direkte Unterstützung für benutzergenerierte Inhalte. Dies ist bei Spielen in ihren frühen Entwicklungsphasen üblich. Die Abwesenheit offizieller Tools hält engagierte Communities jedoch nicht immer davon ab, Wege zu finden, ihr Erlebnis anzupassen.
+
+</Section>
+
+<Section icon={Target} title="Aktueller Status der Road to Vostok Mods">
+
+Seit dem Start des Early Access am 7. April 2026 ist Road to Vostok in erster Linie ein Einzelspieler-Erlebnis mit Fokus auf seine Kernmechaniken. Das Spiel bietet realistisches Schießen, ein dynamisches Wettersystem und einen Fortschrittspfad von Area 05 über die Border Zone bis zur Permadeath-Region Vostok. Während die offizielle Roadmap des Spiels zukünftige Builds mit Fokus auf Fraktionen, Quests und neue Systeme skizziert, wird explizite Mod-Unterstützung nicht als unmittelbare Funktion hervorgehoben.
+
+| Funktion            | Status (Early Access 2026) | Auswirkung auf Modding |
+| :------------------ | :------------------------- | :--------------------- |
+| **Offizielle Mod-Tools** | Noch nicht verfügbar       | Begrenzt direkte offizielle Mod-Erstellung |
+| **Community-Hubs**  | Aktive Diskussionen auf Steam, Discord, Reddit | Potenzial für inoffiziellen Mod-Austausch |
+| **Spiel-Updates**   | Häufig (Roadmap plant 8 Builds) | Hohe Wahrscheinlichkeit, inoffizielle Mods unbrauchbar zu machen |
+| **Spiel-Engine**    | Proprietär (Details nicht öffentlich) | Kann inoffizielle Modifikationen erschweren |
+| **Multiplayer**     | Nur Einzelspieler          | Keine Notwendigkeit für Anti-Cheat-Mod-Erkennung |
+
+<Callout type="tip" title="Bleiben Sie informiert">
+Der beste Weg, um über zukünftige Modding-Möglichkeiten informiert zu sein, ist, den offiziellen Road to Vostok-Ankündigungen auf ihrer [Website](https://roadtovostok.com/) und [Steam Community-Seite](https://store.steampowered.com/app/1963610/Road_to_Vostok/) zu folgen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Allgemeine Schritte zur Installation von Spiel-Mods (Inoffiziell)">
+
+Da offizielle Tools nicht verfügbar sind, würden alle Modding-Versuche für Road to Vostok unter inoffizielle Methoden fallen, die oft eine direkte Dateimanipulation beinhalten. Dieser Prozess kann riskant sein und aufgrund von Spiel-Updates möglicherweise nicht immer funktionieren.
+
+<Steps>
+  <Step num="1" title="Sichern Sie Ihre Spieldateien">
+    Bevor Sie eine Mod-Installation versuchen, **erstellen Sie immer ein Backup** Ihres gesamten Road to Vostok-Installationsordners. Dies ermöglicht es Ihnen, zu einem sauberen Zustand zurückzukehren, falls etwas schiefgeht. Navigieren Sie zu Ihrer Steam-Bibliothek, klicken Sie mit der rechten Maustaste auf Road to Vostok, gehen Sie zu Eigenschaften > Lokale Dateien > Durchsuchen und kopieren Sie den gesamten Ordner an einen sicheren Ort.
+  </Step>
+  <Step num="2" title="Mod-Quellen identifizieren">
+    Suchen Sie nach Community-Foren, Discord-Servern oder dedizierten Modding-Websites (falls welche entstehen), wo Spieler inoffizielle Modifikationen teilen könnten. Seien Sie äußerst vorsichtig bei der Quelle und stellen Sie sicher, dass sie seriös ist, um Malware zu vermeiden.
+  </Step>
+  <Step num="3" title="Anweisungen zur Mod-Installation verstehen">
+    Jede inoffizielle Mod wird wahrscheinlich spezifische Installationsanweisungen von ihrem Ersteller haben. Diese beinhalten typischerweise das Platzieren von Dateien in bestimmte Verzeichnisse innerhalb Ihres Spielordners. Lesen Sie diese Anweisungen sorgfältig durch.
+  </Step>
+  <Step num="4" title="Mod-Dateien installieren">
+    Befolgen Sie die Anweisungen der Mod, um die Dateien an den richtigen Stellen zu platzieren. Dies kann das Ersetzen vorhandener Spieldateien, das Hinzufügen neuer Assets oder das Bearbeiten von Konfigurationsdateien beinhalten.
+  </Step>
+  <Step num="5" title="Das Spiel testen">
+    Starten Sie Road to Vostok nach der Installation der Mod. Wenn das Spiel startet und stabil erscheint, testen Sie die Funktionalität der Mod. Wenn Sie Abstürze oder unerwartetes Verhalten feststellen, kehren Sie zu Ihren Sicherungsdateien zurück.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risiken des inoffiziellen Moddings">
+Inoffizielle Mods können zu Spielinstabilität, beschädigten Speicherständen, Leistungsproblemen oder sogar dazu führen, dass das Spiel nicht startet. Sie werden von den Entwicklern nicht unterstützt, und die Fehlerbehebung kann schwierig sein.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Potenzielle Modding-Bereiche und Verbesserungen">
+
+Auch ohne offizielle Tools konzentrieren sich Community-Bemühungen oft auf bestimmte Arten von Modifikationen. Für ein Spiel wie Road to Vostok, das ein Hardcore-Survival-FPS ist, könnten potenzielle Modding-Bereiche umfassen:
+
+<CardGrid cols={2}>
+  <Card title="Verbesserungen der Lebensqualität">
+    - **UI-Anpassungen**: Anpassung von HUD-Elementen, Inventarverwaltung oder Menülayouts für bessere Benutzerfreundlichkeit.
+    - **Visuelle Verbesserungen**: Reshade-Presets oder Texturverbesserungen zur Änderung der Ästhetik des Spiels.
+    - **Sound-Modifikationen**: Ersetzen von Waffengeräuschen oder Umgebungsgeräuschen für eine andere Immersion.
+  </Card>
+  <Card title="Gameplay-Anpassungen">
+    - **Änderungen der Beutetabelle**: Modifizierung der Spawn-Raten oder -Typen von Gegenständen in verschiedenen Bereichen.
+    - **Feindverhalten**: Anpassung der KI-Schwierigkeit oder der Patrouillenmuster.
+    - **Waffen-Rebalancing**: Anpassung von Schaden, Rückstoß oder anderen Waffenstatistiken.
+  </Card>
+  <Card title="Neue Inhalte (Fortgeschritten)">
+    - **Benutzerdefinierte Gegenstände**: Einführung neuer Waffen, Rüstungen oder Verbrauchsgegenstände.
+    - **Kartenvariationen**: Änderung bestehender Kartenlayouts oder Hinzufügen neuer kleiner Gebiete.
+    - **Kleinere Quests**: Hinzufügen einfacher, von der Community erstellter Aufgaben.
+  </Card>
+  <Card title="Leistungsoptimierungen">
+    - **Konfigurations-Optimierungen**: Anpassung versteckter Einstellungen für bessere Bildraten auf Systemen mit geringerer Leistung.
+    - **Asset-Optimierungen**: Reduzierung der Qualität bestimmter Assets zur Verbesserung der Leistung.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Community-getriebene Innovation">
+Historisch gesehen haben viele erfolgreiche Spiele ihre Lebensdauer verlängert und ihre Communities durch von Spielern erstellte Inhalte gedeihen sehen. Obwohl offizielle Unterstützung noch nicht vorhanden ist, könnte die Leidenschaft der Road to Vostok-Community schließlich zu interessanten Fan-gemachten Modifikationen führen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Road to Vostok Modding-Checkliste">
+
+Wenn Sie sich in das inoffizielle Modding wagen möchten, finden Sie hier eine Checkliste, die Ihnen hilft, eine reibungslosere (wenn auch immer noch riskante) Erfahrung zu gewährleisten:
+
+<Checklist
+  id="modding-checklist"
+  title="Bevor Sie eine Mod installieren:"
+  items={[
+    "Überprüfen Sie die Kompatibilität der Mod mit der aktuellen Spielversion (Early Access-Builds ändern sich häufig).",
+    "Lesen Sie alle Installationsanweisungen gründlich durch, einschließlich etwaiger Abhängigkeiten.",
+    "Scannen Sie heruntergeladene Mod-Dateien mit Antivirensoftware.",
+    "Erstellen Sie ein vollständiges Backup Ihres Road to Vostok-Spielverzeichnisses.",
+    "Verstehen Sie, wie Sie die Mod deinstallieren oder zu Ihrem Backup zurückkehren können.",
+    "Überprüfen Sie das Community-Feedback zur Stabilität und potenziellen Problemen der Mod."
+  ]}
+/>
+
+<Callout type="info" title="Zukunft des Moddings">
+Die Entwickler von Road to Vostok haben eine langfristige Roadmap für das Spiel, mit Plänen, die 2-4 Jahre im Early Access umfassen. Es ist plausibel, dass offizielle Modding-Tools oder Workshop-Integration in späteren Entwicklungsphasen in Betracht gezogen werden könnten, sobald das Kernspiel stabiler und funktionsreicher ist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen zu Road to Vostok Mods">
+
+<FAQ items={[
+  {
+    question: "Gibt es offizielle Mods für Road to Vostok?",
+    answer: "Zum Zeitpunkt des Early Access-Starts im Jahr 2026 bietet Road to Vostok keine offizielle Mod-Unterstützung oder dedizierte Modding-Tools. Die Entwickler konzentrieren sich derzeit auf die Kernentwicklung des Spiels."
+  },
+  {
+    question: "Kann die Installation von Mods mein Road to Vostok-Spiel beschädigen?",
+    answer: "Ja, die Installation inoffizieller Mods, insbesondere in einem Early Access-Titel mit häufigen Updates, birgt ein erhebliches Risiko, Ihr Spiel zu beschädigen, Abstürze zu verursachen oder Speicherstände zu korrumpieren. Sichern Sie Ihr Spiel immer, bevor Sie Mods verwenden."
+  },
+  {
+    question: "Wo finde ich inoffizielle Road to Vostok Mods?",
+    answer: "Inoffizielle Mods würden wahrscheinlich in Community-Bereichen wie den Steam-Foren des Spiels, dem offiziellen Discord-Server oder speziellen Fan-Websites geteilt, falls diese entstehen. Seien Sie äußerst vorsichtig und überprüfen Sie die Quellen."
+  },
+  {
+    question: "Wird Road to Vostok jemals offizielle Mod-Unterstützung erhalten?",
+    answer: "Obwohl es derzeit keine offiziellen Ankündigungen bezüglich der Mod-Unterstützung gibt, ist es möglich, dass die Entwickler in späteren Phasen der langen Early Access-Periode des Spiels offizielle Modding-Tools oder eine Workshop-Integration in Betracht ziehen könnten, sobald die Kernfunktionen robust sind."
+  }
+]} />
+
+</Section>

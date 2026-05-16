@@ -1,0 +1,177 @@
+import { Map, Shield, Target, Sparkles, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Patient Report: Understanding Medical Status & Healing 2026",
+  description: "A comprehensive guide to patient reports in Road to Vostok, covering medical items, status effects, and efficient healing strategies for survival in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4a5568/fff?text=Road+to+Vostok+Medical",
+  date: "2026-05-16",
+  author: "Road Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Road to Vostok Patient Report**: Crucial for understanding your character's health status and applying timely medical aid.
+- **Medical Items**: Utilize a range of items from bandages to advanced kits for different injuries.
+- **Status Effects**: Learn to identify and counter various conditions like bleeding, fractures, and dehydration.
+- **Efficient Healing**: Prioritize treatment based on severity to maximize survival chances.
+- **Trader Support**: The Doctor trader is essential for acquiring advanced medical supplies and information.
+</Callout>
+
+In the unforgiving world of Road to Vostok, managing your character's health is paramount to survival. Understanding the "patient report" – your character's medical status – is not just a detail; it's a critical skill that differentiates successful runs from sudden ends. This guide will walk you through the intricacies of health management, from identifying various injuries and status effects to effectively utilizing medical supplies and leveraging trader support. Mastering these elements will ensure you're always prepared for the challenges that lie between Area 05 and the deadly Vostok zone.
+
+<Section icon={Shield} title="Understanding Your Patient Report">
+Your patient report is your lifeline, providing a real-time overview of your character's physical condition. In Road to Vostok, realism is key, meaning injuries and status effects are detailed and impactful. Knowing how to interpret these reports quickly allows you to make informed decisions under pressure.
+
+The game's medical system is designed to be immersive, requiring players to understand different types of damage and the specific treatments they demand. From minor cuts to severe fractures, each ailment will affect your gameplay differently, impacting movement, aim, and overall survivability.
+
+<Callout type="tip" title="Quick Status Check">
+Regularly check your patient report, especially after engagements or environmental hazards. Early detection of injuries can prevent minor issues from escalating into life-threatening situations, preserving your gear and progress.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Common Injuries and Status Effects">
+The Finnish-Russian border is fraught with dangers, and your character will inevitably sustain various injuries. Recognizing these conditions and their symptoms is the first step towards effective treatment.
+
+### Injury Types and Their Impact
+
+| Injury Type    | Common Causes                               | Impact on Player                               | Recommended Treatment       |
+|:---------------|:--------------------------------------------|:-----------------------------------------------|:----------------------------|
+| **Bleeding**   | Gunshot wounds, sharp objects, fall damage | Gradual health loss, blurred vision            | Bandages, Hemostatic Agents |
+| **Fractures**  | High falls, heavy impacts, explosions      | Reduced movement speed, impaired aiming        | Splints, Painkillers        |
+| **Concussion** | Explosions, head trauma                    | Disorientation, blurred vision, reduced stamina | Painkillers, Rest           |
+| **Dehydration**| Lack of water, prolonged exertion           | Stamina drain, blurred vision, eventual death  | Water, Hydration Packs      |
+| **Starvation** | Lack of food, prolonged exertion            | Stamina drain, reduced health regeneration     | Food Rations                |
+| **Poisoning**  | Contaminated food/water, certain enemies   | Gradual health loss, nausea, disorientation   | Antidotes                   |
+
+<Callout type="warning" title="Critical Status Effects">
+Untreated severe bleeding or fractures can quickly lead to incapacitation or death. Always prioritize these conditions in high-risk zones, as they compromise your ability to escape or fight back effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Essential Medical Items and Usage">
+Your inventory of medical supplies will be your best friend in Road to Vostok. Each item serves a specific purpose, and knowing when and how to use them can mean the difference between life and permadeath.
+
+### Medical Kit Essentials
+
+| Item Category   | Example Items              | Primary Use                                     | Notes                                                |
+|:----------------|:---------------------------|:------------------------------------------------|:-----------------------------------------------------|
+| **Bandages**    | Basic Bandage, Sterile Dressing | Stops light bleeding, minor health regeneration | Essential for everyday cuts and scrapes.             |
+| **First Aid Kits**| IFAK, Medkit               | Heals moderate damage, stops medium bleeding    | Versatile for quick recovery during combat.          |
+| **Splints**     | Improvised Splint, Tactical Splint | Fixes fractures, restores limb function         | Crucial for maintaining mobility after falls/impacts.|
+| **Painkillers** | Ibuprofen, Morphine          | Reduces pain, counters concussion effects       | Allows continued movement and combat effectiveness.  |
+| **Antidotes**   | Universal Antidote         | Cures poisoning, neutralizes toxins             | Rare but invaluable for specific environmental threats.|
+| **Surgical Kits**| Field Surgical Kit         | Heals severe wounds, stops heavy bleeding       | Best for critical injuries, often requires safe environment.|
+
+<Callout type="info" title="Looting Medical Supplies">
+Prioritize looting medical containers and areas like hospitals or abandoned clinics. These locations often yield higher-tier medical supplies crucial for deeper runs into the Border Zone and Vostok.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategic Healing and Recovery Steps">
+Effective healing isn't just about having the right items; it's about applying them strategically. Planning your recovery, especially after intense encounters, is vital for long-term survival.
+
+<Steps>
+  <Step num="1" title="Assess the Damage">
+    After taking damage, immediately check your patient report. Prioritize life-threatening conditions like heavy bleeding or multiple fractures. A quick glance will tell you what needs immediate attention.
+  </Step>
+  <Step num="2" title="Find Cover and Secure the Area">
+    Never heal in the open. Retreat to a safe, concealed location. Listen for enemy footsteps or patrol routes. Healing takes time, and being interrupted can lead to further injury or death.
+  </Step>
+  <Step num="3" title="Apply Primary Treatment">
+    Address the most critical issues first. Stop heavy bleeding with hemostatic agents or surgical kits. Immobilize fractures with splints. These actions prevent further health degradation and restore basic functionality.
+  </Step>
+  <Step num="4" title="Address Secondary Conditions">
+    Once primary threats are contained, treat less immediate but still impactful conditions like dehydration, starvation, or minor cuts. Use bandages, food, and water to stabilize your overall health.
+  </Step>
+  <Step num="5" title="Rest and Replenish">
+    If possible, allow your character to rest in a shelter to naturally regenerate health and stamina. Replenish your medical supplies by crafting or trading before embarking on your next high-risk excursion.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficient Medical Loadout">
+Consider carrying a compact, versatile medical kit for quick battlefield use, and a larger, more specialized kit for shelter-based recovery. This dual approach maximizes both immediate response and long-term sustainability.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="The Doctor Trader: Your Medical Lifeline">
+Traders are integral to your progression in Road to Vostok, and the Doctor trader specializes in all things medical. Establishing a good relationship with them is crucial for accessing advanced healing items and information.
+
+### Doctor Trader Services
+
+| Service Type    | Description                                     | Key Items/Info Provided                               | Progression Impact                                |
+|:----------------|:------------------------------------------------|:------------------------------------------------------|:--------------------------------------------------|
+| **Medical Supplies**| Sells a wide array of healing items             | Advanced Medkits, Surgical Kits, Antidotes, Stimulants | Allows for better preparedness for high-risk zones.|
+| **Information** | Offers insights into specific medical conditions| Tips on treating rare ailments, environmental hazards | Enhances survival knowledge and tactical planning. |
+| **Tasks**       | Provides quests related to medical recovery       | Retrieve medical samples, rescue injured NPCs         | Builds reputation, unlocks better trade options.   |
+| **Bartering**   | Exchanges medical items for valuable resources  | Trade rare components for high-tier medical gear     | Essential for maintaining a healthy medical inventory.|
+
+<Callout type="info">
+The Doctor trader can be found in various safe zones within Area 05. Their inventory and task availability may change with game updates, so check back regularly for new opportunities.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Medical Strategies for Vostok Zone">
+The Vostok zone is the ultimate test of your survival skills, with permadeath making every decision critical. Your medical strategies must be flawless to navigate this high-risk, high-reward area.
+
+<CardGrid cols={2}>
+  <Card title="Pre-Vostok Medical Prep">
+    - **Stockpile**: Gather maximum high-tier medical items.
+    - **Redundancy**: Carry multiple items for critical conditions.
+    - **Quick Slots**: Assign frequently used items to quick access slots.
+  </Card>
+  <Card title="In-Vostok Healing Protocol">
+    - **Immediate Action**: Treat severe bleeding/fractures *instantly*.
+    - **Stealth Heal**: Prioritize healing in hidden, quiet spots.
+    - **Exit Plan**: Always have a clear escape route if medical supplies run low.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="vostok-medical-checklist"
+  title="Vostok Zone Medical Readiness:"
+  items={[
+    "Full stock of advanced Medkits and Surgical Kits",
+    "At least two Splints for fractures",
+    "Multiple doses of Painkillers for concussions",
+    "Sufficient water and food to prevent dehydration/starvation",
+    "Antidotes if facing known poisonous threats",
+    "Thorough understanding of medical item hotkeys"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions About Patient Reports">
+
+<FAQ items={[
+  {
+    question: "What does the 'Road to Vostok Patient Report' show?",
+    answer: "The patient report in Road to Vostok provides a detailed overview of your character's current health status, including specific injuries (like bleeding, fractures), status effects (dehydration, starvation), and overall health. It's crucial for determining what medical treatment is needed."
+  },
+  {
+    question: "How do I access my patient report in Road to Vostok?",
+    answer: "While the exact key binding might vary, you typically access your patient report through your inventory or a dedicated health status key. Consult your in-game keybind settings for the precise command to view your Road to Vostok patient report."
+  },
+  {
+    question: "Are all medical items equally effective for all injuries?",
+    answer: "No, Road to Vostok features a realistic medical system. Different medical items are designed to treat specific injuries or status effects. For instance, bandages stop bleeding, while splints fix fractures. Using the correct item for the ailment is essential for efficient healing."
+  },
+  {
+    question: "What happens if I ignore a critical injury on my patient report?",
+    answer: "Ignoring critical injuries like heavy bleeding or severe fractures in Road to Vostok will lead to rapid health deterioration, impaired movement, and eventually death. In the permadeath Vostok zone, this means losing all your progress and gear."
+  }
+]} />
+
+</Section>

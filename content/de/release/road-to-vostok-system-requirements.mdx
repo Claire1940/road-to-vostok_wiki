@@ -1,0 +1,154 @@
+import { Map, Laptop, MemoryStick, HardDrive, Cpu, Gpu, Monitor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Systemanforderungen: Kann Ihr PC es 2026 ausführen?",
+  description: "Detaillierte Road to Vostok Systemanforderungen für PC (Windows 10, Linux) inklusive Mindest- und empfohlener Spezifikationen für optimales Survival-Gameplay im Jahr 2026.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/36454F/fff?text=Road+to+Vostok+Specs",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Stellen Sie sicher, dass Ihr PC die **Road to Vostok Systemanforderungen** für ein reibungsloses Erlebnis erfüllt.
+- Ein **64-Bit Windows 10** Betriebssystem ist sowohl für die Mindest- als auch für die empfohlenen Setups zwingend erforderlich.
+- **8 GB RAM** sind in allen offiziellen Stufen erforderlich, was seine Bedeutung für die Leistung unterstreicht.
+- Erwägen Sie einen **Intel Core i7** und eine **NVIDIA GeForce GTX 1080Ti** für optimales Gameplay.
+- **DirectX 12** ist eine entscheidende Komponente, überprüfen Sie daher die Kompatibilität Ihres Systems.
+</Callout>
+
+Die gefährliche Reise durch die finnisch-russischen Grenzgebiete in *Road to Vostok* erfordert mehr als nur Überlebensfähigkeiten; sie benötigt einen leistungsfähigen PC. Das Verständnis der **Road to Vostok Systemanforderungen** ist der erste Schritt, um ein reibungsloses und immersives Erlebnis in diesem Hardcore-Singleplayer-Survival-FPS zu gewährleisten. Da das Spiel am 7. April 2026 in den Early Access startete, sind viele Spieler gespannt, ob ihr aktuelles Setup die unversöhnliche Wildnis und die intensiven Feuergefechte bewältigen kann. Dieser Leitfaden schlüsselt die wesentlichen Hardware- und Softwarespezifikationen auf, die Sie benötigen, um sich nach Vostok zu wagen.
+
+<Section icon={Laptop} title="Offizielle Road to Vostok Systemanforderungen">
+Die offizielle Steam-Seite bietet klare Richtlinien für Mindest- und empfohlene Spezifikationen. Diese Stufen sollen den Spielern einen Leistungsmaßstab bieten und sicherstellen, dass selbst bei Mindesteinstellungen der Kern-Überlebenszyklus und die dynamischen Elemente des Spiels spielbar sind. Beide Stufen betonen ein dediziertes GPU-Setup und moderne Betriebssysteme.
+
+<Callout type="tip" title="Warum Spezifikationen bei Road to Vostok wichtig sind">
+Angesichts des Fokus von *Road to Vostok* auf realistische FPS-Mechaniken, dynamisches Wetter und detaillierte Umgebungen wird das Erfüllen der empfohlenen Systemanforderungen Ihr Erlebnis erheblich verbessern, Ruckler reduzieren und die visuelle Wiedergabetreue in kritischen Momenten verbessern.
+</Callout>
+
+| Komponente | Mindestanforderungen | Empfohlene Anforderungen | Kurze Anmerkungen |
+| :-------- | :------------------- | :----------------------- | :---------------- |
+| **Betriebssystem** | Windows 10 (64bit) | Windows 10 (64bit) | 64-Bit Windows 10 ist das einzige aufgeführte Betriebssystem |
+| **Prozessor (CPU)** | Intel Core i5 | Intel Core i7 | Intel Core i5 Minimum / Intel Core i7 empfohlen |
+| **Arbeitsspeicher (RAM)** | 8 GB RAM | 8 GB RAM | 8 GB RAM auf beiden offiziellen Stufen |
+| **Grafikkarte (GPU)** | NVIDIA GeForce GTX 1060 | NVIDIA GeForce GTX 1080Ti | GTX 1060 Minimum / GTX 1080Ti empfohlen |
+| **DirectX** | Version 12 | Version 12 | DirectX 12 erforderlich |
+| **Speicherplatz** | 10 GB verfügbarer Speicherplatz | 10 GB verfügbarer Speicherplatz | 10 GB verfügbarer Speicherplatz |
+| **Zusätzliche Hinweise** | Erfordert einen 64-Bit-Prozessor und ein Betriebssystem | Erfordert einen 64-Bit-Prozessor und ein Betriebssystem | Steam sagt, dass sich die Anforderungen in Zukunft ändern können |
+
+</Section>
+
+<Section icon={Cpu} title="Prozessor (CPU) und Arbeitsspeicher (RAM) Aufschlüsselung">
+CPU und RAM sind das Rückgrat Ihres Systems und verwalten die Spiellogik, die KI und die Gesamtleistung. *Road to Vostok* ist ein anspruchsvoller Titel, und ein starker Prozessor ist entscheidend für die Verwaltung der komplexen Simulationen und Umgebungen.
+
+<Callout type="warning" title="Bedeutung von 64-Bit-Betriebssystemen">
+Sowohl die Mindest- als auch die empfohlenen Spezifikationen weisen ausdrücklich auf die Notwendigkeit eines 64-Bit-Betriebssystems hin. Der Versuch, das Spiel auf einem 32-Bit-System auszuführen, wird nicht funktionieren, da es nicht auf die erforderliche Menge an RAM zugreifen kann.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="CPU-Überlegungen">
+    Für das **Minimum** ist ein **Intel Core i5** aufgeführt. Damit kommen Sie ins Spiel, aber erwarten Sie einige Einschränkungen, insbesondere in dichten Gebieten oder bei intensiven Kämpfen. Für ein flüssigeres Erlebnis wird ein **Intel Core i7** empfohlen, der bessere Bildraten und Stabilität bietet.
+  </Card>
+  <Card title="RAM-Grundlagen">
+    Überraschenderweise benötigen beide Stufen **8 GB RAM**. Obwohl dies der Mindeststandard für viele moderne Spiele ist, kann mehr (z. B. 16 GB) die Ladezeiten erheblich verkürzen und die allgemeine Systemreaktion verbessern, insbesondere beim Multitasking oder Ausführen von Hintergrundanwendungen.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Gpu} title="Grafikkarte (GPU) und DirectX">
+Die GPU ist wohl die kritischste Komponente für die Spieleleistung und beeinflusst direkt die visuelle Qualität und die Bildraten. Die realistische Grafik und die detaillierten Waffenmodelle von *Road to Vostok* profitieren stark von einer leistungsfähigen Grafikkarte.
+
+<Callout type="success" title="Grafikeinstellungen optimieren">
+Wenn Ihre GPU nahe am Minimum liegt, können Sie die Leistung optimieren, indem Sie die Grafikeinstellungen im Spiel anpassen. Das Senken der Texturqualität, der Schattendetails und der Sichtweite kann die Bildraten erheblich steigern, ohne die visuelle Wiedergabetreue vollständig zu opfern.
+</Callout>
+
+| Grafikkarten-Tier | Minimale GPU | Empfohlene GPU | Leistungserwartung |
+| :----------------- | :---------- | :-------------- | :---------------------- |
+| **NVIDIA GeForce** | GTX 1060 | GTX 1080Ti | GTX 1060 für spielbares 1080p bei niedrigen bis mittleren Einstellungen; GTX 1080Ti für flüssiges 1080p/1440p bei hohen Einstellungen. |
+| **DirectX-Version** | Version 12 | Version 12 | Wesentlich für moderne Grafik-API-Funktionen und optimale Leistung. Stellen Sie sicher, dass Ihre Treiber DirectX 12 unterstützen. |
+| **VRAM** | 6 GB (GTX 1060 6 GB Variante) | 11 GB (GTX 1080Ti) | Höherer VRAM hilft bei höheren Auflösungen und Textureinstellungen. |
+
+</Section>
+
+<Section icon={HardDrive} title="Speicherplatz und Betriebssystem-Checkliste">
+Obwohl Speicherplatz einfach erscheinen mag, sind ausreichend Platz und das richtige Betriebssystem grundlegend für die Installation und Ausführung von *Road to Vostok*.
+
+<Callout type="info" title="Linux-Unterstützung">
+Die offizielle FAQ besagt, dass *Road to Vostok* hauptsächlich für Windows/Linux entwickelt wird. Obwohl spezifische Linux-Systemanforderungen auf der Steam-Seite nicht detailliert sind, können Linux-Benutzer oft Kompatibilitätsschichten wie Proton nutzen, um Windows-Spiele auszuführen. Achten Sie auf Community-Diskussionen für Linux-spezifische Leistungstipps.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Betriebssystem überprüfen">
+    Stellen Sie sicher, dass Sie **Windows 10 (64-Bit)** verwenden. Wenn Sie eine ältere Version oder ein 32-Bit-System haben, müssen Sie ein Upgrade durchführen.
+  </Step>
+  <Step num="2" title="Verfügbaren Speicherplatz überprüfen">
+    Bestätigen Sie, dass Sie mindestens **10 GB freien Speicherplatz** haben. Während der anfängliche Download kleiner sein kann, benötigen Spielaktualisierungen und Speicherstände zusätzlichen Platz. Eine SSD wird für schnellere Ladezeiten dringend empfohlen.
+  </Step>
+  <Step num="3" title="Grafiktreiber aktualisieren">
+    Halten Sie Ihre NVIDIA- oder AMD-Grafiktreiber immer auf dem neuesten Stand. Veraltete Treiber sind eine häufige Ursache für Leistungsprobleme und Abstürze.
+  </Step>
+  <Step num="4" title="DirectX 12 Kompatibilität">
+    Vergewissern Sie sich, dass Ihr System und Ihre Grafikkarte **DirectX 12** vollständig unterstützen. Dies ist eine zwingende Voraussetzung für das Spiel.
+  </Step>
+</Steps>
+
+<Checklist
+  id="pre-launch-check"
+  title="Checkliste zur Systembereitschaft vor dem Start:"
+  items={[
+    "Betriebssystem ist Windows 10 (64-Bit)",
+    "CPU erfüllt oder übertrifft Intel Core i5",
+    "RAM beträgt 8 GB oder mehr",
+    "GPU ist NVIDIA GeForce GTX 1060 oder besser",
+    "DirectX 12 ist installiert und wird unterstützt",
+    "Mindestens 10 GB freier Speicherplatz verfügbar"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Monitor} title="Leistungserwartungen und zukünftige Änderungen">
+Das Verständnis der Systemanforderungen ist nur der Anfang. Da *Road to Vostok* im Early Access ist, können sich die Systemanforderungen weiterentwickeln. Entwickler optimieren oft die Leistung und fügen neue Funktionen hinzu, die die Hardwareanforderungen geringfügig ändern könnten.
+
+| Profil | Zielauflösung | Erwartete FPS | Grafikeinstellungen | Anmerkungen |
+| :------ | :---------------- | :----------- | :---------------- | :---- |
+| **Minimum** | 1080p | 30-45 FPS | Niedrig bis Mittel | Spielbares Erlebnis, Potenzial für Frame-Einbrüche in intensiven Szenen. |
+| **Empfohlen** | 1080p / 1440p | 60+ FPS | Mittel bis Hoch | Flüssiges Gameplay, gute visuelle Qualität, konsistente Leistung. |
+| **High-End** | 1440p / 4K | 60+ FPS | Hoch bis Ultra | Optimale visuelle Wiedergabetreue und Leistung mit hochfrequenten Monitoren. |
+
+<Callout type="tip" title="Bleiben Sie auf dem Laufenden">
+Die Steam-Seite weist darauf hin, dass sich die Anforderungen in Zukunft ändern können. Überprüfen Sie regelmäßig die offizielle *Road to Vostok* Steam-Seite und Community-Ankündigungen auf Aktualisierungen der Systemanforderungen.
+</Callout>
+
+</Section>
+
+<Section icon={Laptop} title="Häufig gestellte Fragen zu den Road to Vostok Systemanforderungen">
+
+<FAQ items={[
+  {
+    question: "Kann ich Road to Vostok auf einem 32-Bit-Betriebssystem spielen?",
+    answer: "Nein, *Road to Vostok* erfordert einen 64-Bit-Prozessor und ein Betriebssystem, insbesondere Windows 10 (64-Bit) für sowohl Mindest- als auch empfohlene Spezifikationen. Ein 32-Bit-System kann das Spiel nicht ausführen."
+  },
+  {
+    question: "Sind 8 GB RAM ausreichend für Road to Vostok?",
+    answer: "Gemäß den offiziellen **Road to Vostok Systemanforderungen** sind 8 GB RAM sowohl für die Mindest- als auch für die empfohlenen Stufen aufgeführt. Während das Spiel damit läuft, können 16 GB oder mehr RAM ein flüssigeres Erlebnis bieten, insbesondere während Ladebildschirmen und in belebten Bereichen."
+  },
+  {
+    question: "Wird Road to Vostok unter Linux laufen?",
+    answer: "Die offizielle FAQ erwähnt, dass *Road to Vostok* hauptsächlich für Windows und Linux entwickelt wird. Obwohl spezifische Linux-Anforderungen auf Steam nicht detailliert sind, können Spieler oft Kompatibilitätsschichten wie Proton verwenden. Überprüfen Sie Community-Foren für reale Leistung auf Linux-Distributionen."
+  },
+  {
+    question: "Was, wenn mein PC nur die minimalen Road to Vostok Systemanforderungen erfüllt?",
+    answer: "Wenn Ihr PC nur die minimalen **Road to Vostok Systemanforderungen** erfüllt, sollten Sie das Spiel ausführen können, aber Sie müssen möglicherweise mit niedrigeren Grafikeinstellungen (niedrig bis mittel) spielen, um spielbare Bildraten zu erzielen. Erwarten Sie einige Leistungsschwankungen, insbesondere in grafisch intensiven Szenen."
+  }
+]} />
+
+</Section>

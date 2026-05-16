@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Info, AlertTriangle, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Wiki: Complete Survival & Map Guide 2026",
+  description: "Comprehensive Road to Vostok wiki covering maps, weapons, traders, and survival mechanics for the 2026 Early Access launch on PC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e2d/fff?text=Road+to+Vostok+Wiki",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Road to Vostok Wiki**: This guide serves as the definitive resource for the hardcore single-player survival FPS set in the Finnish-Russian border zone.
+- **Early Access Status**: The game officially entered Steam Early Access on **April 7, 2026**, featuring Build 1: Road.
+- **Permadeath Mechanic**: Crossing into the Vostok region introduces **permanent death**, where losing your character wipes all progress and gear.
+- **Core Gameplay**: Focus on map-to-map travel, realistic weapon handling, and building a network of shelters to survive the harsh environment.
+- **Platform Support**: Currently optimized for **Windows and Linux**, with future console considerations planned after the 1.0 release.
+</Callout>
+
+The **road to vostok wiki** is your essential companion for navigating one of the most punishing and atmospheric survival shooters of 2026. Unlike many extraction-style games, this title focuses purely on a hardcore single-player experience, emphasizing atmosphere, tactical realism, and the constant threat of the border. Whether you are a newcomer struggling to survive your first night in Area 05 or a veteran preparing for a high-stakes push into the Vostok permadeath zone, understanding the underlying systems is vital. This **road to vostok wiki** breaks down the complex map structures, realistic weapon mechanics, and the intricate trader systems that define the gameplay loop.
+
+In this comprehensive guide, we will explore the transition from the relatively safe Finnish territories into the lethal Russian borderlands. We cover everything from system requirements and weapon calibers to the official 2026 roadmap. By following these strategies, you can minimize your risk of total gear loss and master the art of survival in a world where every bullet and every calorie counts.
+
+<Section icon={Info} title="Launch Status and Core Information">
+
+As of May 2026, the game is officially live in Early Access. It is important to distinguish this project from multiplayer extraction shooters; it is a dedicated single-player journey. The developer has confirmed a long-term support plan, with the current build providing the foundation for a 2-to-4-year development cycle.
+
+**Video Highlights:**
+- Overview of the **Early Access launch** features.
+- Visual tour of the new maps including School and Terminal.
+- Demonstration of the realistic weapon handling and PIP scopes.
+
+<YouTubeEmbed videoId="OTFgTRsz43Q" title="Road to Vostok Early Access Trailer" />
+
+The following table summarizes the key launch details as of the April 7, 2026 release.
+
+| Category | Launch Detail |
+|:---|:---|
+| **Release Date** | April 7, 2026 |
+| **Current Build** | Build 1 - Road (v0.1.0.0) |
+| **Standard Price** | $19.99 USD |
+| **Platform** | PC (Windows / Linux) |
+| **Review Status** | Very Positive (81% positive) |
+| **Player Count** | 800,000+ Demo Players recorded |
+
+<Callout type="warning" title="Early Access Notice">
+The game is expected to remain in Early Access for approximately 2 to 4 years. Expect frequent updates, balance changes, and potential save wipes as new builds like "Nomads" and "Signal" are introduced later in 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Beginner Survival Guide: The First Session">
+
+Surviving your first hour in the border zone requires a shift in mindset. You are not a super-soldier; you are a survivor. Your initial goal is to establish a stable economy in Area 05 before even looking toward the east.
+
+<Steps>
+  <Step num="1" title="Secure Your First Shelter">
+    Immediately locate a shelter in Area 05. Shelters act as your only save points and storage hubs. Use them to stash excess loot and stabilize your character's needs.
+  </Step>
+  <Step num="2" title="Scavenge for Basic Essentials">
+    Focus on finding food, water, and medical supplies. Search containers in the School or Outpost maps. Physics-based loot means you should check every corner and shelf manually.
+  </Step>
+  <Step num="3" title="Master Weapon Handling">
+    Practice reloading and checking chambers. The game uses realistic mechanics; if you don't manage your magazines and ammo types (like 9x18 vs 9x19), your gun will fail you in a firefight.
+  </Step>
+  <Step num="4" title="Engage with Traders">
+    Visit the Generalist or the Doctor. Trading is barter-based, so prioritize items that these NPCs value to upgrade your gear or buy specialized keys.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Survival Tip">
+Do not hoard everything on your person. If you die in Area 05, you lose everything in your inventory. Keep your most valuable items and spare weapons safely tucked away in your shelter's storage containers.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="World Structure and Zone Mechanics">
+
+The world is divided into three distinct regions, each with its own risk profile and death penalties. Understanding these boundaries is the most critical part of any **road to vostok wiki** strategy.
+
+| Zone Name | Region | Risk Level | Death Penalty |
+|:---|:---|:---|:---|
+| **Area 05** | SE Finland | Low - Medium | Lose carried gear only |
+| **Border Zone** | The Crossing | High | Lose carried gear only |
+| **Vostok** | Russia | Extreme | **Permadeath** (Wipe all progress) |
+
+<CardGrid cols={2}>
+  <Card title="Area 05 Maps">
+    Includes **School**, **Highway**, and **Outpost**. These are the starter regions where you build your base, meet early traders, and gather the equipment needed for a border push.
+  </Card>
+  <Card title="Vostok Maps">
+    Includes the **Terminal** map. This is the endgame area. The loot is significantly better, but the presence of heavy military forces and the permadeath risk make every move dangerous.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Crossing Logic">
+To reach Vostok, you must navigate the Border Zone. Crossings are not simple walks; they involve navigating minefields, physical obstacles, or using boats to cross waterways while avoiding hostile guards and air support.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapons, Ammo, and Ballistics">
+
+The combat system is built on tactical realism. Weapons are split into several families, each requiring specific ammunition and maintenance. Using the wrong caliber or neglecting attachments will significantly reduce your combat effectiveness.
+
+| Weapon Family | Examples | Primary Calibers | Magazine Capacity |
+|:---|:---|:---|:---|
+| **Pistols** | C1911, G17, Makarov | .45 ACP, 9x19, 9x18 | 8 - 17 Rounds |
+| **Rifles** | AK-12, AKM, MK18 | 5.45x39, 7.62x39, 5.56x45 | 30 Rounds |
+| **Precision** | Mosin, SVD | 7.62x54R | 5 - 10 Rounds |
+| **Shotguns** | RM-870 | 12/70 Gauge | 10 Rounds |
+
+The ballistics system tracks individual rounds. For example, the **RM-870** shotgun is devastating within 2 meters but loses almost all effectiveness beyond 10 meters. Precision rifles like the **SVD** trade fire rate for high stopping power, making them ideal for clearing guards from a distance before attempting a border crossing.
+
+<Callout type="info" title="Attachment System">
+The game features PIP (Picture-in-Picture) scopes. You can equip various optics ranging from short-range red dots (SRO, PRO) to long-range scopes (ACOG, PU). Suppressors like the **Hybrid** or **Navy** are essential for stealthy players.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shelter Customization and Progression">
+
+Shelters are the heart of your long-term survival. They are not just static rooms; they are highly customizable bases that you can upgrade and decorate to suit your needs.
+
+<Checklist
+  id="shelter-features"
+  title="Shelter Capabilities:"
+  items={[
+    "Manual game saving (only available inside shelters)",
+    "Physics-based item placement for custom storage layouts",
+    "Furniture decoration mode (rotate, move, and catalog items)",
+    "Multi-shelter support for traveling across the world map",
+    "Unlockable shelters via high-tier trader keys"
+  ]}
+/>
+
+Building a network of shelters is vital for the "Road" build. As you move toward the Border Zone, you will need to leapfrog between safe houses to ensure you have a fallback point if a run goes poorly.
+
+<Callout type="tip" title="Storage Tip">
+Use furniture containers to categorize your loot. Keeping medical supplies in one locker and ammunition in another will save you precious time when you need to re-kit quickly after a death in Area 05.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="2026 Roadmap and Future Builds">
+
+The developer has outlined a clear path for the remainder of 2026 and beyond. Each build introduces new mechanics, traders, and environmental challenges.
+
+| Build Name | Estimated Date | Key Features |
+|:---|:---|:---|
+| **Build 1: Road** | Released (April) | Core loop, 4 new maps, 2 new traders |
+| **Build 2: Nomads** | Q3 2026 | AI vs AI combat, Friendly factions |
+| **Build 3: Signal** | Q4 2026 | Quest system, Lore elements, Grandma trader |
+| **Build 4: Gunslinger** | TBA | Weapon overhaul, Bullet penetration |
+
+<Callout type="info" title="Hardware Requirements">
+To run the current build effectively, ensure your PC meets these standards:
+- **Minimum**: Intel i5, 8GB RAM, GTX 1060, DX12.
+- **Recommended**: Intel i7, 8GB RAM, GTX 1080Ti, DX12.
+- **Storage**: 10GB available space.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Road to Vostok FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Road to Vostok a multiplayer game?",
+    answer: "No, Road to Vostok is a dedicated single-player survival FPS. There are currently no plans for co-op or multiplayer as the developer is focused on creating a deep, atmospheric solo experience."
+  },
+  {
+    question: "What happens when you die in the Vostok zone?",
+    answer: "Vostok is a permadeath zone. If you die there, your character progress, all items in your inventory, and all items stored in your shelters are wiped. You essentially start the game over from scratch."
+  },
+  {
+    question: "How do I save my progress in the game?",
+    answer: "Progress can only be saved manually inside a shelter. There is no auto-save or quick-save feature in the field, making the journey back to your base a tense part of the gameplay."
+  },
+  {
+    question: "Can I play Road to Vostok on the Steam Deck?",
+    answer: "The game officially supports Windows and Linux. While it can run on Steam Deck via Proton, players may need to adjust settings for the best performance as it is a demanding DX12 title."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Info, AlertTriangle, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Wiki: Vollständiger Überlebens- & Kartenführer 2026",
+  description: "Umfassendes Road to Vostok Wiki mit Karten, Waffen, Händlern und Überlebensmechaniken für den Early Access Start 2026 auf PC.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2c3e2d/fff?text=Road+to+Vostok+Wiki",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok Wiki**: Dieser Leitfaden dient als die definitive Ressource für den Hardcore-Einzelspieler-Survival-FPS, der in der finnisch-russischen Grenzregion spielt.
+- **Early Access Status**: Das Spiel ist offiziell am **7. April 2026** in den Steam Early Access gestartet, mit Build 1: Road.
+- **Permadeath-Mechanik**: Das Betreten der Vostok-Region führt zu **Permadeath**, bei dem der Verlust deines Charakters jeglichen Fortschritt und Ausrüstung löscht.
+- **Kern-Gameplay**: Konzentriere dich auf das Reisen von Karte zu Karte, realistische Waffenhandhabung und den Aufbau eines Netzwerks von Unterschlüpfen, um in der rauen Umgebung zu überleben.
+- **Plattformunterstützung**: Derzeit optimiert für **Windows und Linux**, wobei zukünftige Konsolenüberlegungen nach der 1.0-Veröffentlichung geplant sind.
+</Callout>
+
+Das **Road to Vostok Wiki** ist dein unverzichtbarer Begleiter, um einen der härtesten und atmosphärischsten Survival-Shooter des Jahres 2026 zu meistern. Im Gegensatz zu vielen Extraction-Spielen konzentriert sich dieser Titel rein auf ein Hardcore-Einzelspieler-Erlebnis, das Atmosphäre, taktischen Realismus und die ständige Bedrohung der Grenze betont. Egal, ob du ein Neuling bist, der seine erste Nacht in Area 05 kaum überlebt, oder ein Veteran, der sich auf einen riskanten Vorstoß in die Vostok-Permadeath-Zone vorbereitet, das Verständnis der zugrunde liegenden Systeme ist entscheidend. Dieses **Road to Vostok Wiki** schlüsselt die komplexen Kartenstrukturen, die realistische Waffenmechanik und die komplizierten Händlersysteme auf, die den Gameplay-Loop definieren.
+
+In diesem umfassenden Leitfaden werden wir den Übergang von den relativ sicheren finnischen Gebieten in die tödlichen russischen Grenzlande erkunden. Wir behandeln alles von Systemanforderungen und Waffenkalipern bis hin zur offiziellen Roadmap 2026. Indem du diesen Strategien folgst, kannst du das Risiko eines vollständigen Ausrüstungsverlusts minimieren und die Kunst des Überlebens in einer Welt meistern, in der jede Kugel und jede Kalorie zählt.
+
+<Section icon={Info} title="Startstatus und Kerninformationen">
+
+Stand Mai 2026 ist das Spiel offiziell im Early Access verfügbar. Es ist wichtig, dieses Projekt von Multiplayer-Extraction-Shootern zu unterscheiden; es ist eine dedizierte Einzelspieler-Reise. Der Entwickler hat einen langfristigen Supportplan bestätigt, wobei der aktuelle Build die Grundlage für einen 2- bis 4-jährigen Entwicklungszyklus bildet.
+
+**Video-Highlights:**
+- Überblick über die Funktionen des **Early Access Starts**.
+- Visuelle Tour durch die neuen Karten, einschließlich School und Terminal.
+- Demonstration der realistischen Waffenhandhabung und PIP-Zielfernrohre.
+
+<YouTubeEmbed videoId="OTFgTRsz43Q" title="Road to Vostok Early Access Trailer" />
+
+Die folgende Tabelle fasst die wichtigsten Startdetails Stand der Veröffentlichung vom 7. April 2026 zusammen.
+
+| Kategorie | Startdetail |
+|:---|:---|
+| **Veröffentlichungsdatum** | 7. April 2026 |
+| **Aktueller Build** | Build 1 - Road (v0.1.0.0) |
+| **Standardpreis** | 19,99 USD |
+| **Plattform** | PC (Windows / Linux) |
+| **Bewertungsstatus** | Sehr positiv (81 % positiv) |
+| **Spieleranzahl** | Über 800.000 Demo-Spieler registriert |
+
+<Callout type="warning" title="Hinweis zum Early Access">
+Es wird erwartet, dass das Spiel für etwa 2 bis 4 Jahre im Early Access bleibt. Erwarte häufige Updates, Balance-Änderungen und potenzielle Speicherlöschungen, wenn neue Builds wie "Nomads" und "Signal" später im Jahr 2026 eingeführt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Überlebensführer für Anfänger: Die erste Sitzung">
+
+Das Überleben deiner ersten Stunde in der Grenzzone erfordert einen Mentalitätswechsel. Du bist kein Supersoldat; du bist ein Überlebender. Dein anfängliches Ziel ist es, eine stabile Wirtschaft in Area 05 aufzubauen, bevor du überhaupt nach Osten blickst.
+
+<Steps>
+  <Step num="1" title="Sichere deinen ersten Unterschlupf">
+    Finde sofort einen Unterschlupf in Area 05. Unterschlüpfe dienen als deine einzigen Speicherpunkte und Lagerzentren. Nutze sie, um überschüssige Beute zu verstauen und die Bedürfnisse deines Charakters zu stabilisieren.
+  </Step>
+  <Step num="2" title="Sammle grundlegende Notwendigkeiten">
+    Konzentriere dich darauf, Nahrung, Wasser und medizinische Vorräte zu finden. Durchsuche Behälter auf den Karten School oder Outpost. Physikbasierte Beute bedeutet, dass du jede Ecke und jedes Regal manuell überprüfen solltest.
+  </Step>
+  <Step num="3" title="Meistere die Waffenhandhabung">
+    Übe das Nachladen und Überprüfen der Kammern. Das Spiel verwendet realistische Mechaniken; wenn du deine Magazine und Munitionstypen (wie 9x18 vs. 9x19) nicht richtig verwaltest, wird deine Waffe dich im Feuergefecht im Stich lassen.
+  </Step>
+  <Step num="4" title="Engagiere dich mit Händlern">
+    Besuche den Generalisten oder den Arzt. Der Handel basiert auf Tauschhandel, also priorisiere Gegenstände, die diese NPCs schätzen, um deine Ausrüstung zu verbessern oder spezialisierte Schlüssel zu kaufen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Überlebenstipp">
+Horte nicht alles an deiner Person. Wenn du in Area 05 stirbst, verlierst du alles in deinem Inventar. Halte deine wertvollsten Gegenstände und Ersatzwaffen sicher in den Lagerbehältern deines Unterschlupfs verstaut.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Weltstruktur und Zonenmechaniken">
+
+Die Welt ist in drei verschiedene Regionen unterteilt, jede mit ihrem eigenen Risikoprofil und Todesstrafen. Das Verständnis dieser Grenzen ist der wichtigste Teil jeder **Road to Vostok Wiki** Strategie.
+
+| Zonenname | Region | Risikostufe | Todesstrafe |
+|:---|:---|:---|:---|
+| **Area 05** | SE Finnland | Niedrig - Mittel | Nur getragene Ausrüstung verlieren |
+| **Border Zone** | The Crossing | Hoch | Nur getragene Ausrüstung verlieren |
+| **Vostok** | Russland | Extrem | **Permadeath** (Gesamten Fortschritt löschen) |
+
+<CardGrid cols={2}>
+  <Card title="Area 05 Karten">
+    Enthält **School**, **Highway** und **Outpost**. Dies sind die Startregionen, in denen du deine Basis aufbaust, frühe Händler triffst und die Ausrüstung für einen Grenzvorstoß sammelst.
+  </Card>
+  <Card title="Vostok Karten">
+    Enthält die Karte **Terminal**. Dies ist das Endspielgebiet. Die Beute ist deutlich besser, aber die Präsenz schwerer Militärkräfte und das Permadeath-Risiko machen jede Bewegung gefährlich.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Übergangslogik">
+Um Vostok zu erreichen, musst du die Grenzzone durchqueren. Übergänge sind keine einfachen Spaziergänge; sie beinhalten das Navigieren durch Minenfelder, physische Hindernisse oder die Nutzung von Booten, um Wasserwege zu überqueren, während feindliche Wachen und Luftunterstützung vermieden werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen, Munition und Ballistik">
+
+Das Kampfsystem basiert auf taktischem Realismus. Waffen sind in mehrere Familien unterteilt, die jeweils spezifische Munition und Wartung erfordern. Die Verwendung des falschen Kalibers oder die Vernachlässigung von Anbauteilen reduziert deine Kampfeffektivität erheblich.
+
+| Waffenfamilie | Beispiele | Primäre Kaliber | Magazinkapazität |
+|:---|:---|:---|:---|
+| **Pistolen** | C1911, G17, Makarov | .45 ACP, 9x19, 9x18 | 8 - 17 Schuss |
+| **Gewehre** | AK-12, AKM, MK18 | 5.45x39, 7.62x39, 5.56x45 | 30 Schuss |
+| **Präzision** | Mosin, SVD | 7.62x54R | 5 - 10 Schuss |
+| **Schrotflinten** | RM-870 | 12/70 Kaliber | 10 Schuss |
+
+Das Ballistiksystem verfolgt einzelne Geschosse. Zum Beispiel ist die **RM-870** Schrotflinte innerhalb von 2 Metern verheerend, verliert aber fast ihre gesamte Wirksamkeit jenseits von 10 Metern. Präzisionsgewehre wie die **SVD** tauschen Feuerrate gegen hohe Stoppwirkung ein, was sie ideal macht, um Wachen aus der Ferne auszuschalten, bevor man einen Grenzübertritt versucht.
+
+<Callout type="info" title="Anbausystem">
+Das Spiel verfügt über PIP (Picture-in-Picture) Zielfernrohre. Du kannst verschiedene Optiken ausrüsten, die von kurzreichweitigen Rotpunktvisieren (SRO, PRO) bis zu langreichweitigen Zielfernrohren (ACOG, PU) reichen. Schalldämpfer wie der **Hybrid** oder **Navy** sind für heimliche Spieler unerlässlich.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Unterschlupf-Anpassung und Fortschritt">
+
+Unterschlüpfe sind das Herzstück deines langfristigen Überlebens. Sie sind nicht nur statische Räume; sie sind hochgradig anpassbare Basen, die du aufrüsten und dekorieren kannst, um deinen Bedürfnissen gerecht zu werden.
+
+<Checklist
+  id="shelter-features"
+  title="Unterschlupf-Funktionen:"
+  items={[
+    "Manuelles Speichern des Spiels (nur in Unterschlüpfen verfügbar)",
+    "Physikbasierte Gegenstandsplatzierung für individuelle Lagerlayouts",
+    "Möbel-Dekorationsmodus (Gegenstände drehen, bewegen und katalogisieren)",
+    "Unterstützung für mehrere Unterschlüpfe zum Reisen über die Weltkarte",
+    "Freischaltbare Unterschlüpfe über hochrangige Händlerschlüssel"
+  ]}
+/>
+
+Der Aufbau eines Netzwerks von Unterschlüpfen ist für den "Road"-Build unerlässlich. Wenn du dich der Grenzzone näherst, musst du zwischen sicheren Häusern wechseln, um sicherzustellen, dass du einen Rückzugspunkt hast, falls ein Lauf schlecht läuft.
+
+<Callout type="tip" title="Lagertipp">
+Verwende Möbelbehälter, um deine Beute zu kategorisieren. Wenn du medizinische Vorräte in einem Schrank und Munition in einem anderen aufbewahrst, sparst du wertvolle Zeit, wenn du dich nach einem Tod in Area 05 schnell neu ausrüsten musst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Roadmap 2026 und zukünftige Builds">
+
+Der Entwickler hat einen klaren Weg für den Rest des Jahres 2026 und darüber hinaus skizziert. Jeder Build führt neue Mechaniken, Händler und Umweltherausforderungen ein.
+
+| Build-Name | Voraussichtliches Datum | Hauptmerkmale |
+|:---|:---|:---|
+| **Build 1: Road** | Veröffentlicht (April) | Kern-Loop, 4 neue Karten, 2 neue Händler |
+| **Build 2: Nomads** | Q3 2026 | KI vs. KI Kampf, Freundliche Fraktionen |
+| **Build 3: Signal** | Q4 2026 | Quest-System, Lore-Elemente, Oma-Händlerin |
+| **Build 4: Gunslinger** | TBD | Waffenüberarbeitung, Kugeldurchdringung |
+
+<Callout type="info" title="Hardware-Anforderungen">
+Um den aktuellen Build effektiv auszuführen, stelle sicher, dass dein PC diese Standards erfüllt:
+- **Minimum**: Intel i5, 8 GB RAM, GTX 1060, DX12.
+- **Empfohlen**: Intel i7, 8 GB RAM, GTX 1080Ti, DX12.
+- **Speicher**: 10 GB verfügbarer Speicherplatz.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Road to Vostok FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist Road to Vostok ein Multiplayer-Spiel?",
+    answer: "Nein, Road to Vostok ist ein dedizierter Einzelspieler-Survival-FPS. Es gibt derzeit keine Pläne für Koop oder Multiplayer, da sich der Entwickler darauf konzentriert, ein tiefgründiges, atmosphärisches Solo-Erlebnis zu schaffen."
+  },
+  {
+    question: "Was passiert, wenn man in der Vostok-Zone stirbt?",
+    answer: "Vostok ist eine Permadeath-Zone. Wenn du dort stirbst, werden dein Charakterfortschritt, alle Gegenstände in deinem Inventar und alle in deinen Unterschlüpfen gelagerten Gegenstände gelöscht. Du beginnst das Spiel im Wesentlichen von vorne."
+  },
+  {
+    question: "Wie speichere ich meinen Fortschritt im Spiel?",
+    answer: "Der Fortschritt kann nur manuell in einem Unterschlupf gespeichert werden. Es gibt keine Auto-Save- oder Quick-Save-Funktion im Feld, was die Rückreise zu deiner Basis zu einem angespannten Teil des Gameplays macht."
+  },
+  {
+    question: "Kann ich Road to Vostok auf dem Steam Deck spielen?",
+    answer: "Das Spiel unterstützt offiziell Windows und Linux. Obwohl es über Proton auf dem Steam Deck laufen kann, müssen Spieler möglicherweise Einstellungen für die beste Leistung anpassen, da es ein anspruchsvoller DX12-Titel ist."
+  }
+]} />
+
+</Section>

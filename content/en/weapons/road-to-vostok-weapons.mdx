@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Weapons: Guide to Firearms & Ammo 2026",
+  description: "Explore the diverse arsenal of Road to Vostok, from pistols to precision rifles. Understand weapon mechanics, ammo types, and attachments for survival in the Finnish-Russian border zone.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/36454F/fff?text=Road+to+Vostok+Weapons",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Road to Vostok weapons** feature realistic FPS mechanics, including detailed reloading and ammunition management.
+- Diverse **weapon categories** like pistols, rifles, precision weapons, and shotguns offer varied combat roles.
+- **Ammunition types** are specific to weapons and tracked per round, influencing inventory management.
+- **Optics and muzzle options** significantly alter weapon performance for different combat scenarios.
+- Effective weapon handling is crucial for survival and success across Area 05, the Border Zone, and Vostok.
+</Callout>
+
+In the harsh, unforgiving world of Road to Vostok, your choice of **weapons** can be the difference between survival and becoming another casualty in the Finnish-Russian border zone. This hardcore single-player survival FPS emphasizes realistic firearm mechanics, deep customization, and strategic ammunition management. Understanding your arsenal, from the common pistol to the powerful precision rifle, is paramount before venturing into the dangerous territories. This guide will delve into the various weapon types, their ammunition, and the crucial role attachments play in your journey to Vostok.
+
+<Section icon={Swords} title="Understanding Road to Vostok Weapon Categories">
+The arsenal in Road to Vostok is designed for realism, offering a range of firearms suited for different combat situations and playstyles. Each category brings unique advantages and considerations for your survival runs.
+
+<Callout type="tip" title="Weapon Specialization">
+Focus on mastering one or two **weapon categories** early on. This allows you to conserve specific ammunition types and attachments, streamlining your inventory and combat effectiveness.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pistols: Lightweight & Reliable">
+    Pistols are your most accessible firearms, often serving as a reliable secondary or primary for light engagements. They are lightweight, making them ideal for conserving carry capacity, and their lower recoil can be forgiving for new players.
+  </Card>
+  <Card title="Rifles: Versatile & Powerful">
+    Rifles form the backbone of your offensive capabilities, offering a balance of range, damage, and fire rate. From assault rifles to battle rifles, this category covers most combat scenarios and is crucial for engaging multiple threats effectively.
+  </Card>
+  <Card title="Precision Weapons: Long-Range Dominance">
+    For those who prefer a tactical approach, precision weapons like sniper rifles offer exceptional range and stopping power. These require careful aiming and positioning but can neutralize high-threat targets from a distance.
+  </Card>
+  <Card title="Shotguns: Close-Quarters King">
+    When combat closes in, shotguns are unrivaled. Their devastating spread at short ranges makes them perfect for clearing buildings or defending against rushes. However, their effectiveness drops sharply with distance.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Detailed Weapon & Ammunition Breakdown">
+Choosing the right **Road to Vostok weapons** involves more than just picking a gun; it's about understanding its specific ammunition, magazine capacity, and how these factors influence your combat readiness. The game features a variety of calibers, each with its own characteristics.
+
+| Category          | Examples                    | Ammo Types            | Magazines  | Key Fact                                                              | Why it Matters                                                              |
+| :---------------- | :-------------------------- | :-------------------- | :--------- | :-------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| **Pistols**       | C1911, Makarov, G17         | .45 ACP / 9x18 / 9x19 | 8 / 8 / 17 | Lightweight, can be primary or secondary.                             | Ideal for backup or conserving heavy ammo; quick draw.                      |
+| **Rifles**        | AK-12, AKM, AKS-74U, RK-95, MK18, VSS | 5.45x39 / 7.62x39 / 5.56x45 / 9x39 | 30-round average | Range from 600-800 RPM, diverse calibers.                             | Broadest general-purpose family for most combat situations.                 |
+| **Precision**     | Mosin, SVD                  | 7.62x54R              | 5 / 10     | Mosin: 50 damage, 10 RPM. SVD: 60 damage, 200 RPM.                    | Trades sustained fire for heavier hits and long-range identity.             |
+| **Shotgun**       | RM-870                      | 12/70                 | 10         | Pump-action, strong up to 5m, weak beyond 10m.                        | Strongest close-range panic weapon in current data.                         |
+</Section>
+
+<Section icon={Shield} title="Optimizing Your Loadout with Attachments">
+Attachments are crucial for fine-tuning your **Road to Vostok weapons** to suit your preferred playstyle and the challenges of the environment. From optics to muzzle devices, each attachment offers distinct tactical advantages.
+
+<Callout type="warning" title="Attachment Compatibility">
+Not all attachments fit all weapons. Always double-check compatibility before committing to a purchase or trade, especially for rare items.
+</Callout>
+
+### Essential Attachment Categories
+
+<Steps>
+  <Step num="1" title="Optics: Enhancing Vision">
+    Optics are divided into short, medium, and long-range categories. They allow for more precise aiming, target identification, and engagement at various distances. Examples include MRM, SRO, PRO, EXPS, Kobra, ACOG, and PU scopes. Choosing the right optic drastically improves your accuracy and situational awareness.
+  </Step>
+  <Step num="2" title="Muzzle Devices: Suppressors & Brakes">
+    Muzzle attachments primarily include suppressors (like Hybrid and Navy) and muzzle brakes. Suppressors reduce sound signature and muzzle flash, making you harder to detect, which is invaluable for stealthy approaches. Muzzle brakes, on the other hand, reduce recoil, improving control during sustained fire.
+  </Step>
+  <Step num="3" title="Magazines: Capacity & Reload Speed">
+    While not always considered an "attachment," different magazine types can significantly impact your weapon's performance. Larger capacity magazines reduce the need for frequent reloads, crucial in intense firefights. However, they can also add weight.
+  </Step>
+  <Step num="4" title="Underbarrel & Side Mounts: Utility & Ergonomics">
+    These attachments include foregrips, laser sights, and flashlights. Foregrips improve weapon handling and reduce recoil, while laser sights offer quick target acquisition in close quarters. Flashlights are essential for navigating dark areas but can also reveal your position.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Realistic FPS Mechanics and Ammunition Management">
+Road to Vostok prides itself on its realistic FPS mechanics. This isn't just about shooting; it's about the entire process of handling your firearms, from reloading to managing your limited ammunition.
+
+<Callout type="success" title="Practice Reloading">
+Spend time in a safe zone practicing different reload types. Knowing how to perform a tactical reload versus an emergency reload can save your life in a tense encounter.
+</Callout>
+
+| Mechanic         | Description                                                                 | Impact on Gameplay                                                              |
+| :--------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Reloading**    | Detailed animations for various reload types (e.g., tactical, emergency).   | Adds realism, requires timing and awareness of magazine status.                 |
+| **Ammunition**   | Tracked per round, with specific calibers for specific weapons.             | Inventory management is critical; carrying too much or too little is risky.     |
+| **Weapon Jamming**| Weapons can jam, especially if poorly maintained or heavily used.           | Adds an unpredictable element, emphasizes weapon care.                          |
+| **Recoil Control**| Realistic recoil patterns vary by weapon, requiring active management.      | Affects accuracy and effective range, especially during sustained fire.          |
+| **Bullet Penetration**| Projectiles can penetrate certain materials, affecting cover effectiveness. | Adds tactical depth, forcing players to consider environmental cover carefully. |
+
+</Section>
+
+<Section icon={Trophy} title="Weapon Procurement and Maintenance Checklist">
+Acquiring and maintaining your **Road to Vostok weapons** is a core part of the survival loop. You'll primarily find weapons through looting, trading, and completing tasks. Proper maintenance is also key to ensuring your gear doesn't fail you when you need it most.
+
+<Checklist
+  id="weapon-management"
+  title="Weapon Management Essentials:"
+  items={[
+    "Prioritize looting weapon caches and hostile engagements.",
+    "Engage with traders for specific weapon parts or rare firearms.",
+    "Complete tasks to unlock access to better gear and trader inventories.",
+    "Regularly inspect weapon condition to avoid jams and malfunctions.",
+    "Stockpile common ammunition types for your primary weapons."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Road to Vostok Weapons">
+
+<FAQ items={[
+  {
+    question: "How do I get better weapons in Road to Vostok?",
+    answer: "Better weapons can be acquired through high-risk looting in dangerous zones like the Border Zone and Vostok, by trading with specialized traders, or as rewards for completing challenging tasks. The further east you go, the better the potential loot."
+  },
+  {
+    question: "Are there weapon customization options beyond optics and muzzles?",
+    answer: "Yes, Road to Vostok features a comprehensive customization system. You can expect to find various parts like stocks, grips, and internal components that alter weapon stats such as recoil, ergonomics, and accuracy. The 'Gunslinger' roadmap build is even planned to include a full weapon overhaul and modding kits."
+  },
+  {
+    question: "Does weapon condition matter in Road to Vostok?",
+    answer: "Absolutely. Weapon condition is a critical factor. Poorly maintained weapons are more prone to jamming, reduced accuracy, and lower damage output. Always prioritize repairing your weapons at a shelter or with a Gunsmith trader to ensure peak performance."
+  },
+  {
+    question: "Can I craft my own weapons or ammunition?",
+    answer: "While the initial Early Access build focuses on looting and trading for weapons and ammo, the official roadmap hints at a crafting menu as part of the launch content highlights. Future updates, especially 'Build 4 - Gunslinger,' may introduce more in-depth crafting and modding capabilities for **Road to Vostok weapons**."
+  }
+]} />
+
+</Section>

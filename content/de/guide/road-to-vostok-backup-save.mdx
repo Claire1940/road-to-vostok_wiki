@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok Backup speichern: Fortschritt sichern & Mods installieren 2026",
+  description: "Erfahren Sie, wie Sie Ihre Road to Vostok-Speicherdateien sichern und Mods sicher installieren. Schützen Sie Ihren Fortschritt vor Permadeath und Abstürzen im Jahr 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Road+To+Vostok+Backup+Save",
+  date: "2026-05-16",
+  author: "Vostok Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Road to Vostok Backup speichern**: Wesentlich zum Schutz Ihres Fortschritts vor Permadeath und experimentellem Modding.
+- **Dateispeicherort**: Zugänglich über den Windows Ausführen-Befehl mit der Verknüpfung **%appdata%**.
+- **Schlüsseldateien**: Konzentrieren Sie sich auf **.TRES**-Dateien, die Ihre Kerncharakter- und Weltdaten enthalten.
+- **Modding-Vorbereitung**: Erstellen Sie immer ein vollständiges Backup, bevor Sie den Metro Mod Loader oder neue VMZ-Dateien installieren.
+- **Wiederherstellung**: Löschen Sie einfach die aktuellen AppData-Dateien und ersetzen Sie sie durch Ihre gespeicherten Kopien.
+</Callout>
+
+Road to Vostok ist ein Hardcore-Überlebenserlebnis, bei dem jeder Fehler zu einem permanenten Verlust des Fortschritts führen kann. Während das Spiel 2026 seine Early-Access-Reise fortsetzt, stoßen Spieler häufig auf technische Hürden, experimentelle Builds und die drohende Gefahr des Permadeath. Das Beherrschen des **road to vostok backup save** Prozesses ist nicht nur eine Annehmlichkeit; es ist eine Notwendigkeit für jeden, der neue Mods testen oder seine langfristigen Spielstände sichern möchte. Egal, ob Sie sich in die gefährlichen Grenzgebiete wagen oder mit den neuesten Waffenumbenennungen experimentieren, ein zuverlässiges Backup stellt sicher, dass Sie nie Stunden des Plünderns und Überlebens verlieren. In diesem umfassenden Leitfaden führen wir Sie durch die genauen Dateipfade, die effizientesten Backup-Strategien und wie Sie Mods integrieren, ohne Ihren primären Spielstand zu beschädigen.
+
+<Section icon={Map} title="Speicherdateien finden">
+
+Bevor Sie Ihre Daten sichern können, müssen Sie wissen, wo das Spiel seine "Grundlagen" speichert. Road to Vostok verwendet nicht die Standard-Steam Cloud für alle experimentellen Daten, was eine manuelle Intervention erfordert.
+
+**Video-Highlights:**
+- Identifizieren des richtigen Ordners im AppData-Verzeichnis.
+- Unterscheidung zwischen der Early Access-Version und den älteren Demo-Dateien.
+- Auswahl der spezifischen .TRES-Dateien, die für eine erfolgreiche Wiederherstellung erforderlich sind.
+- Erstellen eines dedizierten Backup-Ordners für eine organisierte Speicherverwaltung.
+
+<YouTubeEmbed videoId="pYqgMLKxncs" title="How To BACKUP Your SAVE FILE & Add Mods To Road To Vostok" />
+
+| Dateityp | Wichtigkeit | Beschreibung |
+| :--- | :--- | :--- |
+| .TRES-Dateien | Kritisch | Enthält Charakterstatistiken, Inventar und Weltstatusdaten. |
+| .GD-Dateien | Gering | Allgemeine Datendateien, die oft von der Engine neu generiert werden. |
+| .LOG-Dateien | Debugging | Nützlich zur Fehlerbehebung bei Abstürzen, aber nicht für Spielstände erforderlich. |
+| .CFG-Dateien | Einstellungen | Speichert Ihre Tastenbelegungen, Grafikeinstellungen und Audiopegel. |
+
+<Callout type="warning" title="Den Demo-Ordner vermeiden">
+Viele Spieler haben immer noch die "Road to Vostok Demo" installiert. Stellen Sie beim Navigieren in Ihren AppData sicher, dass Sie den Ordner auswählen, der einfach **Road to Vostok** heißt. Das Ändern oder Sichern des Demo-Ordners hat keine Auswirkung auf Ihren Early Access-Fortschritt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der manuelle Backup-Prozess">
+
+Das Erstellen eines **road to vostok backup save** ist ein unkomplizierter Prozess, der vor jeder Spielsitzung oder Mod-Installation durchgeführt werden sollte. Befolgen Sie diese Schritte, um sicherzustellen, dass Ihre Daten korrekt gespeichert werden.
+
+<Steps>
+  <Step num="1" title="Befehl „Ausführen“ öffnen">
+    Drücken Sie die **Windows-Taste + R** auf Ihrer Tastatur, um das Dialogfeld „Ausführen“ zu öffnen. Geben Sie **%appdata%** ein und drücken Sie die Eingabetaste. Dies führt Sie direkt zum Roaming-Ordner.
+  </Step>
+  <Step num="2" title="Zu Road to Vostok navigieren">
+    Suchen Sie den Ordner namens **Road to Vostok**. Öffnen Sie ihn, um die internen Speicherkomponenten, einschließlich der Shader-Ordner und Konfigurationsdateien, anzuzeigen.
+  </Step>
+  <Step num="3" title="Kerndaten kopieren">
+    Markieren Sie alle **.TRES**-Dateien. Sie können zwar den gesamten Ordner kopieren, aber diese spezifischen Dateien sind die wichtigsten. Klicken Sie mit der rechten Maustaste und wählen Sie **Kopieren**.
+  </Step>
+  <Step num="4" title="Sicheren Speicherort erstellen">
+    Erstellen Sie einen neuen Ordner auf Ihrem Desktop oder einem Cloud-Laufwerk mit dem Namen **Vostok Backups**. Erstellen Sie darin einen Unterordner mit dem aktuellen Datum (z. B. 2026-05-16) und fügen Sie die Dateien dort ein.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Permadeath-Schutz">
+    - Speichern Sie, bevor Sie Hochrisikozonen betreten.
+    - Wiederherstellen, wenn ein Glitch einen unfairen Tod verursacht.
+    - Mehrere Speicherzustände beibehalten.
+  </Card>
+  <Card title="Mod-Test">
+    - Backup erstellen, bevor Mod-Loader installiert werden.
+    - Einfaches Zurücksetzen, wenn ein Mod die Benutzeroberfläche beschädigt.
+    - Einen "sauberen" Spielstand für Vanilla-Spiele beibehalten.
+  </Card>
+  <Card title="Versionsmigration">
+    - Spielstände während Spiel-Updates schützen.
+    - Fortschritt zwischen verschiedenen PCs übertragen.
+    - Datenverlust durch Dateibeschädigung verhindern.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Wiederherstellungs-Shortcut">
+Um einen Spielstand wiederherzustellen, löschen Sie einfach alles im Ordner AppData/Road to Vostok und fügen Sie Ihre Backup-Dateien wieder ein. Das Spiel erkennt die Daten sofort beim nächsten Start.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sicheres Modding und Integration">
+
+Modding im Jahr 2026 ist mit dem Metro Mod Loader stromlinienförmiger geworden, erfordert aber immer noch ein sorgfältiges Dateimanagement. Wenn Sie Mods wie die Real Gun Names oder das Mod Configuration Menu (MCM) verwenden möchten, ist Ihr Backup-Speicher Ihr Sicherheitsnetz.
+
+| Mod-Komponente | Installationspfad | Zweck |
+| :--- | :--- | :--- |
+| Metro Mod Loader | Stammverzeichnis des Spiels | Die Kern-Engine, die zum Laden externer VMZ-Dateien erforderlich ist. |
+| Override Config | Stammverzeichnis des Spiels | Ermöglicht dem Loader, modifizierte Assets gegenüber Vanilla zu priorisieren. |
+| Mods-Ordner | Root/mods | Ein manuell erstellter Ordner, in dem sich alle .VMZ-Mods befinden. |
+| VMZ-Dateien | Root/mods | Einzelne Mod-Dateien, die Texturen, Skripte oder Daten enthalten. |
+
+Um Mods richtig zu installieren, müssen Sie zuerst Ihre lokalen Spieldateien über Steam finden. Klicken Sie mit der rechten Maustaste in Ihrer Bibliothek auf Road to Vostok, wählen Sie **Verwalten** und dann **Lokale Dateien durchsuchen**. Hier platzieren Sie den Mod-Loader und erstellen Ihren **mods**-Ordner.
+
+<Callout type="info" title="Wichtigkeit von MCM">
+Das **Mod Configuration Menu (MCM)** sollte immer die erste Mod sein, die Sie installieren. Es bietet die notwendige Benutzeroberfläche zum Anpassen von Einstellungen in anderen Mods, wie z. B. Rückstoßregler oder Anbau-Umschalter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Verifizierung und Best Practices">
+
+Sobald Sie Ihre **road to vostok backup save** Routine etabliert und Ihre gewünschten Mods installiert haben, müssen Sie überprüfen, ob alles ordnungsgemäß funktioniert. Eine fehlgeschlagene Mod-Installation kann manchmal eine Speicherdatei beschädigen, wenn das Spiel versucht, Daten in ein Feld zu schreiben, das nicht mehr existiert.
+
+<Checklist
+  id="mod-verification"
+  title="Pre-Flight Checkliste:"
+  items={[
+    ".TRES-Dateien auf ein separates Laufwerk kopiert überprüfen",
+    "Sicherstellen, dass der Metro Mod Loader im Stammverzeichnis ist",
+    "Überprüfen, dass der 'mods'-Ordner klein geschrieben und korrekt ist",
+    "Das Spiel starten und bestätigen, dass der Mod Loader-Startbildschirm erscheint",
+    "Ihren Spielstand laden und auf UI-Glitches oder fehlende Gegenstände prüfen"
+  ]}
+/>
+
+| Aktion | Empfohlene Häufigkeit | Grund |
+| :--- | :--- | :--- |
+| Vollständiges Backup | Täglich / Jede Sitzung | Schützt vor täglichem Fortschrittsverlust. |
+| Externe Cloud-Synchronisierung | Wöchentlich | Schützt vor Hardware- oder Laufwerksausfall. |
+| Mod-Ordner bereinigen | Nach Spiel-Updates | Entfernt veraltete Mods, die Abstürze verursachen können. |
+| Integritätsprüfung | Monatlich | Stellt sicher, dass Steam-Dateien nicht beschädigt sind. |
+
+<Callout type="success" title="Erfolgsbestätigung">
+Sie können bestätigen, dass Ihr Backup funktioniert, indem Sie ein "Neues Spiel" starten, es speichern lassen und es dann mit Ihren Backup-Dateien überschreiben. Wenn Sie an Ihrem ursprünglichen Ort (z. B. im Klassenzimmer oder in der Hütte) wieder ins Spiel laden, ist Ihr Backup-System zu 100% funktionsfähig.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Werde ich durch die Verwendung eines Backup-Speicherstands von Road to Vostok gebannt?",
+    answer: "Nein. Road to Vostok ist derzeit ein auf Einzelspieler ausgerichtetes Erlebnis. Das Sichern Ihrer eigenen lokalen Dateien für den persönlichen Gebrauch oder zur Bekämpfung von Permadeath ist eine gängige Praxis und wird nicht bestraft."
+  },
+  {
+    question: "Was passiert, wenn ich vergesse, ein Backup vor einem größeren Spiel-Update zu erstellen?",
+    answer: "Größere Updates im Early Access können manchmal die Speicherdateistruktur ändern. Wenn Sie kein Backup haben, könnte Ihr Spielstand inkompatibel werden. Überprüfen Sie immer die offiziellen Entwickler-Logs, bevor Sie aktualisieren."
+  },
+  {
+    question: "Kann ich meinen Road to Vostok Backup-Speicherstand mit anderen Spielern teilen?",
+    answer: "Ja, Sie können Ihre .TRES-Dateien mit anderen teilen. Sie müssen sie lediglich in ihren eigenen AppData-Ordner legen. Dies ist eine großartige Möglichkeit, bestimmte Ausrüstungskonfigurationen oder Weltzustände zu teilen."
+  },
+  {
+    question: "Warum generiert das Spiel die GD-Datei immer wieder neu, nachdem ich sie gelöscht habe?",
+    answer: "Die .GD-Datei ist eine allgemeine Datendatei, die von der Godot-Engine verwendet wird. Sie enthält nicht wesentliche Konfigurationsdaten, die das Spiel automatisch neu erstellt, wenn sie fehlen."
+  }
+]} />
+
+</Section>

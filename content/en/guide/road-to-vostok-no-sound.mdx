@@ -1,0 +1,153 @@
+import { VolumeX, Settings, LifeBuoy, Wrench, Siren } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Road to Vostok No Sound: Troubleshooting & Fixes Guide 2026",
+  description: "Comprehensive guide to fixing no sound issues in Road to Vostok. Learn common causes and step-by-step solutions for optimal audio experience.",
+  category: "Troubleshooting",
+  image: "https://placehold.co/800x400/36454F/fff?text=Road+to+Vostok+No+Sound",
+  date: "2026-05-16",
+  author: "Road to Vostok Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Road to Vostok no sound** issues often stem from common PC audio settings.
+- Always check **in-game audio settings** first, then system-level configurations.
+- **Driver updates** and verifying game files are crucial troubleshooting steps.
+- Running the game as an **administrator** can resolve permission-based audio glitches.
+- Consider **DirectX/Vulkan compatibility** if other fixes fail.
+</Callout>
+
+Experiencing no sound in Road to Vostok can severely impact your immersion in its hardcore survival FPS world. The chilling atmosphere, realistic gunplay, and dynamic weather effects lose their impact without proper audio cues. This guide provides a comprehensive set of troubleshooting steps to diagnose and fix common sound problems, ensuring you can fully experience the game's intense environment and crucial audio feedback.
+
+<Section icon={Settings} title="Initial Audio Checks: In-Game & System Settings">
+Before diving into complex solutions, it's essential to confirm the most basic audio settings within the game and on your PC. Many "Road to Vostok no sound" issues are quickly resolved by a simple toggle or volume adjustment.
+
+<CardGrid cols={2}>
+  <Card title="In-Game Audio Verification">
+    - Launch Road to Vostok and navigate to the **audio settings menu**.
+    - Ensure all volume sliders (Master, Music, SFX, Voice) are **not muted** and set to audible levels.
+    - Check if the correct **audio output device** is selected within the game.
+  </Card>
+  <Card title="System Audio Verification">
+    - Right-click the speaker icon in your **Windows taskbar** and open "Sound settings."
+    - Confirm your primary output device (headphones, speakers) is selected and **not muted**.
+    - Use the **Volume Mixer** to check if Road to Vostok's individual volume is turned up.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Always test your audio output device with other applications or media players to confirm it's functioning correctly outside of Road to Vostok. This helps isolate whether the issue is game-specific or system-wide.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Advanced Troubleshooting Steps for No Sound">
+If basic checks don't resolve the "Road to Vostok no sound" problem, you'll need to delve deeper into your system and game files. These steps address common software conflicts, driver issues, and file corruption that can lead to audio malfunctions.
+
+<Steps>
+  <Step num="1" title="Update Audio Drivers">
+    Outdated or corrupted audio drivers are a frequent cause of sound problems.
+    - Open **Device Manager** (search in Windows).
+    - Expand "Sound, video and game controllers."
+    - Right-click your audio device (e.g., Realtek High Definition Audio, NVIDIA High Definition Audio) and select "Update driver."
+    - Choose "Search automatically for updated driver software." If no new drivers are found, visit your motherboard manufacturer's or sound card manufacturer's website for the latest drivers.
+  </Step>
+  <Step num="2" title="Verify Game Files via Steam">
+    Corrupted game files can lead to various in-game issues, including missing audio.
+    - Open your **Steam Library**.
+    - Right-click on **Road to Vostok** and select "Properties."
+    - Go to the "Installed Files" tab.
+    - Click "Verify integrity of game files..." Steam will check and re-download any missing or corrupted files.
+  </Step>
+  <Step num="3" title="Run Game as Administrator">
+    Sometimes, permission issues can prevent the game from accessing audio resources.
+    - Navigate to your **Road to Vostok installation directory**.
+    - Right-click the game's executable file (e.g., `RoadToVostok.exe`).
+    - Select "Properties," then the "Compatibility" tab.
+    - Check the box "Run this program as an administrator."
+    - Click "Apply" and "OK."
+  </Step>
+  <Step num="4" title="Check DirectX/Vulkan Compatibility">
+    Road to Vostok's official FAQ mentions Windows/Linux and DirectX/Vulkan support. Ensure your system's configuration is optimal.
+    - Confirm your graphics drivers are up to date, as they often include DirectX/Vulkan runtime components.
+    - If the game allows, try switching between DirectX and Vulkan renderers in the game's settings to see if one resolves the audio issue.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Driver Rollback Caution">
+If a recent driver update caused the "no sound" issue, you might consider rolling back your audio drivers in Device Manager. However, only do this if you're certain the update is the culprit, and always back up your system before making significant driver changes.
+</Callout>
+
+</Section>
+
+<Section icon={LifeBuoy} title="Common Audio Problem Scenarios & Solutions">
+Different scenarios can lead to audio problems. Understanding these specific contexts can help in pinpointing the exact cause and applying the right fix for your "Road to Vostok no sound" experience.
+
+| Problem Scenario       | Potential Cause                       | Recommended Solution                                  |
+| :--------------------- | :------------------------------------ | :---------------------------------------------------- |
+| **No sound at launch** | Incorrect default audio device        | Set your preferred output device as default in Windows Sound Settings. |
+| **Sound cuts out**     | Overlapping audio applications        | Close all other applications that use audio (browsers, music players). |
+| **Static/Distortion**  | Incorrect sample rate/bit depth       | Adjust your audio device's format to 48000 Hz, 16-bit in Sound Control Panel. |
+| **Only music plays**   | SFX/Voice volume muted in-game        | Check individual volume sliders in Road to Vostok's audio options. |
+| **No sound after alt-tab** | Game audio process suspended       | Try restarting the game. If persistent, update display drivers. |
+
+<Callout type="success">
+Many players have found success by simply restarting their PC after applying driver updates or verifying game files. A fresh boot can often resolve lingering software conflicts.
+</Callout>
+
+</Section>
+
+<Section icon={Siren} title="When to Seek Further Support">
+If you've exhausted all common troubleshooting steps and still face "Road to Vostok no sound" issues, it's time to reach out for specialized assistance.
+
+<CardGrid cols={2}>
+  <Card title="Official Discord Community">
+    - The official Road to Vostok Discord server is an excellent resource for real-time support.
+    - Connect with other players who might have encountered similar issues and found solutions.
+    - Developers often monitor these channels for feedback and bug reports.
+  </Card>
+  <Card title="Steam Community Forums">
+    - The Road to Vostok Steam Community Hub has dedicated discussion forums.
+    - Search for existing threads related to audio problems or create a new one detailing your issue.
+    - Provide as much information as possible: your PC specs, Windows version, audio device, and steps you've already tried.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="support-checklist"
+  title="Before Contacting Support:"
+  items={[
+    "Confirm all steps in this guide have been attempted.",
+    "Gather your system specifications (OS, CPU, GPU, RAM, audio device).",
+    "Note down any error messages encountered.",
+    "Be prepared to describe the problem in detail (e.g., no sound at all, intermittent sound, specific sounds missing)."
+  ]}
+/>
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "Why is there no sound in Road to Vostok even after checking in-game settings?",
+    answer: "If in-game settings are correct, the issue often lies with system-level audio configurations, outdated drivers, or corrupted game files. Verify game files via Steam and ensure your audio drivers are up to date in 2026."
+  },
+  {
+    question: "Can my headphones cause the 'no sound' problem in Road to Vostok?",
+    answer: "Yes, sometimes the game may not correctly detect your specific audio output. Ensure your headphones are set as the default playback device in Windows Sound Settings before launching the game. Also, check for any dedicated headphone software that might interfere."
+  },
+  {
+    question: "What should I do if Road to Vostok sound works, but it's very quiet?",
+    answer: "First, check the in-game master volume and individual sound effect (SFX) sliders. Then, open your Windows Volume Mixer and ensure Road to Vostok's volume is set appropriately. You might also want to disable any sound enhancements in your audio device's properties."
+  },
+  {
+    question: "Does running the game as administrator help fix sound problems?",
+    answer: "In some cases, yes. Running Road to Vostok as an administrator can grant it the necessary permissions to access system resources, including audio drivers, which can resolve sound-related glitches. It's a quick and easy step to try."
+  }
+]} />
